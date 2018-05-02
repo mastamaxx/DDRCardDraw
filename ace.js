@@ -1,1929 +1,2957 @@
 var songs = [
 	{
-	  "extra_exclusive": true,
-	  "name": "ACE FOR ACES",
-	  "artist": "TAG×U1",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "13",
-	      "step": "425",
-	      "shock": "0",
-	      "freeze": "25"
-	    },
-	    "expert": null,
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "313",
-	      "shock": "0",
-	      "freeze": "21"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "100-200",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "13",
-	      "step": "467",
-	      "shock": "0",
-	      "freeze": "19"
-	    },
-	    "expert": null,
-	    "beginner": null,
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "311",
-	      "shock": "0",
-	      "freeze": "19"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "extra_exclusive": true,
-	  "name": "ENDYMION",
-	  "artist": "fallen shepherd ft. RabbiTon Strings",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "15",
-	      "step": "581",
-	      "shock": "0",
-	      "freeze": "18"
-	    },
-	    "expert": {
-	      "difficulty": "18",
-	      "step": "741",
-	      "shock": "0",
-	      "freeze": "26"
-	    },
-	    "basic": {
-	      "difficulty": "13",
-	      "step": "468",
-	      "shock": "0",
-	      "freeze": "14"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "110-880",
-	  "single": {
-	    "challenge": {
-	      "difficulty": "19",
-	      "step": "925",
-	      "shock": "0",
-	      "freeze": "28"
-	    },
-	    "difficult": {
-	      "difficulty": "15",
-	      "step": "591",
-	      "shock": "0",
-	      "freeze": "21"
-	    },
-	    "expert": {
-	      "difficulty": "18",
-	      "step": "783",
-	      "shock": "0",
-	      "freeze": "22"
-	    },
-	    "beginner": {
-	      "difficulty": "9",
-	      "step": "276",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "basic": {
-	      "difficulty": "13",
-	      "step": "473",
-	      "shock": "0",
-	      "freeze": "15"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "us_locked": true,
-	  "name": "初音ミクの消失",
-	  "artist": "cosMo@暴走P feat. 初音ミク",
-	  "genre": "",
-	  "double": {
-	    "challenge": {
-	      "difficulty": "16",
-	      "step": "721",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "528",
-	      "shock": "0",
-	      "freeze": "10"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "604",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "basic": {
-	      "difficulty": "8",
-	      "step": "382",
-	      "shock": "0",
-	      "freeze": "12"
-	    }
-	  },
-	  "artist_translation": "cosMo＠BousouP feat.Hatsune Miku",
-	  "bpm": "240",
-	  "single": {
-	    "challenge": {
-	      "difficulty": "16",
-	      "step": "729",
-	      "shock": "0",
-	      "freeze": "12"
-	    },
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "394",
-	      "shock": "0",
-	      "freeze": "12"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "533",
-	      "shock": "0",
-	      "freeze": "10"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "97",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "294",
-	      "shock": "0",
-	      "freeze": "10"
-	    }
-	  },
-	  "name_translation": "The Disappearance of Hatsune Miku"
-	}, {
-	  "us_locked": true,
-	  "name": "脳漿炸裂ガール",
-	  "artist": "れるりり",
-	  "genre": "",
-	  "double": {
-	    "challenge": {
-	      "difficulty": "14",
-	      "step": "627",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "400",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "501",
-	      "shock": "0",
-	      "freeze": "32"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "291",
-	      "shock": "0",
-	      "freeze": "22"
-	    }
-	  },
-	  "artist_translation": "rerulili",
-	  "bpm": "155",
-	  "single": {
-	    "challenge": {
-	      "difficulty": "14",
-	      "step": "645",
-	      "shock": "0",
-	      "freeze": "13"
-	    },
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "398",
-	      "shock": "0",
-	      "freeze": "34"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "507",
-	      "shock": "0",
-	      "freeze": "31"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "170",
-	      "shock": "0",
-	      "freeze": "20"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "270",
-	      "shock": "0",
-	      "freeze": "26"
-	    }
-	  },
-	  "name_translation": "Brain Fluid Explosion Girl"
-	}, {
-	  "us_locked": true,
-	  "name": "幸せになれる隠しコマンドがあるらしい",
-	  "artist": "うたたP feat. 結月ゆかり",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "339",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "492",
-	      "shock": "0",
-	      "freeze": "12"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "238",
-	      "shock": "0",
-	      "freeze": "12"
-	    }
-	  },
-	  "artist_translation": "UtataP feat. Yukari Yuzuki",
-	  "bpm": "142",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "319",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "491",
-	      "shock": "0",
-	      "freeze": "5"
-	    },
-	    "beginner": {
-	      "difficulty": "2",
-	      "step": "131",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "248",
-	      "shock": "0",
-	      "freeze": "5"
-	    }
-	  },
-	  "name_translation": "Apparently There's a Cheat Code to Happiness"
-	}, {
-	  "us_locked": true,
-	  "name": "チルノのパーフェクトさんすう教室",
-	  "artist": "ARM(IOSYS)",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "309",
-	      "shock": "0",
-	      "freeze": "60"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "409",
-	      "shock": "0",
-	      "freeze": "30"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "209",
-	      "shock": "0",
-	      "freeze": "29"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "175",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "309",
-	      "shock": "0",
-	      "freeze": "60"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "409",
-	      "shock": "0",
-	      "freeze": "30"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "109",
-	      "shock": "0",
-	      "freeze": "35"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "209",
-	      "shock": "0",
-	      "freeze": "29"
-	    }
-	  },
-	  "name_translation": "Cirno's Perfect Math Class"
-	}, {
-	  "us_locked": true,
-	  "name": "向日葵サンセット",
-	  "artist": "ARM・まろん (IOSYS) × ランコ・パプリカ (豚乙女)",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "239",
-	      "shock": "0",
-	      "freeze": "24"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "339",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "129",
-	      "shock": "0",
-	      "freeze": "28"
-	    }
-	  },
-	  "artist_translation": "ARM, Maron (IOSYS) x ranko, paprika (Butaotome)",
-	  "bpm": "135",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "239",
-	      "shock": "0",
-	      "freeze": "24"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "339",
-	      "shock": "0",
-	      "freeze": "18"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "99",
-	      "shock": "0",
-	      "freeze": "16"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "129",
-	      "shock": "0",
-	      "freeze": "28"
-	    }
-	  },
-	  "name_translation": "Sunflower Sunset"
-	}, {
-	  "us_locked": true,
-	  "name": "君氏危うくも近うよれ",
-	  "artist": "A応P",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "270",
-	      "shock": "0",
-	      "freeze": "5"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "353",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "167",
-	      "shock": "0",
-	      "freeze": "2"
-	    }
-	  },
-	  "artist_translation": "AOP",
-	  "bpm": "162",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "269",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "360",
-	      "shock": "0",
-	      "freeze": "7"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "104",
-	      "shock": "0",
-	      "freeze": "1"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "157",
-	      "shock": "0",
-	      "freeze": "1"
-	    }
-	  },
-	  "name_translation": "Kunshi ayauku mo chikou yore"
-	}, {
-	  "name": "DREAMING-ING!!",
-	  "artist": "ときめきアイドル project",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "308",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "386",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "basic": {
-	      "difficulty": "8",
-	      "step": "202",
-	      "shock": "0",
-	      "freeze": "2"
-	    }
-	  },
-	  "artist_translation": "Tokimeki Idol project",
-	  "bpm": "180",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "305",
-	      "shock": "0",
-	      "freeze": "5"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "392",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "89",
-	      "shock": "0",
-	      "freeze": "6"
-	    },
-	    "basic": {
-	      "difficulty": "8",
-	      "step": "205",
-	      "shock": "0",
-	      "freeze": "8"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
+		"name": "恋時雨",
+		"artist": "ときめきアイドル project",
+		"genre": "",
+		"bpm": "185",
+		"double": {
+			"challenge": null,
+			"expert": {
+				"difficulty": "13",
+				"step": "???",
+				"shock": "0",
+				"freeze": "???"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "???",
+				"shock": "0",
+				"freeze": "???"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "???",
+				"shock": "0",
+				"freeze": "???"
+			}
+		},
+		"single": {
+			"challenge": null,
+			"expert": {
+				"difficulty": "12",
+				"step": "???",
+				"shock": "0",
+				"freeze": "???"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "???",
+				"shock": "0",
+				"freeze": "???"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "???",
+				"shock": "0",
+				"freeze": "???"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "???",
+				"shock": "0",
+				"freeze": "???"
+			}
+		},
+		"name_translation": "Koishigure",
+		"artist_translation": "Tokimeki Idol project"
+	},
+	{
+		"us_locked": true,
+		"name": "ようこそジャパリパークへ",
+		"artist": "どうぶつビスケッツ×PPP",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "6",
+				"step": "165",
+				"shock": "0",
+				"freeze": "2"
+			},
+			"difficult": {
+				"difficulty": "10",
+				"step": "280",
+				"shock": "0",
+				"freeze": "22"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "402",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Doubutsu biscuits × PPP",
+		"bpm": "170",
+		"single": {
+			"beginner": {
+				"difficulty": "3",
+				"step": "109",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "162",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"difficult": {
+				"difficulty": "10",
+				"step": "282",
+				"shock": "0",
+				"freeze": "20"
+			},
+			"expert": {
+				"difficulty": "13.30",
+				"step": "424",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"challenge": null
+		},
+		"name_translation": "Youkoso Japari Park e"
+	},
+	{
+		"us_locked": true,
+		"name": "輪廻転生",
+		"artist": "まふまふ",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "7",
+				"step": "278",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"difficult": {
+				"difficulty": "11",
+				"step": "433",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "601",
+				"shock": "0",
+				"freeze": "15"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Mafumafu",
+		"bpm": "196",
+		"single": {
+			"beginner": {
+				"difficulty": "3",
+				"step": "128",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "265",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"difficult": {
+				"difficulty": "11",
+				"step": "453",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"expert": {
+				"difficulty": "13.55",
+				"step": "612",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"challenge": {
+                                "difficulty": "16.5",
+				"step": "794",
+				"shock": "0",
+				"freeze": "34"
+                        }
+		},
+		"name_translation": "Rinnetensei"
+	},
+	{
+		"us_locked": true,
+		"name": "More One Night",
+		"artist": "チト(CV：水瀬いのり)、ユーリ(CV：久保ユリカ)",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "6",
+				"step": "138",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "194",
+				"shock": "0",
+				"freeze": "26"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "284",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Chito (CV: Inori Minase); Yuuri (CV: Yurika Kubo)",
+		"bpm": "123",
+		"single": {
+			"beginner": {
+				"difficulty": "3",
+				"step": "94",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "137",
+				"shock": "0",
+				"freeze": "20"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "193",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "275",
+				"shock": "0",
+				"freeze": "24"
+			},
+			"challenge": {
+                                "difficulty": "13.00",
+				"step": "310",
+				"shock": "0",
+				"freeze": "15"
+                        }
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "Twin memories W",
+		"artist": "ときめきアイドル project",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "6",
+				"step": "181",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "273",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "367",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Tokimeki Idol project",
+		"bpm": "160",
+		"single": {
+			"beginner": {
+				"difficulty": "2",
+				"step": "108",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "181",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "273",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "379",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"challenge": null
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "Jewelry days",
+		"artist": "ときめきアイドル project",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "6",
+				"step": "202",
+				"shock": "0",
+				"freeze": "15"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "270",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "336",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Tokimeki Idol project",
+		"bpm": "179",
+		"single": {
+			"beginner": {
+				"difficulty": "3",
+				"step": "109",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "204",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "273",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "341",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"challenge": null
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "invisible rain",
+		"artist": "ときめきアイドル project 月島美奈都",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "4",
+				"step": "106",
+				"shock": "0",
+				"freeze": "7"
+			},
+			"difficult": {
+				"difficulty": "7",
+				"step": "172",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "265",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Tokimeki Idol project Minato Tsukishima",
+		"bpm": "58-97",
+		"single": {
+			"beginner": {
+				"difficulty": "2",
+				"step": "67",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"basic": {
+				"difficulty": "4",
+				"step": "107",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"difficult": {
+				"difficulty": "7",
+				"step": "180",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "264",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"challenge": null
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "闘え！ダダンダーンV",
+		"artist": "ときめきアイドル project",
+		"genre": "Tokimeki Idol project",
+		"double": {
+			"basic": {
+				"difficulty": "6",
+				"step": "209",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"difficult": {
+				"difficulty": "10",
+				"step": "317",
+				"shock": "0",
+				"freeze": "31"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "436",
+				"shock": "0",
+				"freeze": "20"
+			},
+			"challenge": null
+		},
+		"artist_translation": "",
+		"bpm": "176",
+		"single": {
+			"beginner": {
+				"difficulty": "3",
+				"step": "111",
+				"shock": "0",
+				"freeze": "0"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "210",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "317",
+				"shock": "0",
+				"freeze": "40"
+			},
+			"expert": {
+				"difficulty": "13.00",
+				"step": "436",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"challenge": null
+		},
+		"name_translation": "Tatakae! Dadandarn V"
+	},
+	{
+		"name": "しゃかりきリレーション",
+		"artist": "ときめきアイドル project 結城秋葉",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "6",
+				"step": "181",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "325",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "400",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Tokimeki Idol project Akiha Yuki",
+		"bpm": "167",
+		"single": {
+			"beginner": {
+				"difficulty": "3",
+				"step": "110",
+				"shock": "0",
+				"freeze": "0"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "185",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "325",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "400",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"challenge": null
+		},
+		"name_translation": "Shakariki relation"
+	},
+	{
+		"name": "ハルイチバン",
+		"artist": "ときめきアイドル project",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "6",
+				"step": "173",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "223",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "350",
+				"shock": "0",
+				"freeze": "44"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Tokimeki Idol Project",
+		"bpm": "180",
+		"single": {
+			"beginner": {
+				"difficulty": "4",
+				"step": "109",
+				"shock": "0",
+				"freeze": "20"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "165",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "224",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "356",
+				"shock": "0",
+				"freeze": "44"
+			},
+			"challenge": null
+		},
+		"name_translation": "Haru ichiban"
+	},
+	{
+		"name": "恋のパズルマジック",
+		"artist": "ときめきアイドル project Rhythmixxx",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "7",
+				"step": "151",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "239",
+				"shock": "0",
+				"freeze": "3"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "290",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Tokimeki Idol Project \"Rhythmixxx\"",
+		"bpm": "140",
+		"single": {
+			"beginner": {
+				"difficulty": "3",
+				"step": "115",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "150",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"difficult": {
+				"difficulty": "9",
+				"step": "231",
+				"shock": "0",
+				"freeze": "3"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "302",
+				"shock": "0",
+				"freeze": "2"
+			},
+			"challenge": null
+		},
+		"name_translation": "Koi no puzzle magic"
+	},
+	{
+		"name": "Strawberry Chu♡Chu♡",
+		"artist": "ときめきアイドル project クッキーパラダイス",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "7",
+				"step": "200",
+				"shock": "0",
+				"freeze": "43"
+			},
+			"difficult": {
+				"difficulty": "11",
+				"step": "312",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "394",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Tokimeki Idol Project \"Cookie paradise\"",
+		"bpm": "137",
+		"single": {
+			"beginner": {
+				"difficulty": "2",
+				"step": "121",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "200",
+				"shock": "0",
+				"freeze": "47"
+			},
+			"difficult": {
+				"difficulty": "11",
+				"step": "316",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"expert": {
+				"difficulty": "13.10",
+				"step": "405",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"challenge": null
+		},
+		"name_translation": ""
+	},
+	{
 		"unlock": true,
-	  "name": "Cosy Catastrophe",
-	  "artist": "SYUNN",
-	  "genre": "",
-	  "double": {
-	    "challenge": {
-	      "difficulty": "18",
-	      "step": "638",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "difficult": {
-	      "difficulty": "13",
-	      "step": "406",
-	      "shock": "0",
-	      "freeze": "12"
-	    },
-	    "expert": {
-	      "difficulty": "16",
-	      "step": "537",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "basic": {
-	      "difficulty": "9",
-	      "step": "298",
-	      "shock": "0",
-	      "freeze": "9"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "90-360",
-	  "single": {
-	    "challenge": {
-	      "difficulty": "18",
-	      "step": "686",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "difficult": {
-	      "difficulty": "13",
-	      "step": "422",
-	      "shock": "0",
-	      "freeze": "13"
-	    },
-	    "expert": {
-	      "difficulty": "16",
-	      "step": "550",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "beginner": {
-	      "difficulty": "6",
-	      "step": "188",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "basic": {
-	      "difficulty": "9",
-	      "step": "300",
-	      "shock": "0",
-	      "freeze": "9"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "removed": true,
-	  "name": "Thank You Merry Christmas",
-	  "artist": "VENUS",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "9",
-	      "step": "274",
-	      "shock": "0",
-	      "freeze": "16"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "417",
-	      "shock": "0",
-	      "freeze": "20"
-	    },
-	    "basic": {
-	      "difficulty": "5",
-	      "step": "199",
-	      "shock": "0",
-	      "freeze": "17"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "220",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "9",
-	      "step": "286",
-	      "shock": "0",
-	      "freeze": "32"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "429",
-	      "shock": "0",
-	      "freeze": "41"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "120",
-	      "shock": "0",
-	      "freeze": "5"
-	    },
-	    "basic": {
-	      "difficulty": "5",
-	      "step": "193",
-	      "shock": "0",
-	      "freeze": "16"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "name": "ロンロンへ ライライライ！",
-	  "artist": "ここなつ",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "292",
-	      "shock": "0",
-	      "freeze": "8"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "372",
-	      "shock": "0",
-	      "freeze": "15"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "202",
-	      "shock": "0",
-	      "freeze": "12"
-	    }
-	  },
-	  "artist_translation": "Kokonatsu",
-	  "bpm": "156",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "311",
-	      "shock": "0",
-	      "freeze": "24"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "390",
-	      "shock": "0",
-	      "freeze": "16"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "144",
-	      "shock": "0",
-	      "freeze": "7"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "205",
-	      "shock": "0",
-	      "freeze": "12"
-	    }
-	  },
-	  "name_translation": "Ronron e rairairai!"
-	}, {
-	  "name": "エキサイティング！！も・ちゃ・ちゃ☆",
-	  "artist": "日向美ビタースイーツ♪",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "345",
-	      "shock": "0",
-	      "freeze": "18"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "427",
-	      "shock": "0",
-	      "freeze": "13"
-	    },
-	    "basic": {
-	      "difficulty": "8",
-	      "step": "249",
-	      "shock": "0",
-	      "freeze": "18"
-	    }
-	  },
-	  "artist_translation": "Hinatabi Bitter Sweets",
-	  "bpm": "187",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "325",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "425",
-	      "shock": "0",
-	      "freeze": "10"
-	    },
-	    "beginner": {
-	      "difficulty": "4",
-	      "step": "152",
-	      "shock": "0",
-	      "freeze": "19"
-	    },
-	    "basic": {
-	      "difficulty": "8",
-	      "step": "245",
-	      "shock": "0",
-	      "freeze": "18"
-	    }
-	  },
-	  "name_translation": "Exciting!! Mo・Cha・Cha☆"
-	}, {
-	  "unlock": true,
-	  "name": "Neutrino",
-	  "artist": "HuΣeR",
-	  "genre": "",
-	  "double": {
-	    "challenge": {
-	      "difficulty": "18",
-	      "step": "565",
-	      "shock": "0",
-	      "freeze": "21"
-	    },
-	    "difficult": {
-	      "difficulty": "12",
-	      "step": "325",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "expert": {
-	      "difficulty": "16",
-	      "step": "497",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "basic": {
-	      "difficulty": "9",
-	      "step": "196",
-	      "shock": "0",
-	      "freeze": "12"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "75-300",
-	  "single": {
-	    "challenge": {
-	      "difficulty": "18",
-	      "step": "570",
-	      "shock": "0",
-	      "freeze": "21"
-	    },
-	    "difficult": {
-	      "difficulty": "12",
-	      "step": "325",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "expert": {
-	      "difficulty": "16",
-	      "step": "499",
-	      "shock": "0",
-	      "freeze": "24"
-	    },
-	    "beginner": {
-	      "difficulty": "6",
-	      "step": "122",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "basic": {
-	      "difficulty": "9",
-	      "step": "200",
-	      "shock": "0",
-	      "freeze": "11"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "out of focus",
-	  "artist": "Qrispy Joybox",
-	  "genre": "",
-	  "double": {
-	    "challenge": {
-	      "difficulty": "16",
-	      "step": "562",
-	      "shock": "0",
-	      "freeze": "2"
-	    },
-	    "difficult": {
-	      "difficulty": "12",
-	      "step": "270",
-	      "shock": "0",
-	      "freeze": "19"
-	    },
-	    "expert": {
-	      "difficulty": "15",
-	      "step": "379",
-	      "shock": "0",
-	      "freeze": "36"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "134",
-	      "shock": "0",
-	      "freeze": "21"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "84-167",
-	  "single": {
-	    "challenge": {
-	      "difficulty": "16",
-	      "step": "572",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "difficult": {
-	      "difficulty": "12",
-	      "step": "272",
-	      "shock": "0",
-	      "freeze": "19"
-	    },
-	    "expert": {
-	      "difficulty": "15",
-	      "step": "389",
-	      "shock": "0",
-	      "freeze": "34"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "71",
-	      "shock": "0",
-	      "freeze": "0"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "137",
-	      "shock": "0",
-	      "freeze": "21"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "name": "Fly far bounce",
-	  "artist": "猫叉Master",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "235",
-	      "shock": "0",
-	      "freeze": "3"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "387",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "162",
-	      "shock": "0",
-	      "freeze": "7"
-	    }
-	  },
-	  "artist_translation": "Nekomata Master",
-	  "bpm": "163",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "236",
-	      "shock": "0",
-	      "freeze": "3"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "385",
-	      "shock": "0",
-	      "freeze": "6"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "96",
-	      "shock": "0",
-	      "freeze": "2"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "162",
-	      "shock": "0",
-	      "freeze": "3"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "Ishtar",
-	  "artist": "劇団レコード",
-	  "genre": "",
-	  "double": {
-	    "challenge": {
-	    	"difficulty": "16",
-	    	"step": "489",
-	    	"shock": "71",
-	    	"freeze": "63"
-	    },
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "305",
-	      "shock": "0",
-	      "freeze": "25"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "390",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "basic": {
-	      "difficulty": "5",
-	      "step": "159",
-	      "shock": "0",
-	      "freeze": "14"
-	    }
-	  },
-	  "artist_translation": "Gekidan Record",
-	  "bpm": "156",
-	  "single": {
-	    "challenge": {
-	    	"difficulty": "16",
-	    	"step": "481",
-	    	"shock": "56",
-	    	"freeze": "58"
-	    },
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "306",
-	      "shock": "0",
-	      "freeze": "25"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "399",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "82",
-	      "shock": "0",
-	      "freeze": "5"
-	    },
-	    "basic": {
-	      "difficulty": "5",
-	      "step": "153",
-	      "shock": "0",
-	      "freeze": "14"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "恋愛観測",
-	  "artist": "NU-KO",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "339",
-	      "shock": "0",
-	      "freeze": "17"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "431",
-	      "shock": "0",
-	      "freeze": "21"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "245",
-	      "shock": "0",
-	      "freeze": "3"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "188",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "337",
-	      "shock": "0",
-	      "freeze": "17"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "434",
-	      "shock": "0",
-	      "freeze": "12"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "133",
-	      "shock": "0",
-	      "freeze": "6"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "264",
-	      "shock": "0",
-	      "freeze": "4"
-	    }
-	  },
-	  "name_translation": "Measurement of Love"
-	}, {
-	  "unlock": true,
-	  "name": "恋する☆宇宙戦争っ!!",
-	  "artist": "Prim",
-	  "genre": "Hi-BLEEP",
-	  "double": {
-	    "challenge": {
+		"name": "High School Love",
+		"artist": "DJ YOSHITAKA feat.DWP",
+		"genre": "HIGH SPEED LOVE SONG",
+		"double": {
+			"basic": {
+				"difficulty": "6",
+				"step": "182",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"difficult": {
+				"difficulty": "10",
+				"step": "330",
+				"shock": "0",
+				"freeze": "24"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "467",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"challenge": null
+		},
+		"artist_translation": "",
+		"bpm": "180",
+		"single": {
+			"beginner": {
+				"difficulty": "3",
+				"step": "121",
+				"shock": "0",
+				"freeze": "15"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "187",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"difficult": {
+				"difficulty": "10",
+				"step": "330",
+				"shock": "0",
+				"freeze": "26"
+			},
+			"expert": {
+				"difficulty": "13.20",
+				"step": "470",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"challenge": null
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "CHOCOLATE PHILOSOPHY",
+		"artist": "常盤ゆう",
+		"genre": "SWING WALTZ",
+		"double": {
+			"basic": {
+				"difficulty": "4",
+				"step": "116",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"difficult": {
+				"difficulty": "8",
+				"step": "184",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "10",
+				"step": "283",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"challenge": {
+				"difficulty": "13",
+				"step": "401",
+				"shock": "0",
+				"freeze": "8"
+			}
+		},
+		"artist_translation": "Yu Tokiwa",
+		"bpm": "110",
+		"single": {
+			"beginner": {
+				"difficulty": "2",
+				"step": "71",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"basic": {
+				"difficulty": "4",
+				"step": "114",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"difficult": {
+				"difficulty": "8",
+				"step": "184",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "10",
+				"step": "283",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"challenge": {
+				"difficulty": "12",
+				"step": "400",
+				"shock": "0",
+				"freeze": "20"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "ルミナスデイズ",
+		"artist": "ここなつ",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "5",
+				"step": "167",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"difficult": {
+				"difficulty": "8",
+				"step": "306",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "387",
+				"shock": "0",
+				"freeze": "24"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Coconatsu",
+		"bpm": "145",
+		"single": {
+			"beginner": {
+				"difficulty": "2",
+				"step": "123",
+				"shock": "0",
+				"freeze": "0"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "171",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"difficult": {
+				"difficulty": "8",
+				"step": "306",
+				"shock": "0",
+				"freeze": "30"
+			},
+			"expert": {
+				"difficulty": "11",
+				"step": "398",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"challenge": null
+		},
+		"name_translation": "Luminous days"
+	},
+	{
+		"unlock": true,
+		"name": "Reach The Sky, Without you",
+		"artist": "nc ft.NRGFactory",
+		"genre": "",
+		"double": {
+			"basic": {
+				"difficulty": "10",
+				"step": "315",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"difficult": {
+				"difficulty": "14",
+				"step": "442",
+				"shock": "0",
+				"freeze": "28"
+			},
+			"expert": {
+				"difficulty": "17",
+				"step": "587",
+				"shock": "0",
+				"freeze": "27"
+			},
+			"challenge": null
+		},
+		"artist_translation": "",
+		"bpm": "95-190",
+		"single": {
+			"beginner": {
+				"difficulty": "7",
+				"step": "207",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"basic": {
+				"difficulty": "10",
+				"step": "323",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"difficult": {
+				"difficulty": "14.7",
+				"step": "461",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"expert": {
+				"difficulty": "17.1",
+				"step": "607",
+				"shock": "0",
+				"freeze": "28"
+			},
+			"challenge": null
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": "true",
+		"name": "Be a Hero",
+		"artist": "中島由貴",
+		"genre": "DIGITAL THRASH PUNK",
+		"double": {
+			"basic": {
+				"difficulty": "9",
+				"step": "369",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"difficult": {
+				"difficulty": "14",
+				"step": "565",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"expert": {
+				"difficulty": "17",
+				"step": "742",
+				"shock": "0",
+				"freeze": "52"
+			},
+			"challenge": null
+		},
+		"artist_translation": "Yuki Nakashima",
+		"bpm": "190",
+		"single": {
+			"beginner": {
+				"difficulty": "7",
+				"step": "261",
+				"shock": "0",
+				"freeze": "35"
+			},
+			"basic": {
+				"difficulty": "9",
+				"step": "375",
+				"shock": "0",
+				"freeze": "22"
+			},
+			"difficult": {
+				"difficulty": "13.25",
+				"step": "562",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"expert": {
+				"difficulty": "17.2",
+				"step": "754",
+				"shock": "0",
+				"freeze": "52"
+			},
+			"challenge": null
+		},
+		"name_translation": ""
+	},
+	{
+		"extra_exclusive": true,
+		"name": "ACE FOR ACES",
+		"artist": "TAG×U1",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "13",
+				"step": "425",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "15",
+				"step": "634",
+				"shock": "0",
+				"freeze": "34"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "313",
+				"shock": "0",
+				"freeze": "21"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "100-200",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "13.50",
+				"step": "467",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"expert": {
+				"difficulty": "15.9",
+				"step": "658",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"beginner": {
+				"difficulty": "4",
+				"step": "116",
+				"shock": "0",
+				"freeze": "7"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "311",
+				"shock": "0",
+				"freeze": "19"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"extra_exclusive": true,
+		"name": "ENDYMION",
+		"artist": "fallen shepherd ft. RabbiTon Strings",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "15",
+				"step": "581",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"expert": {
+				"difficulty": "18",
+				"step": "741",
+				"shock": "0",
+				"freeze": "26"
+			},
+			"basic": {
+				"difficulty": "13",
+				"step": "468",
+				"shock": "0",
+				"freeze": "14"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "110-880",
+		"single": {
+			"challenge": {
+				"difficulty": "19",
+				"step": "925",
+				"shock": "0",
+				"freeze": "28"
+			},
+			"difficult": {
+				"difficulty": "15.8",
+				"step": "591",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"expert": {
+				"difficulty": "18.7",
+				"step": "783",
+				"shock": "0",
+				"freeze": "22"
+			},
+			"beginner": {
+				"difficulty": "9",
+				"step": "276",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"basic": {
+				"difficulty": "13.85",
+				"step": "473",
+				"shock": "0",
+				"freeze": "15"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"us_locked": true,
+		"name": "初音ミクの消失",
+		"artist": "cosMo@暴走P feat. 初音ミク",
+		"genre": "",
+		"double": {
+			"challenge": {
+				"difficulty": "16",
+				"step": "721",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"difficult": {
+				"difficulty": "11",
+				"step": "528",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"expert": {
+				"difficulty": "14",
+				"step": "604",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"basic": {
+				"difficulty": "8",
+				"step": "382",
+				"shock": "0",
+				"freeze": "12"
+			}
+		},
+		"artist_translation": "cosMo＠BousouP feat.Hatsune Miku",
+		"bpm": "240",
+		"single": {
+			"challenge": {
+				"difficulty": "16.3",
+				"step": "729",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"difficult": {
+				"difficulty": "10",
+				"step": "394",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"expert": {
+				"difficulty": "13.60",
+				"step": "533",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "97",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "294",
+				"shock": "0",
+				"freeze": "10"
+			}
+		},
+		"name_translation": "The Disappearance of Hatsune Miku"
+	},
+	{
+		"us_locked": true,
+		"name": "脳漿炸裂ガール",
+		"artist": "れるりり",
+		"genre": "",
+		"double": {
+			"challenge": {
+				"difficulty": "14",
+				"step": "627",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"difficult": {
+				"difficulty": "10",
+				"step": "400",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "501",
+				"shock": "0",
+				"freeze": "32"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "291",
+				"shock": "0",
+				"freeze": "22"
+			}
+		},
+		"artist_translation": "rerulili",
+		"bpm": "155",
+		"single": {
+			"challenge": {
+				"difficulty": "14.5",
+				"step": "645",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"difficult": {
+				"difficulty": "10",
+				"step": "398",
+				"shock": "0",
+				"freeze": "34"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "507",
+				"shock": "0",
+				"freeze": "31"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "170",
+				"shock": "0",
+				"freeze": "20"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "270",
+				"shock": "0",
+				"freeze": "26"
+			}
+		},
+		"name_translation": "Brain Fluid Explosion Girl (aka Nou shou sakuretsu girl)"
+	},
+	{
+		"us_locked": true,
+		"name": "幸せになれる隠しコマンドがあるらしい",
+		"artist": "うたたP feat. 結月ゆかり",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "339",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "492",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "238",
+				"shock": "0",
+				"freeze": "12"
+			}
+		},
+		"artist_translation": "UtataP feat. Yukari Yuzuki",
+		"bpm": "142",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "319",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"expert": {
+				"difficulty": "13.40",
+				"step": "491",
+				"shock": "0",
+				"freeze": "5"
+			},
+			"beginner": {
+				"difficulty": "2",
+				"step": "131",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "248",
+				"shock": "0",
+				"freeze": "5"
+			}
+		},
+		"name_translation": "Apparently There's a Cheat Code to Happiness (aka Shiawase ni nareru kakushi command ga arurashii)"
+	},
+	{
+		"us_locked": true,
+		"name": "チルノのパーフェクトさんすう教室",
+		"artist": "ARM(IOSYS)",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "309",
+				"shock": "0",
+				"freeze": "60"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "409",
+				"shock": "0",
+				"freeze": "30"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "209",
+				"shock": "0",
+				"freeze": "29"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "175",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "309",
+				"shock": "0",
+				"freeze": "60"
+			},
+			"expert": {
+				"difficulty": "13.20",
+				"step": "409",
+				"shock": "0",
+				"freeze": "30"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "109",
+				"shock": "0",
+				"freeze": "35"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "209",
+				"shock": "0",
+				"freeze": "29"
+			}
+		},
+		"name_translation": "Cirno's Perfect Math Class"
+	},
+	{
+		"us_locked": true,
+		"name": "向日葵サンセット",
+		"artist": "ARM・まろん (IOSYS) × ランコ・パプリカ (豚乙女)",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "239",
+				"shock": "0",
+				"freeze": "24"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "339",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "129",
+				"shock": "0",
+				"freeze": "28"
+			}
+		},
+		"artist_translation": "ARM, Maron (IOSYS) x ranko, paprika (Butaotome)",
+		"bpm": "135",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "239",
+				"shock": "0",
+				"freeze": "24"
+			},
+			"expert": {
+				"difficulty": "13.10",
+				"step": "339",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "99",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "129",
+				"shock": "0",
+				"freeze": "28"
+			}
+		},
+		"name_translation": "Sunflower Sunset (aka Himawari Sunset)"
+	},
+	{
+		"us_locked": true,
+		"name": "君氏危うくも近うよれ",
+		"artist": "A応P",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "270",
+				"shock": "0",
+				"freeze": "5"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "353",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "167",
+				"shock": "0",
+				"freeze": "2"
+			}
+		},
+		"artist_translation": "AOP",
+		"bpm": "162",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "269",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "360",
+				"shock": "0",
+				"freeze": "7"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "104",
+				"shock": "0",
+				"freeze": "1"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "157",
+				"shock": "0",
+				"freeze": "1"
+			}
+		},
+		"name_translation": "Kunshi ayauku mo chikou yore"
+	},
+	{
+		"name": "DREAMING-ING!!",
+		"artist": "ときめきアイドル project",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "308",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "386",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "8",
+				"step": "202",
+				"shock": "0",
+				"freeze": "2"
+			}
+		},
+		"artist_translation": "Tokimeki Idol project",
+		"bpm": "180",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "305",
+				"shock": "0",
+				"freeze": "5"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "392",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "89",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"basic": {
+				"difficulty": "8",
+				"step": "205",
+				"shock": "0",
+				"freeze": "8"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Cosy Catastrophe",
+		"artist": "SYUNN",
+		"genre": "",
+		"double": {
+			"challenge": {
+				"difficulty": "18",
+				"step": "638",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"difficult": {
+				"difficulty": "13",
+				"step": "406",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"expert": {
+				"difficulty": "16",
+				"step": "537",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"basic": {
+				"difficulty": "9",
+				"step": "298",
+				"shock": "0",
+				"freeze": "9"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "90-360",
+		"single": {
+			"challenge": {
+				"difficulty": "18.6",
+				"step": "686",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"difficult": {
+				"difficulty": "13.50",
+				"step": "422",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"expert": {
+				"difficulty": "16.3",
+				"step": "550",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"beginner": {
+				"difficulty": "6",
+				"step": "188",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "9",
+				"step": "300",
+				"shock": "0",
+				"freeze": "9"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "Thank You Merry Christmas",
+		"artist": "VENUS",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "9",
+				"step": "274",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "417",
+				"shock": "0",
+				"freeze": "20"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "199",
+				"shock": "0",
+				"freeze": "17"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "220",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "9",
+				"step": "286",
+				"shock": "0",
+				"freeze": "32"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "429",
+				"shock": "0",
+				"freeze": "41"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "120",
+				"shock": "0",
+				"freeze": "5"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "193",
+				"shock": "0",
+				"freeze": "16"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "ロンロンへ ライライライ！",
+		"artist": "ここなつ",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "292",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "372",
+				"shock": "0",
+				"freeze": "15"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "202",
+				"shock": "0",
+				"freeze": "12"
+			}
+		},
+		"artist_translation": "Kokonatsu",
+		"bpm": "156",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "311",
+				"shock": "0",
+				"freeze": "24"
+			},
+			"expert": {
+				"difficulty": "13.10",
+				"step": "390",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "144",
+				"shock": "0",
+				"freeze": "7"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "205",
+				"shock": "0",
+				"freeze": "12"
+			}
+		},
+		"name_translation": "Ronron e rairairai!"
+	},
+	{
+		"name": "エキサイティング！！も・ちゃ・ちゃ☆",
+		"artist": "日向美ビタースイーツ♪",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "345",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "427",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"basic": {
+				"difficulty": "8",
+				"step": "249",
+				"shock": "0",
+				"freeze": "18"
+			}
+		},
+		"artist_translation": "Hinatabi Bitter Sweets",
+		"bpm": "187",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "325",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"expert": {
+				"difficulty": "13.55",
+				"step": "425",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"beginner": {
+				"difficulty": "4",
+				"step": "152",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"basic": {
+				"difficulty": "8",
+				"step": "245",
+				"shock": "0",
+				"freeze": "18"
+			}
+		},
+		"name_translation": "Exciting!! Mo・Cha・Cha☆"
+	},
+	{
+		"unlock": true,
+		"name": "Neutrino",
+		"artist": "HuΣeR",
+		"genre": "",
+		"double": {
+			"challenge": {
+				"difficulty": "18",
+				"step": "565",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"difficult": {
+				"difficulty": "12",
+				"step": "325",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"expert": {
+				"difficulty": "16",
+				"step": "497",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"basic": {
+				"difficulty": "9",
+				"step": "196",
+				"shock": "0",
+				"freeze": "12"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "75-300",
+		"single": {
+			"challenge": {
+				"difficulty": "18.6",
+				"step": "570",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"difficult": {
+				"difficulty": "12",
+				"step": "325",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"expert": {
+				"difficulty": "16.8",
+				"step": "499",
+				"shock": "0",
+				"freeze": "24"
+			},
+			"beginner": {
+				"difficulty": "6",
+				"step": "122",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "9",
+				"step": "200",
+				"shock": "0",
+				"freeze": "11"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "out of focus",
+		"artist": "Qrispy Joybox",
+		"genre": "",
+		"double": {
+			"challenge": {
+				"difficulty": "16",
+				"step": "562",
+				"shock": "0",
+				"freeze": "2"
+			},
+			"difficult": {
+				"difficulty": "12",
+				"step": "270",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"expert": {
+				"difficulty": "15",
+				"step": "379",
+				"shock": "0",
+				"freeze": "36"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "134",
+				"shock": "0",
+				"freeze": "21"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "84-167",
+		"single": {
+			"challenge": {
+				"difficulty": "16.3",
+				"step": "572",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"difficult": {
+				"difficulty": "12",
+				"step": "272",
+				"shock": "0",
+				"freeze": "19"
+			},
+			"expert": {
+				"difficulty": "15.4",
+				"step": "389",
+				"shock": "0",
+				"freeze": "34"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "71",
+				"shock": "0",
+				"freeze": "0"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "137",
+				"shock": "0",
+				"freeze": "21"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "Fly far bounce",
+		"artist": "猫叉Master",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "235",
+				"shock": "0",
+				"freeze": "3"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "387",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "162",
+				"shock": "0",
+				"freeze": "7"
+			}
+		},
+		"artist_translation": "Nekomata Master",
+		"bpm": "163",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "236",
+				"shock": "0",
+				"freeze": "3"
+			},
+			"expert": {
+				"difficulty": "13.20",
+				"step": "385",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "96",
+				"shock": "0",
+				"freeze": "2"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "162",
+				"shock": "0",
+				"freeze": "3"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Ishtar",
+		"artist": "劇団レコード",
+		"genre": "",
+		"double": {
+			"challenge": {
+				"difficulty": "16",
+				"step": "489",
+				"shock": "71",
+				"freeze": "63"
+			},
+			"difficult": {
+				"difficulty": "11",
+				"step": "305",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "14",
+				"step": "390",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "159",
+				"shock": "0",
+				"freeze": "14"
+			}
+		},
+		"artist_translation": "Gekidan Record",
+		"bpm": "156",
+		"single": {
+			"challenge": {
+				"difficulty": "16.7",
+				"step": "481",
+				"shock": "56",
+				"freeze": "58"
+			},
+			"difficult": {
+				"difficulty": "11",
+				"step": "306",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "14.0",
+				"step": "399",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "82",
+				"shock": "0",
+				"freeze": "5"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "153",
+				"shock": "0",
+				"freeze": "14"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "恋愛観測",
+		"artist": "NU-KO",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "339",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "431",
+				"shock": "0",
+				"freeze": "21"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "245",
+				"shock": "0",
+				"freeze": "3"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "188",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "337",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "434",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "133",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "264",
+				"shock": "0",
+				"freeze": "4"
+			}
+		},
+		"name_translation": "Measurement of Love"
+	},
+	{
+		"unlock": true,
+		"name": "恋する☆宇宙戦争っ!!",
+		"artist": "Prim",
+		"genre": "Hi-BLEEP",
+		"double": {
+			"challenge": {
 				"difficulty": "17",
 				"step": "720",
 				"shock": "0",
 				"freeze": "26"
 			},
-	    "difficult": {
-	      "difficulty": "13",
-	      "step": "491",
-	      "shock": "0",
-	      "freeze": "27"
-	    },
-	    "expert": {
-	      "difficulty": "15",
-	      "step": "632",
-	      "shock": "0",
-	      "freeze": "41"
-	    },
-	    "basic": {
-	      "difficulty": "8",
-	      "step": "310",
-	      "shock": "0",
-	      "freeze": "21"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "200",
-	  "single": {
-	    "challenge": {
-	      "difficulty": "17",
-	      "step": "739",
-	      "shock": "0",
-	      "freeze": "25"
-	    },
-	    "difficult": {
-	      "difficulty": "12",
-	      "step": "493",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "652",
-	      "shock": "0",
-	      "freeze": "26"
-	    },
-	    "beginner": {
-	      "difficulty": "4",
-	      "step": "163",
-	      "shock": "0",
-	      "freeze": "16"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "315",
-	      "shock": "0",
-	      "freeze": "22"
-	    }
-	  },
-	  "name_translation": "LOVE IS LIKE THE SPACEWAR!"
-	}, {
-	  "unlock": true,
-	  "name": "Start a New Day",
-	  "artist": "Sota F.",
-	  "genre": "",
-	  "double": {
-	    "challenge": {
+			"difficult": {
+				"difficulty": "13",
+				"step": "491",
+				"shock": "0",
+				"freeze": "27"
+			},
+			"expert": {
+				"difficulty": "15",
+				"step": "632",
+				"shock": "0",
+				"freeze": "41"
+			},
+			"basic": {
+				"difficulty": "8",
+				"step": "310",
+				"shock": "0",
+				"freeze": "21"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "200",
+		"single": {
+			"challenge": {
+				"difficulty": "17.0",
+				"step": "739",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"difficult": {
+				"difficulty": "12",
+				"step": "493",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"expert": {
+				"difficulty": "14.3",
+				"step": "652",
+				"shock": "0",
+				"freeze": "26"
+			},
+			"beginner": {
+				"difficulty": "4",
+				"step": "163",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "315",
+				"shock": "0",
+				"freeze": "22"
+			}
+		},
+		"name_translation": "LOVE IS LIKE THE SPACEWAR! (aka Koisuru uchuu sensou!!)"
+	},
+	{
+		"unlock": true,
+		"name": "Start a New Day",
+		"artist": "Sota F.",
+		"genre": "",
+		"double": {
+			"challenge": {
 				"difficulty": "16",
 				"step": "582",
 				"shock": "0",
 				"freeze": "6"
 			},
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "347",
-	      "shock": "0",
-	      "freeze": "38"
-	    },
-	    "expert": {
-	      "difficulty": "15",
-	      "step": "517",
-	      "shock": "0",
-	      "freeze": "10"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "221",
-	      "shock": "0",
-	      "freeze": "11"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "168",
-	  "single": {
-	    "challenge": {
-				"difficulty": "16",
+			"difficult": {
+				"difficulty": "11",
+				"step": "347",
+				"shock": "0",
+				"freeze": "38"
+			},
+			"expert": {
+				"difficulty": "15",
+				"step": "517",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "221",
+				"shock": "0",
+				"freeze": "11"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "168",
+		"single": {
+			"challenge": {
+				"difficulty": "16.1",
 				"step": "578",
 				"shock": "0",
 				"freeze": "6"
 			},
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "347",
-	      "shock": "0",
-	      "freeze": "38"
-	    },
-	    "expert": {
-	      "difficulty": "15",
-	      "step": "521",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "109",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "219",
-	      "shock": "0",
-	      "freeze": "11"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "name": "Hopeful",
-	  "artist": "柊木りお featured by SOTAG",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "274",
-	      "shock": "0",
-	      "freeze": "16"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "417",
-	      "shock": "0",
-	      "freeze": "20"
-	    },
-	    "basic": {
-	      "difficulty": "5",
-	      "step": "199",
-	      "shock": "0",
-	      "freeze": "17"
-	    }
-	  },
-	  "artist_translation": "Hiiragi Rio featured by SOTAG",
-	  "bpm": "146",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "248",
-	      "shock": "0",
-	      "freeze": "8"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "354",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "beginner": {
-	      "difficulty": "2",
-	      "step": "89",
-	      "shock": "0",
-	      "freeze": "5"
-	    },
-	    "basic": {
-	      "difficulty": "5",
-	      "step": "177",
-	      "shock": "0",
-	      "freeze": "9"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "name": "Determination",
-	  "artist": "柊木りお",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "9",
-	      "step": "222",
-	      "shock": "0",
-	      "freeze": "32"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "393",
-	      "shock": "0",
-	      "freeze": "8"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "177",
-	      "shock": "0",
-	      "freeze": "14"
-	    }
-	  },
-	  "artist_translation": "Hiiragi Rio",
-	  "bpm": "230",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "8",
-	      "step": "221",
-	      "shock": "0",
-	      "freeze": "38"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "370",
-	      "shock": "0",
-	      "freeze": "28"
-	    },
-	    "beginner": {
-	      "difficulty": "2",
-	      "step": "90",
-	      "shock": "0",
-	      "freeze": "0"
-	    },
-	    "basic": {
-	      "difficulty": "5",
-	      "step": "156",
-	      "shock": "0",
-	      "freeze": "18"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "Emera",
-	  "artist": "PON",
-	  "genre": "",
-	  "double": {
-	    "challenge": {
+			"difficult": {
+				"difficulty": "11",
+				"step": "347",
+				"shock": "0",
+				"freeze": "38"
+			},
+			"expert": {
+				"difficulty": "15.0",
+				"step": "521",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "109",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "219",
+				"shock": "0",
+				"freeze": "11"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "Hopeful",
+		"artist": "柊木りお featured by SOTAG",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "274",
+				"shock": "0",
+				"freeze": "16"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "417",
+				"shock": "0",
+				"freeze": "20"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "199",
+				"shock": "0",
+				"freeze": "17"
+			}
+		},
+		"artist_translation": "Hiiragi Rio featured by SOTAG",
+		"bpm": "146",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "248",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"expert": {
+				"difficulty": "13.05",
+				"step": "354",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"beginner": {
+				"difficulty": "2",
+				"step": "89",
+				"shock": "0",
+				"freeze": "5"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "177",
+				"shock": "0",
+				"freeze": "9"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"name": "Determination",
+		"artist": "柊木りお",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "9",
+				"step": "222",
+				"shock": "0",
+				"freeze": "32"
+			},
+			"expert": {
+				"difficulty": "14",
+				"step": "393",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "177",
+				"shock": "0",
+				"freeze": "14"
+			}
+		},
+		"artist_translation": "Hiiragi Rio",
+		"bpm": "230",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "8",
+				"step": "221",
+				"shock": "0",
+				"freeze": "38"
+			},
+			"expert": {
+				"difficulty": "14.5",
+				"step": "370",
+				"shock": "0",
+				"freeze": "28"
+			},
+			"beginner": {
+				"difficulty": "2",
+				"step": "90",
+				"shock": "0",
+				"freeze": "0"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "156",
+				"shock": "0",
+				"freeze": "18"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Emera",
+		"artist": "PON",
+		"genre": "",
+		"double": {
+			"challenge": {
 				"difficulty": "17",
 				"step": "554",
 				"shock": "0",
 				"freeze": "52"
 			},
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "303",
-	      "shock": "0",
-	      "freeze": "17"
-	    },
-	    "expert": {
-	      "difficulty": "16",
-	      "step": "512",
-	      "shock": "0",
-	      "freeze": "15"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "190",
-	      "shock": "0",
-	      "freeze": "13"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "161",
-	  "single": {
-	    "challenge": {
-				"difficulty": "17",
+			"difficult": {
+				"difficulty": "11",
+				"step": "303",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"expert": {
+				"difficulty": "16",
+				"step": "512",
+				"shock": "0",
+				"freeze": "15"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "190",
+				"shock": "0",
+				"freeze": "13"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "161",
+		"single": {
+			"challenge": {
+				"difficulty": "17.4",
 				"step": "563",
 				"shock": "0",
 				"freeze": "54"
 			},
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "305",
-	      "shock": "0",
-	      "freeze": "17"
-	    },
-	    "expert": {
-	      "difficulty": "16",
-	      "step": "515",
-	      "shock": "0",
-	      "freeze": "15"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "87",
-	      "shock": "0",
-	      "freeze": "6"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "161",
-	      "shock": "0",
-	      "freeze": "13"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "ZEPHYRANTHES",
-	  "artist": "TAG",
-	  "genre": "BLOOM CORE",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "12",
-	      "step": "426",
-	      "shock": "0",
-	      "freeze": "25"
-	    },
-	    "expert": {
-	      "difficulty": "15",
-	      "step": "565",
-	      "shock": "0",
-	      "freeze": "26"
-	    },
-	    "basic": {
-	      "difficulty": "8",
-	      "step": "252",
-	      "shock": "0",
-	      "freeze": "23"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "180",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "12",
-	      "step": "422",
-	      "shock": "0",
-	      "freeze": "22"
-	    },
-	    "expert": {
-	      "difficulty": "15",
-	      "step": "592",
-	      "shock": "0",
-	      "freeze": "22"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "139",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "255",
-	      "shock": "0",
-	      "freeze": "23"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "Triple Counter",
-	  "artist": "DJ YOSHITAKA meets dj TAKA",
-	  "genre": "RISK + VACUUM",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "14",
-	      "step": "531",
-	      "shock": "0",
-	      "freeze": "24"
-	    },
-	    "expert": {
-	      "difficulty": "17",
-	      "step": "695",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "basic": {
-	      "difficulty": "9",
-	      "step": "297",
-	      "shock": "0",
-	      "freeze": "12"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "216",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "14",
-	      "step": "533",
-	      "shock": "0",
-	      "freeze": "32"
-	    },
-	    "expert": {
-	      "difficulty": "17",
-	      "step": "718",
-	      "shock": "0",
-	      "freeze": "23"
-	    },
-	    "beginner": {
-	      "difficulty": "7",
-	      "step": "281",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "basic": {
-	      "difficulty": "11",
-	      "step": "375",
-	      "shock": "0",
-	      "freeze": "11"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "StrayedCatz",
-	  "artist": "削除",
-	  "genre": "FANTASY",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "12",
-	      "step": "322",
-	      "shock": "0",
-	      "freeze": "10"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "431",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "181",
-	      "shock": "0",
-	      "freeze": "17"
-	    }
-	  },
-	  "artist_translation": "sakuzyo",
-	  "bpm": "114-152",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "336",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "451",
-	      "shock": "0",
-	      "freeze": "12"
-	    },
-	    "beginner": {
-	      "difficulty": "4",
-	      "step": "131",
-	      "shock": "0",
-	      "freeze": "6"
-	    },
-	    "basic": {
-	      "difficulty": "8",
-	      "step": "182",
-	      "shock": "0",
-	      "freeze": "14"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "Sephirot",
-	  "artist": "SHIKI",
-	  "genre": "TRANCE",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "9",
-	      "step": "326",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "442",
-	      "shock": "0",
-	      "freeze": "8"
-	    },
-	    "basic": {
-	      "difficulty": "5",
-	      "step": "178",
-	      "shock": "0",
-	      "freeze": "13"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "154",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "346",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "466",
-	      "shock": "0",
-	      "freeze": "3"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "112",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "195",
-	      "shock": "0",
-	      "freeze": "17"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "Grand Chariot",
-	  "artist": "xi",
-	  "genre": "HARD ART CORE",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "373",
-	      "shock": "0",
-	      "freeze": "18"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "518",
-	      "shock": "0",
-	      "freeze": "12"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "213",
-	      "shock": "0",
-	      "freeze": "25"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "191",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "383",
-	      "shock": "0",
-	      "freeze": "17"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "518",
-	      "shock": "0",
-	      "freeze": "13"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "94",
-	      "shock": "0",
-	      "freeze": "18"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "216",
-	      "shock": "0",
-	      "freeze": "18"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "Angelic Jelly",
-	  "artist": "t+pazolite",
-	  "genre": "HAPPY で HARDCORE",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "349",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "523",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "235",
-	      "shock": "0",
-	      "freeze": "14"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "100-200",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "402",
-	      "shock": "0",
-	      "freeze": "8"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "531",
-	      "shock": "0",
-	      "freeze": "2"
-	    },
-	    "beginner": {
-	      "difficulty": "4",
-	      "step": "123",
-	      "shock": "0",
-	      "freeze": "7"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "219",
-	      "shock": "0",
-	      "freeze": "20"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "Far east nightbird kors k Remix -DDR edit ver-",
-	  "artist": "猫叉Master",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "309",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "396",
-	      "shock": "0",
-	      "freeze": "18"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "220",
-	      "shock": "0",
-	      "freeze": "13"
-	    }
-	  },
-	  "artist_translation": "Nekomata Master",
-	  "bpm": "175",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "312",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "393",
-	      "shock": "0",
-	      "freeze": "11"
-	    },
-	    "beginner": {
-	      "difficulty": "3",
-	      "step": "77",
-	      "shock": "0",
-	      "freeze": "1"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "213",
-	      "shock": "0",
-	      "freeze": "17"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "Far east nightbird",
-	  "artist": "猫叉Master",
-	  "genre": "DRUM'N'BASS",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "329",
-	      "shock": "0",
-	      "freeze": "9"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "452",
-	      "shock": "0",
-	      "freeze": "4"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "206",
-	      "shock": "0",
-	      "freeze": "4"
-	    }
-	  },
-	  "artist_translation": "Nekomata Master",
-	  "bpm": "180",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "327",
-	      "shock": "0",
-	      "freeze": "8"
-	    },
-	    "expert": {
-	      "difficulty": "12",
-	      "step": "453",
-	      "shock": "0",
-	      "freeze": "7"
-	    },
-	    "beginner": {
-	      "difficulty": "4",
-	      "step": "95",
-	      "shock": "0",
-	      "freeze": "0"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "225",
-	      "shock": "0",
-	      "freeze": "5"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "STERLING SILVER (U1 overground mix)",
-	  "artist": "TAG",
-	  "genre": "",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "352",
-	      "shock": "0",
-	      "freeze": "8"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "508",
-	      "shock": "0",
-	      "freeze": "10"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "225",
-	      "shock": "0",
-	      "freeze": "9"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "185",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "11",
-	      "step": "348",
-	      "shock": "0",
-	      "freeze": "6"
-	    },
-	    "expert": {
-	      "difficulty": "14",
-	      "step": "508",
-	      "shock": "0",
-	      "freeze": "10"
-	    },
-	    "beginner": {
-	      "difficulty": "4",
-	      "step": "102",
-	      "shock": "0",
-	      "freeze": "1"
-	    },
-	    "basic": {
-	      "difficulty": "7",
-	      "step": "236",
-	      "shock": "0",
-	      "freeze": "6"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
-	  "unlock": true,
-	  "name": "STERLING SILVER",
-	  "artist": "TAG",
-	  "double": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "344",
-	      "shock": "0",
-	      "freeze": "14"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "476",
-	      "shock": "0",
-	      "freeze": "17"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "224",
-	      "shock": "0",
-	      "freeze": "3"
-	    }
-	  },
-	  "artist_translation": "",
-	  "bpm": "175",
-	  "single": {
-	    "challenge": null,
-	    "difficult": {
-	      "difficulty": "10",
-	      "step": "338",
-	      "shock": "0",
-	      "freeze": "20"
-	    },
-	    "expert": {
-	      "difficulty": "13",
-	      "step": "486",
-	      "shock": "0",
-	      "freeze": "6"
-	    },
-	    "beginner": {
-	      "difficulty": "4",
-	      "step": "144",
-	      "shock": "0",
-	      "freeze": "2"
-	    },
-	    "basic": {
-	      "difficulty": "6",
-	      "step": "236",
-	      "shock": "0",
-	      "freeze": "3"
-	    }
-	  },
-	  "name_translation": ""
-	}, {
+			"difficult": {
+				"difficulty": "11",
+				"step": "305",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"expert": {
+				"difficulty": "16.0",
+				"step": "515",
+				"shock": "0",
+				"freeze": "15"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "87",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "161",
+				"shock": "0",
+				"freeze": "13"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "ZEPHYRANTHES",
+		"artist": "TAG",
+		"genre": "BLOOM CORE",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "12",
+				"step": "426",
+				"shock": "0",
+				"freeze": "25"
+			},
+			"expert": {
+				"difficulty": "15",
+				"step": "565",
+				"shock": "0",
+				"freeze": "26"
+			},
+			"basic": {
+				"difficulty": "8",
+				"step": "252",
+				"shock": "0",
+				"freeze": "23"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "180",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "12",
+				"step": "422",
+				"shock": "0",
+				"freeze": "22"
+			},
+			"expert": {
+				"difficulty": "15.0",
+				"step": "592",
+				"shock": "0",
+				"freeze": "22"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "139",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "255",
+				"shock": "0",
+				"freeze": "23"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Triple Counter",
+		"artist": "DJ YOSHITAKA meets dj TAKA",
+		"genre": "RISK + VACUUM",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "14",
+				"step": "531",
+				"shock": "0",
+				"freeze": "24"
+			},
+			"expert": {
+				"difficulty": "17",
+				"step": "695",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"basic": {
+				"difficulty": "9",
+				"step": "297",
+				"shock": "0",
+				"freeze": "12"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "216",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "14.3",
+				"step": "533",
+				"shock": "0",
+				"freeze": "32"
+			},
+			"expert": {
+				"difficulty": "17.3",
+				"step": "718",
+				"shock": "0",
+				"freeze": "23"
+			},
+			"beginner": {
+				"difficulty": "7",
+				"step": "281",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"basic": {
+				"difficulty": "11",
+				"step": "375",
+				"shock": "0",
+				"freeze": "11"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "StrayedCatz",
+		"artist": "削除",
+		"genre": "FANTASY",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "12",
+				"step": "322",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"expert": {
+				"difficulty": "14",
+				"step": "431",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "181",
+				"shock": "0",
+				"freeze": "17"
+			}
+		},
+		"artist_translation": "sakuzyo",
+		"bpm": "114-152",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "336",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"expert": {
+				"difficulty": "14.7",
+				"step": "451",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"beginner": {
+				"difficulty": "4",
+				"step": "131",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"basic": {
+				"difficulty": "8",
+				"step": "182",
+				"shock": "0",
+				"freeze": "14"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Sephirot",
+		"artist": "SHIKI",
+		"genre": "TRANCE",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "9",
+				"step": "326",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "442",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"basic": {
+				"difficulty": "5",
+				"step": "178",
+				"shock": "0",
+				"freeze": "13"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "154",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "346",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "466",
+				"shock": "0",
+				"freeze": "3"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "112",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "195",
+				"shock": "0",
+				"freeze": "17"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Grand Chariot",
+		"artist": "xi",
+		"genre": "HARD ART CORE",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "373",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "518",
+				"shock": "0",
+				"freeze": "12"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "213",
+				"shock": "0",
+				"freeze": "25"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "191",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "383",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"expert": {
+				"difficulty": "13.30",
+				"step": "518",
+				"shock": "0",
+				"freeze": "13"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "94",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "216",
+				"shock": "0",
+				"freeze": "18"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Angelic Jelly",
+		"artist": "t+pazolite",
+		"genre": "HAPPY で HARDCORE",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "349",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "523",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "235",
+				"shock": "0",
+				"freeze": "14"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "100-200",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "402",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"expert": {
+				"difficulty": "13.20",
+				"step": "531",
+				"shock": "0",
+				"freeze": "2"
+			},
+			"beginner": {
+				"difficulty": "4",
+				"step": "123",
+				"shock": "0",
+				"freeze": "7"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "219",
+				"shock": "0",
+				"freeze": "20"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Far east nightbird kors k Remix -DDR edit ver-",
+		"artist": "猫叉Master",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "309",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "396",
+				"shock": "0",
+				"freeze": "18"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "220",
+				"shock": "0",
+				"freeze": "13"
+			}
+		},
+		"artist_translation": "Nekomata Master",
+		"bpm": "175",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "312",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"expert": {
+				"difficulty": "13.30",
+				"step": "393",
+				"shock": "0",
+				"freeze": "11"
+			},
+			"beginner": {
+				"difficulty": "3",
+				"step": "77",
+				"shock": "0",
+				"freeze": "1"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "213",
+				"shock": "0",
+				"freeze": "17"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "Far east nightbird",
+		"artist": "猫叉Master",
+		"genre": "DRUM'N'BASS",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "329",
+				"shock": "0",
+				"freeze": "9"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "452",
+				"shock": "0",
+				"freeze": "4"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "206",
+				"shock": "0",
+				"freeze": "4"
+			}
+		},
+		"artist_translation": "Nekomata Master",
+		"bpm": "180",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "327",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"expert": {
+				"difficulty": "12",
+				"step": "453",
+				"shock": "0",
+				"freeze": "7"
+			},
+			"beginner": {
+				"difficulty": "4",
+				"step": "95",
+				"shock": "0",
+				"freeze": "0"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "225",
+				"shock": "0",
+				"freeze": "5"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "STERLING SILVER (U1 overground mix)",
+		"artist": "TAG",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "352",
+				"shock": "0",
+				"freeze": "8"
+			},
+			"expert": {
+				"difficulty": "14",
+				"step": "508",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "225",
+				"shock": "0",
+				"freeze": "9"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "185",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "11",
+				"step": "348",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"expert": {
+				"difficulty": "14.5",
+				"step": "508",
+				"shock": "0",
+				"freeze": "10"
+			},
+			"beginner": {
+				"difficulty": "4",
+				"step": "102",
+				"shock": "0",
+				"freeze": "1"
+			},
+			"basic": {
+				"difficulty": "7",
+				"step": "236",
+				"shock": "0",
+				"freeze": "6"
+			}
+		},
+		"name_translation": ""
+	},
+	{
+		"unlock": true,
+		"name": "STERLING SILVER",
+		"artist": "TAG",
+		"genre": "",
+		"double": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "344",
+				"shock": "0",
+				"freeze": "14"
+			},
+			"expert": {
+				"difficulty": "13",
+				"step": "476",
+				"shock": "0",
+				"freeze": "17"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "224",
+				"shock": "0",
+				"freeze": "3"
+			}
+		},
+		"artist_translation": "",
+		"bpm": "175",
+		"single": {
+			"challenge": null,
+			"difficult": {
+				"difficulty": "10",
+				"step": "338",
+				"shock": "0",
+				"freeze": "20"
+			},
+			"expert": {
+				"difficulty": "13.30",
+				"step": "486",
+				"shock": "0",
+				"freeze": "6"
+			},
+			"beginner": {
+				"difficulty": "4",
+				"step": "144",
+				"shock": "0",
+				"freeze": "2"
+			},
+			"basic": {
+				"difficulty": "6",
+				"step": "236",
+				"shock": "0",
+				"freeze": "3"
+			}
+		},
+		"name_translation": ""
+	},
+	{
 		"unlock": true,
 		"name": "Come to Life",
 		"artist": "ARM (IOSYS) feat. Nicole Curry",
+		"genre": "",
 		"double": {
 			"challenge": {
 				"difficulty": "18",
@@ -1954,7 +2982,7 @@ var songs = [
 		"bpm": "90-180",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.0",
 				"step": "730",
 				"shock": "0",
 				"freeze": "70"
@@ -1966,7 +2994,7 @@ var songs = [
 				"freeze": "30"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.2",
 				"step": "611",
 				"shock": "0",
 				"freeze": "31"
@@ -1985,7 +3013,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": ".59",
 		"artist": "dj TAKA",
@@ -2041,7 +3070,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "1998",
 		"artist": "NAOKI",
@@ -2097,7 +3127,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "30 Lives (Up-Up-Down-Dance Mix)",
 		"artist": "The Motion Sick",
@@ -2153,7 +3184,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "321STARS",
 		"artist": "DJ SIMON",
@@ -2209,7 +3241,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "8000000",
 		"artist": "kors k",
@@ -2246,7 +3279,7 @@ var songs = [
 				"freeze": "1"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "528",
 				"shock": "0",
 				"freeze": "1"
@@ -2265,7 +3298,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "888",
 		"artist": "DJ TECHNORCH",
@@ -2300,19 +3334,19 @@ var songs = [
 		"bpm": "111-888",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.6",
 				"step": "753",
 				"shock": "0",
 				"freeze": "25"
 			},
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.80",
 				"step": "444",
 				"shock": "0",
 				"freeze": "24"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.8",
 				"step": "515",
 				"shock": "0",
 				"freeze": "11"
@@ -2331,7 +3365,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "A",
 		"artist": "D.J.Amuro",
@@ -2397,7 +3432,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "A Brighter Day",
 		"artist": "NAOKI feat. Aleisha G",
@@ -2463,7 +3499,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "A Geisha's Dream",
 		"artist": "NAOKI feat. SMiLE.dk",
@@ -2519,7 +3556,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "A Stupid Barber",
 		"artist": "Sho-T",
@@ -2575,7 +3613,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "A thing called LOVE",
 		"artist": "D-crew 2 US",
@@ -2631,7 +3670,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AA",
 		"artist": "D.J.Amuro",
@@ -2668,7 +3708,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "386",
 				"shock": "0",
 				"freeze": "2"
@@ -2687,7 +3727,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ABSOLUTE",
 		"artist": "dj TAKA",
@@ -2743,7 +3784,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Abyss",
 		"artist": "dj TAKA",
@@ -2799,7 +3841,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Across the nightmare",
 		"artist": "Jimmy Weckl",
@@ -2834,7 +3877,7 @@ var songs = [
 		"bpm": "300",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "372",
 				"shock": "0",
 				"freeze": "0"
@@ -2865,7 +3908,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ACROSS WORLD",
 		"artist": "Royz",
@@ -2900,7 +3944,7 @@ var songs = [
 		"bpm": "185",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "419",
 				"shock": "0",
 				"freeze": "26"
@@ -2931,7 +3975,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Adularia",
 		"artist": "DJ TOTTO",
@@ -2968,7 +4013,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.0",
 				"step": "427",
 				"shock": "0",
 				"freeze": "20"
@@ -2987,7 +4032,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ÆTHER",
 		"artist": "TAG underground",
@@ -3018,13 +4064,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "551",
 				"shock": "0",
 				"freeze": "23"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.2",
 				"step": "704",
 				"shock": "0",
 				"freeze": "6"
@@ -3043,7 +4089,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AFRONOVA",
 		"artist": "RE-VENGE",
@@ -3080,7 +4127,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "370",
 				"shock": "0",
 				"freeze": "0"
@@ -3099,7 +4146,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AFRONOVA(FROM NONSTOP MEGAMIX)",
 		"artist": "RE-VENGE",
@@ -3130,7 +4178,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AFRONOVA(X-Special)",
 		"artist": "RE-VENGE",
@@ -3150,7 +4199,7 @@ var songs = [
 		"bpm": "200",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "394",
 				"shock": "0",
 				"freeze": "30"
@@ -3161,7 +4210,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AFRONOVA PRIMEVAL",
 		"artist": "8 bit",
@@ -3217,7 +4267,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AFTER THE GAME OF LOVE",
 		"artist": "NPD3",
@@ -3273,7 +4324,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "aftershock!!",
 		"artist": "DM Ashura",
@@ -3310,7 +4362,7 @@ var songs = [
 				"freeze": "43"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "447",
 				"shock": "0",
 				"freeze": "14"
@@ -3329,7 +4381,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Ah La La La",
 		"artist": "Tommie Sunshine",
@@ -3385,7 +4438,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "air",
 		"artist": "DJ SIMON",
@@ -3441,7 +4495,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Air Heroes",
 		"artist": "Darwin",
@@ -3476,7 +4531,7 @@ var songs = [
 		"bpm": "175",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.5",
 				"step": "622",
 				"shock": "0",
 				"freeze": "35"
@@ -3488,7 +4543,7 @@ var songs = [
 				"freeze": "40"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "475",
 				"shock": "0",
 				"freeze": "23"
@@ -3507,7 +4562,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ALL MY HEART -この恋に、わたしの全てを賭ける-",
 		"artist": "SUPER HEROINE 彩香-AYAKA-",
@@ -3544,7 +4600,7 @@ var songs = [
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "391",
 				"shock": "0",
 				"freeze": "6"
@@ -3563,7 +4619,8 @@ var songs = [
 			}
 		},
 		"name_translation": "ALL MY HEART -kono koi ni, watashi no subete o kakeru-"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "All My Love",
 		"artist": "kors k feat.ЯIRE",
@@ -3619,7 +4676,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "アルストロメリア (walk with you remix)",
 		"artist": "TAG",
@@ -3654,7 +4712,7 @@ var songs = [
 		"bpm": "148",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "399",
 				"shock": "26",
 				"freeze": "54"
@@ -3685,7 +4743,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Alstroemeria (walk with you remix)"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AM-3P",
 		"artist": "KTz",
@@ -3741,7 +4800,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AM-3P -303 BASS MIX-",
 		"artist": "KTz(remixed by U1)",
@@ -3797,7 +4857,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AM-3P(AM EAST mix)",
 		"artist": "KTz",
@@ -3828,7 +4889,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AM-3P (\"CHAOS\" Special)",
 		"artist": "KTz",
@@ -3848,7 +4910,7 @@ var songs = [
 		"bpm": "130",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.5",
 				"step": "309",
 				"shock": "0",
 				"freeze": "4"
@@ -3859,7 +4921,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "天ノ弱",
 		"artist": "164",
@@ -3896,7 +4959,7 @@ var songs = [
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.55",
 				"step": "427",
 				"shock": "0",
 				"freeze": "5"
@@ -3915,7 +4978,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Ama no jyaku"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Amalgamation",
 		"artist": "Mystic Moon",
@@ -3950,7 +5014,7 @@ var songs = [
 		"bpm": "166",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "490",
 				"shock": "0",
 				"freeze": "10"
@@ -3962,7 +5026,7 @@ var songs = [
 				"freeze": "13"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "436",
 				"shock": "0",
 				"freeze": "9"
@@ -3981,7 +5045,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Another Phase",
 		"artist": "TAG",
@@ -4016,7 +5081,7 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.3",
 				"step": "542",
 				"shock": "41",
 				"freeze": "47"
@@ -4028,7 +5093,7 @@ var songs = [
 				"freeze": "5"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "573",
 				"shock": "0",
 				"freeze": "5"
@@ -4047,7 +5112,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Anti-Matter",
 		"artist": "Orbit1 & Milo",
@@ -4082,19 +5148,19 @@ var songs = [
 		"bpm": "100-400",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.3",
 				"step": "700",
 				"shock": "0",
 				"freeze": "30"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "444",
 				"shock": "0",
 				"freeze": "41"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.3",
 				"step": "600",
 				"shock": "0",
 				"freeze": "36"
@@ -4113,7 +5179,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Arrabbiata",
 		"artist": "Reven-G改",
@@ -4144,13 +5211,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.60",
 				"step": "376",
 				"shock": "0",
 				"freeze": "1"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "452",
 				"shock": "0",
 				"freeze": "1"
@@ -4169,7 +5236,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "朝色の紙飛行機",
 		"artist": "かめりあ",
@@ -4206,7 +5274,7 @@ var songs = [
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "378",
 				"shock": "0",
 				"freeze": "15"
@@ -4225,7 +5293,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Asairo no kamihikouki"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Astrogazer",
 		"artist": "DJ TOTTO",
@@ -4260,7 +5329,7 @@ var songs = [
 		"bpm": "154",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.0",
 				"step": "712",
 				"shock": "0",
 				"freeze": "38"
@@ -4272,7 +5341,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.1",
 				"step": "586",
 				"shock": "0",
 				"freeze": "8"
@@ -4291,7 +5360,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "AWAKE",
 		"artist": "柊木りお featured by TAG",
@@ -4326,7 +5396,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.2",
 				"step": "622",
 				"shock": "0",
 				"freeze": "33"
@@ -4338,7 +5408,7 @@ var songs = [
 				"freeze": "23"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.00",
 				"step": "444",
 				"shock": "0",
 				"freeze": "33"
@@ -4357,7 +5427,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "阿波おどり -Awaodori- やっぱり踊りはやめられない",
 		"artist": "U1 ミライダガッキ連と矢印連",
@@ -4394,7 +5465,7 @@ var songs = [
 				"freeze": "9"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.9",
 				"step": "474",
 				"shock": "0",
 				"freeze": "5"
@@ -4413,7 +5484,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Awaodori yappari odori hayamerarenai"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "妖隠し -あやかしかくし-",
 		"artist": "DJ TOTTO feat.3L",
@@ -4450,7 +5522,7 @@ var songs = [
 				"freeze": "16"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.0",
 				"step": "632",
 				"shock": "0",
 				"freeze": "21"
@@ -4469,7 +5541,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Ayakashi kakushi"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "B4U",
 		"artist": "NAOKI",
@@ -4525,7 +5598,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "B4U(B4 ZA BEAT MIX)",
 		"artist": "NAOKI",
@@ -4556,7 +5630,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "B4U (\"VOLTAGE\" Special)",
 		"artist": "NAOKI",
@@ -4576,7 +5651,7 @@ var songs = [
 		"bpm": "155",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "367",
 				"shock": "0",
 				"freeze": "0"
@@ -4587,7 +5662,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BABY BABY GIMME YOUR LOVE",
 		"artist": "DIVAS",
@@ -4643,7 +5719,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Back In Your Arms",
 		"artist": "jun feat. DJ Silver vs Milo ft. Becca Hossany",
@@ -4699,7 +5776,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Bad Apple!! feat. nomico",
 		"artist": "Alstroemeria Records",
@@ -4755,7 +5833,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "BAD GIRLS",
 		"artist": "JULIET ROBERTS",
@@ -4821,7 +5900,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Bad Routine",
 		"artist": "D.J. Spugna",
@@ -4877,7 +5957,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "bag",
 		"artist": "RevenG",
@@ -4912,7 +5993,7 @@ var songs = [
 		"bpm": "65",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.99",
 				"step": "382",
 				"shock": "0",
 				"freeze": "0"
@@ -4924,7 +6005,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.60",
 				"step": "382",
 				"shock": "0",
 				"freeze": "0"
@@ -4943,7 +6024,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Baile Le Samba",
 		"artist": "Big Idea",
@@ -4999,7 +6081,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "爆なな☆てすとロイヤー",
 		"artist": "ARM feat. ななひら",
@@ -5036,7 +6119,7 @@ var songs = [
 				"freeze": "11"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.55",
 				"step": "520",
 				"shock": "0",
 				"freeze": "11"
@@ -5055,7 +6138,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Bakunana testroyer"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BALLAD FOR YOU～想いの雨～",
 		"artist": "NM feat. Thomas Howard",
@@ -5111,7 +6195,8 @@ var songs = [
 			}
 		},
 		"name_translation": "BALLAD FOR YOU -OMOI NO AMI-"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BALLAD THE FEATHERS",
 		"artist": "SHIN SOUND DESIGN feat.Naomi Koizumi",
@@ -5177,7 +6262,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "バンブーソード・ガール",
 		"artist": "cosMo＠暴走P",
@@ -5214,7 +6300,7 @@ var songs = [
 				"freeze": "16"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.7",
 				"step": "606",
 				"shock": "0",
 				"freeze": "28"
@@ -5233,7 +6319,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Bamboo Sword Girl"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "bass 2 bass",
 		"artist": "Ryu☆",
@@ -5289,7 +6376,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "ベィスドロップ・フリークス",
 		"artist": "かめりあ feat. ななひら",
@@ -5326,7 +6414,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "455",
 				"shock": "0",
 				"freeze": "20"
@@ -5345,7 +6433,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Bassdrop Freaks"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BE LOVIN",
 		"artist": "D-Crew",
@@ -5401,7 +6490,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Beautiful Dream",
 		"artist": "REDALiCE feat. anporin",
@@ -5436,7 +6526,7 @@ var songs = [
 		"bpm": "182",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "542",
 				"shock": "0",
 				"freeze": "62"
@@ -5467,7 +6557,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Beautiful Inside (Cube::Hard Mix)",
 		"artist": "NM feat. Alison Wade",
@@ -5523,7 +6614,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ビューティフル レシート",
 		"artist": "Lucky Vacuum",
@@ -5560,7 +6652,7 @@ var songs = [
 				"freeze": "52"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.55",
 				"step": "362",
 				"shock": "0",
 				"freeze": "50"
@@ -5579,7 +6671,8 @@ var songs = [
 			}
 		},
 		"name_translation": "BEAUTIFUL RECEIPT"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "ビビットストリーム",
 		"artist": "DJ TOTTO",
@@ -5616,7 +6709,7 @@ var songs = [
 				"freeze": "43"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "464",
 				"shock": "0",
 				"freeze": "18"
@@ -5635,7 +6728,8 @@ var songs = [
 			}
 		},
 		"name_translation": "BeBeatstream"
-	}, {
+	},
+	{
 		"name": "Believe",
 		"artist": "Chaos Featuring CeCe Peniston",
 		"genre": "",
@@ -5690,7 +6784,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Blew My Mind",
 		"artist": "Sota F.",
@@ -5725,7 +6820,7 @@ var songs = [
 		"bpm": "95-380",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.5",
 				"step": "665",
 				"shock": "2",
 				"freeze": "48"
@@ -5737,7 +6832,7 @@ var songs = [
 				"freeze": "18"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.7",
 				"step": "584",
 				"shock": "0",
 				"freeze": "17"
@@ -5756,7 +6851,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Blind Justice ～Torn souls, Hurt Faiths ～",
 		"artist": "Zektbach",
@@ -5812,7 +6908,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Bloody Tears(IIDX EDITION)",
 		"artist": "DJ YOSHITAKA",
@@ -5868,7 +6965,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "蒼い衝動 ～for EXTREME～",
 		"artist": "NAOKI feat.YUKI",
@@ -5924,7 +7022,8 @@ var songs = [
 			}
 		},
 		"name_translation": "BLUE IMPULSE(for EXTREME)"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Blue Rain",
 		"artist": "dj TAKA VS Ryu☆",
@@ -5980,7 +7079,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Bombay Bomb",
 		"artist": "Jena Rose",
@@ -6036,7 +7136,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "BOOM BOOM DOLLAR",
 		"artist": "KING KONG & D.JUNGLE GIRLS",
@@ -6102,7 +7203,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Brazilian Anthem",
 		"artist": "Berimbau '66",
@@ -6158,7 +7260,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BRE∀K DOWN！",
 		"artist": "BeForU",
@@ -6214,7 +7317,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "Break Free",
 		"artist": "Ariana Grande feat. Zedd",
 		"genre": "",
@@ -6269,7 +7373,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BRILLIANT 2U",
 		"artist": "NAOKI ",
@@ -6335,7 +7440,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "BRILLIANT 2U (AKBK MIX)",
 		"artist": "NAOKI",
@@ -6372,7 +7478,7 @@ var songs = [
 				"freeze": "13"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.1",
 				"step": "571",
 				"shock": "0",
 				"freeze": "18"
@@ -6391,7 +7497,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BRILLIANT 2U(K.O.G G3 MIX)",
 		"artist": "NAOKI",
@@ -6422,7 +7529,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BRILLIANT 2U(Orchestra Groove)",
 		"artist": "NAOKI",
@@ -6488,7 +7596,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BRILLIANT 2U (\"STREAM\" Special)",
 		"artist": "NAOKI",
@@ -6508,7 +7617,7 @@ var songs = [
 		"bpm": "150",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "340",
 				"shock": "0",
 				"freeze": "6"
@@ -6519,7 +7628,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BROKEN MY HEART",
 		"artist": "NAOKI feat. PAULA TERRY",
@@ -6575,7 +7685,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BURNIN' THE FLOOR",
 		"artist": "NAOKI",
@@ -6631,7 +7742,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BURNIN' THE FLOOR(BLUE FIRE mix)",
 		"artist": "NAOKI",
@@ -6662,7 +7774,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "BURNING HEAT！（3 Option MIX）",
 		"artist": "Mr.T with Motoaki. F",
@@ -6699,7 +7812,7 @@ var songs = [
 				"freeze": "29"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "413",
 				"shock": "0",
 				"freeze": "5"
@@ -6718,7 +7831,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "Burst The Gravity",
 		"artist": "ALTIMA",
@@ -6774,7 +7888,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "cachaca",
 		"artist": "Mokky de Yah Yah's",
@@ -6830,7 +7945,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "三毛猫ロック",
 		"artist": "亜熱帯マジ-SKA爆弾",
@@ -6886,7 +8002,8 @@ var songs = [
 			}
 		},
 		"name_translation": "CALICO CAT ROCK"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Can Be Real",
 		"artist": "Vision F",
@@ -6942,7 +8059,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CAN'T STOP FALLIN' IN LOVE ～SPEED MIX～",
 		"artist": "NAOKI ",
@@ -6998,7 +8116,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CAN'T STOP FALLIN' IN LOVE -super euro version-",
 		"artist": "NAOKI with Y&Co.",
@@ -7054,7 +8173,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CAN'T STOP FALLIN' IN LOVE",
 		"artist": "NAOKI",
@@ -7110,7 +8230,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CANDY☆",
 		"artist": "Luv UNLIMITED",
@@ -7166,7 +8287,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CANDY☆(X-Special)",
 		"artist": "Luv UNLIMITED",
@@ -7197,7 +8319,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CANDY♡",
 		"artist": "小坂りゆ",
@@ -7253,7 +8376,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CaptivAte～誓い～",
 		"artist": "DJ YOSHITAKA feat.A/I",
@@ -7290,7 +8414,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "420",
 				"shock": "0",
 				"freeze": "15"
@@ -7309,7 +8433,8 @@ var songs = [
 			}
 		},
 		"name_translation": "CaptivAte～CHIKAI～"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CELEBRATE NITE",
 		"artist": "N.M.R",
@@ -7365,7 +8490,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CELEBRATE NITE(EURO TRANCE STYLE)",
 		"artist": "N.M.R",
@@ -7396,7 +8522,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CENTAUR",
 		"artist": "Jimmy Weckl",
@@ -7452,7 +8579,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CG Project",
 		"artist": "Latenighters",
@@ -7508,7 +8636,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Chance and Dice",
 		"artist": "日本少年",
@@ -7564,7 +8693,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CHAOS",
 		"artist": "DE-SIRE retunes",
@@ -7599,7 +8729,7 @@ var songs = [
 		"bpm": "170",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.8",
 				"step": "405",
 				"shock": "0",
 				"freeze": "9"
@@ -7611,7 +8741,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "321",
 				"shock": "0",
 				"freeze": "5"
@@ -7630,7 +8760,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "chaos eater",
 		"artist": "猫叉Master+",
@@ -7667,7 +8798,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.6",
 				"step": "588",
 				"shock": "0",
 				"freeze": "3"
@@ -7686,7 +8817,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ちゅ～いん☆バニー",
 		"artist": "阿部靖広 feat. Strawberry Wink",
@@ -7721,7 +8853,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.30",
 				"step": "323",
 				"shock": "52",
 				"freeze": "71"
@@ -7752,7 +8884,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Chewing Bunny"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "地方創生☆チクワクティクス",
 		"artist": "日向美ビタースイーツ♪",
@@ -7789,7 +8922,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "404",
 				"shock": "0",
 				"freeze": "4"
@@ -7808,7 +8941,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Chihou sousei chikuwa kutikusu"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "チカラ",
 		"artist": "BeForU",
@@ -7864,7 +8998,8 @@ var songs = [
 			}
 		},
 		"name_translation": "CHIKARA"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ちくわパフェだよ☆CKP",
 		"artist": "日向美ビタースイーツ♪",
@@ -7899,7 +9034,7 @@ var songs = [
 		"bpm": "205",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "509",
 				"shock": "0",
 				"freeze": "6"
@@ -7930,7 +9065,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Chikuwa Pafedayo CKP"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Children of the Beat",
 		"artist": "Harmony Machine",
@@ -7996,7 +9132,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Chinese Snowy Dance",
 		"artist": "Mutsuhiko Izumi",
@@ -8033,7 +9170,7 @@ var songs = [
 				"freeze": "25"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.2",
 				"step": "594",
 				"shock": "0",
 				"freeze": "35"
@@ -8052,7 +9189,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "チョコレートスマイル",
 		"artist": "日向美ビタースイーツ♪ & ここなつ",
@@ -8108,7 +9246,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Chocolate Smile"
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "Choo Choo TRAIN",
 		"artist": "EXILE",
@@ -8164,7 +9303,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Chronos",
 		"artist": "TAG",
@@ -8199,7 +9339,7 @@ var songs = [
 		"bpm": "128",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "532",
 				"shock": "0",
 				"freeze": "35"
@@ -8230,7 +9370,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "チルノのパーフェクトさんすう教室 (EDM REMIX)",
 		"artist": "uno(IOSYS)",
@@ -8267,7 +9408,7 @@ var songs = [
 				"freeze": "6"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "513",
 				"shock": "0",
 				"freeze": "7"
@@ -8286,7 +9427,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Cirno's Perfect Math Class (EDM REMIX)"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Cleopatrysm",
 		"artist": "ピラミッ℃",
@@ -8323,7 +9465,7 @@ var songs = [
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.1",
 				"step": "557",
 				"shock": "0",
 				"freeze": "17"
@@ -8342,7 +9484,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "からふるぱすてる",
 		"artist": "ki☆ki",
@@ -8398,7 +9541,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Colorful Pastel"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Colors ～for EXTREME～",
 		"artist": "dj TAKA",
@@ -8433,7 +9577,7 @@ var songs = [
 		"bpm": "150",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "430",
 				"shock": "0",
 				"freeze": "7"
@@ -8464,7 +9608,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "COME BACK TO MY HEART",
 		"artist": "Another Infinity feat. Mayumi Morinaga",
@@ -8530,7 +9675,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Condor",
 		"artist": "Remo-con",
@@ -8565,7 +9711,7 @@ var songs = [
 		"bpm": "142",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "479",
 				"shock": "0",
 				"freeze": "67"
@@ -8577,7 +9723,7 @@ var songs = [
 				"freeze": "22"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "363",
 				"shock": "0",
 				"freeze": "14"
@@ -8596,7 +9742,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Confession",
 		"artist": "trance star",
@@ -8631,7 +9778,7 @@ var songs = [
 		"bpm": "150",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "473",
 				"shock": "0",
 				"freeze": "21"
@@ -8662,7 +9809,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Cosmic Hurricane",
 		"artist": "TAG",
@@ -8697,7 +9845,7 @@ var songs = [
 		"bpm": "188",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "599",
 				"shock": "0",
 				"freeze": "55"
@@ -8709,7 +9857,7 @@ var songs = [
 				"freeze": "22"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.50",
 				"step": "483",
 				"shock": "0",
 				"freeze": "18"
@@ -8728,7 +9876,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Crazy Control",
 		"artist": "D-crew with VAL TIATIA",
@@ -8794,7 +9943,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CRAZY♥LOVE",
 		"artist": "jun",
@@ -8831,7 +9981,7 @@ var songs = [
 				"freeze": "52"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "518",
 				"shock": "0",
 				"freeze": "53"
@@ -8850,7 +10000,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "クリムゾンゲイト",
 		"artist": "工藤吉三（ベイシスケイプ）",
@@ -8887,7 +10038,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.80",
 				"step": "480",
 				"shock": "0",
 				"freeze": "8"
@@ -8906,7 +10057,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Crimson Gate"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CURUS",
 		"artist": "D-crew",
@@ -8962,7 +10114,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CUTIE CHASER",
 		"artist": "CLUB SPICE",
@@ -9018,7 +10171,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "CUTIE CHASER(MORNING MIX)",
 		"artist": "CLUB SPICE",
@@ -9074,7 +10228,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Cytokinesis",
 		"artist": "Hommarju",
@@ -9111,7 +10266,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.9",
 				"step": "481",
 				"shock": "0",
 				"freeze": "7"
@@ -9130,7 +10285,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "D2R",
 		"artist": "NAOKI",
@@ -9186,7 +10342,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "D2R (\"FREEZE\" Special)",
 		"artist": "NAOKI",
@@ -9217,7 +10374,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "打打打打打打打打打打",
 		"artist": "ヒゲドライバー join. SELEN",
@@ -9252,7 +10410,7 @@ var songs = [
 		"bpm": "156",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.4",
 				"step": "618",
 				"shock": "0",
 				"freeze": "16"
@@ -9264,7 +10422,7 @@ var songs = [
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "448",
 				"shock": "0",
 				"freeze": "25"
@@ -9283,7 +10441,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Dadadadadadadadadada"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "大見解",
 		"artist": "Des-ROW feat. TSUBOI for ALPHA",
@@ -9318,7 +10477,7 @@ var songs = [
 		"bpm": "143-172",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "433",
 				"shock": "0",
 				"freeze": "16"
@@ -9349,7 +10508,8 @@ var songs = [
 			}
 		},
 		"name_translation": "DAIKENKAI"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Daily Lunch Special",
 		"artist": "Lucky Vacuum",
@@ -9386,7 +10546,7 @@ var songs = [
 				"freeze": "44"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.3",
 				"step": "547",
 				"shock": "0",
 				"freeze": "44"
@@ -9405,7 +10565,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DANCE ALL NIGHT (DDR EDITION)",
 		"artist": "Sota Fujimori",
@@ -9461,7 +10622,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dance Celebration",
 		"artist": "Bill Hamel feat. Kevens",
@@ -9527,7 +10689,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dance Celebration (System 7 Remix)",
 		"artist": "Bill Hamel feat. Kevens",
@@ -9564,7 +10727,7 @@ var songs = [
 				"freeze": "32"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "314",
 				"shock": "0",
 				"freeze": "31"
@@ -9583,7 +10746,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dance Dance Revolution",
 		"artist": "DDR ALL STARS",
@@ -9649,7 +10813,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dance Dance Revolution(X-Special)",
 		"artist": "DDR ALL STARS",
@@ -9669,7 +10834,7 @@ var songs = [
 		"bpm": "150",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "353",
 				"shock": "0",
 				"freeze": "36"
@@ -9680,7 +10845,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dance Floor",
 		"artist": "neuras feat. Yurai",
@@ -9736,7 +10902,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dance Partay",
 		"artist": "DKC Crew",
@@ -9771,7 +10938,7 @@ var songs = [
 		"bpm": "135",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.05",
 				"step": "378",
 				"shock": "0",
 				"freeze": "5"
@@ -9802,7 +10969,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Dancer in the flare",
 		"artist": "猫叉Master",
@@ -9839,7 +11007,7 @@ var songs = [
 				"freeze": "5"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "358",
 				"shock": "0",
 				"freeze": "3"
@@ -9858,7 +11026,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "男々道",
 		"artist": "Des-ROW・組",
@@ -9914,7 +11083,8 @@ var songs = [
 			}
 		},
 		"name_translation": "DanDanDo (The true MAN's Road)"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "dazzle",
 		"artist": "kobo feat. kr:agué",
@@ -9970,7 +11140,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dazzlin' Darlin",
 		"artist": "HHH",
@@ -10026,7 +11197,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dazzlin' Darlin-秋葉工房mix-",
 		"artist": "Remixed by DJ Command",
@@ -10082,7 +11254,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Dazzlin' Darlin-AKBKmix-"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DEAD END",
 		"artist": "N & S",
@@ -10138,7 +11311,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DEAD END (\"GROOVE RADAR\" Special)",
 		"artist": "N & S",
@@ -10158,7 +11332,7 @@ var songs = [
 		"bpm": "95-380",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.9",
 				"step": "479",
 				"shock": "0",
 				"freeze": "75"
@@ -10169,7 +11343,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "デッドボヲルdeホームラン",
 		"artist": "猫叉Masterβ2",
@@ -10206,7 +11381,7 @@ var songs = [
 				"freeze": "30"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.80",
 				"step": "424",
 				"shock": "0",
 				"freeze": "17"
@@ -10225,7 +11400,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Deadball de Homerun"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Decade",
 		"artist": "kors k Vs. dj TAKA",
@@ -10281,7 +11457,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ΔMAX",
 		"artist": "DM Ashura",
@@ -10316,19 +11493,19 @@ var songs = [
 		"bpm": "100-573",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.9",
 				"step": "595",
 				"shock": "0",
 				"freeze": "60"
 			},
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.95",
 				"step": "464",
 				"shock": "0",
 				"freeze": "16"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.6",
 				"step": "573",
 				"shock": "0",
 				"freeze": "110"
@@ -10347,7 +11524,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Desert Journey",
 		"artist": "dj TAKA",
@@ -10382,9 +11560,9 @@ var songs = [
 		"bpm": "140",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "456",
-				"shock": "0",
+				"shock": "35",
 				"freeze": "51"
 			},
 			"difficult": {
@@ -10413,7 +11591,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Destination",
 		"artist": "Sota F.",
@@ -10450,7 +11629,7 @@ var songs = [
 				"freeze": "46"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "498",
 				"shock": "0",
 				"freeze": "48"
@@ -10469,7 +11648,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DESTINY",
 		"artist": "NAOKI feat. PAULA TERRY",
@@ -10525,7 +11705,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Destiny lovers",
 		"artist": "くにたけ みゆき ",
@@ -10562,7 +11743,7 @@ var songs = [
 				"freeze": "21"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.30",
 				"step": "358",
 				"shock": "0",
 				"freeze": "14"
@@ -10581,7 +11762,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Diamond Dust",
 		"artist": "TAG",
@@ -10616,7 +11798,7 @@ var songs = [
 		"bpm": "148",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "274",
 				"shock": "39",
 				"freeze": "57"
@@ -10647,7 +11829,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Diamond Night",
 		"artist": "TOMOSUKE feat. Alexa Slaymaker",
@@ -10682,7 +11865,7 @@ var songs = [
 		"bpm": "135",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "426",
 				"shock": "0",
 				"freeze": "27"
@@ -10713,7 +11896,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Din Don Dan",
 		"artist": "Ryu☆ feat.Mayumi Morinaga",
@@ -10779,7 +11963,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "dirty digital",
 		"artist": "kors k",
@@ -10814,7 +11999,7 @@ var songs = [
 		"bpm": "140",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "306",
 				"shock": "0",
 				"freeze": "2"
@@ -10845,7 +12030,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dispersion Star",
 		"artist": "ZUKI",
@@ -10882,7 +12068,7 @@ var songs = [
 				"freeze": "23"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "340",
 				"shock": "0",
 				"freeze": "23"
@@ -10901,7 +12087,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DIVE TO THE NIGHT",
 		"artist": "小坂りゆ",
@@ -10957,7 +12144,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Do The Evolution",
 		"artist": "TAG feat. ERi",
@@ -11013,7 +12201,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "ドキドキ☆流星トラップガール!!",
 		"artist": "流星トラップボーイズ",
@@ -11050,7 +12239,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.1",
 				"step": "506",
 				"shock": "0",
 				"freeze": "15"
@@ -11069,7 +12258,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Doki doki ryusei trap girl!!"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DoLL",
 		"artist": "ＴЁЯＲＡ",
@@ -11104,7 +12294,7 @@ var songs = [
 		"bpm": "170",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "431",
 				"shock": "0",
 				"freeze": "51"
@@ -11135,7 +12325,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Don't Stop!～AMD 2nd MIX～",
 		"artist": "Dr.VIBE feat. JP Miles",
@@ -11191,7 +12382,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "ドーパミン",
 		"artist": "U1 overground",
@@ -11222,13 +12414,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "454",
 				"shock": "0",
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.7",
 				"step": "743",
 				"shock": "0",
 				"freeze": "3"
@@ -11247,7 +12439,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Dopamine"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dragon Blade",
 		"artist": "Kozo Nakamura",
@@ -11303,7 +12496,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dream Machine",
 		"artist": "Darwin",
@@ -11359,7 +12553,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "dream of love",
 		"artist": "Kaori Nishina",
@@ -11415,7 +12610,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dreamin’",
 		"artist": "TOMOSUKE feat. Adreana",
@@ -11481,7 +12677,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "dreaming can make a wish come true",
 		"artist": "jun & NRG Factory feat. Anna Kaelin",
@@ -11537,7 +12734,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DROP",
 		"artist": "dj TAKA feat.Kanako Hoshino",
@@ -11593,7 +12791,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DROP OUT",
 		"artist": "NW260",
@@ -11630,7 +12829,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.60",
 				"step": "397",
 				"shock": "0",
 				"freeze": "0"
@@ -11649,7 +12848,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DROP OUT(FROM NONSTOP MEGAMIX)",
 		"artist": "NW260",
@@ -11680,7 +12880,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DROP THE BOMB",
 		"artist": "Scotty D.",
@@ -11736,7 +12937,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DROP THE BOMB(SyS.F. Mix)",
 		"artist": "Scotty D.",
@@ -11792,7 +12994,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Dummy",
 		"artist": "RAM",
@@ -11848,7 +13051,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DXY!",
 		"artist": "TaQ",
@@ -11904,7 +13108,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DYNAMITE RAVE",
 		"artist": "NAOKI",
@@ -11970,7 +13175,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "DYNAMITE RAVE (\"AIR\" Special)",
 		"artist": "NAOKI",
@@ -12001,7 +13207,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "e-motion",
 		"artist": "e.o.s",
@@ -12057,7 +13264,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ECSTASY",
 		"artist": "d-complex",
@@ -12113,7 +13321,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ECSTASY (midnight blue mix)",
 		"artist": "d-complex",
@@ -12144,7 +13353,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "イーディーエム・ジャンパーズ",
 		"artist": "かめりあ feat. ななひら",
@@ -12200,7 +13410,8 @@ var songs = [
 			}
 		},
 		"name_translation": "EDM Jumpers"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "EGOISM 440",
 		"artist": "U1 High-Speed",
@@ -12241,13 +13452,13 @@ var songs = [
 				"freeze": "6"
 			},
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.85",
 				"step": "428",
 				"shock": "0",
 				"freeze": "5"
 			},
 			"expert": {
-				"difficulty": "18",
+				"difficulty": "18.5",
 				"step": "620",
 				"shock": "0",
 				"freeze": "10"
@@ -12266,7 +13477,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Electric Dance System Music",
 		"artist": "U1 overground",
@@ -12303,7 +13515,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "506",
 				"shock": "0",
 				"freeze": "2"
@@ -12322,7 +13534,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Electrified",
 		"artist": "SySF.",
@@ -12378,7 +13591,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Electro Tuned ( the SubS Mix )",
 		"artist": "TaQ",
@@ -12434,7 +13648,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Electronic or Treat!",
 		"artist": "PON",
@@ -12471,7 +13686,7 @@ var songs = [
 				"freeze": "26"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "506",
 				"shock": "0",
 				"freeze": "21"
@@ -12490,7 +13705,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Elemental Creation",
 		"artist": "dj TAKA meets DJ YOSHITAKA",
@@ -12525,19 +13741,19 @@ var songs = [
 		"bpm": "106-424",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.3",
 				"step": "860",
 				"shock": "0",
 				"freeze": "22"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.3",
 				"step": "614",
 				"shock": "0",
 				"freeze": "24"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.2",
 				"step": "789",
 				"shock": "0",
 				"freeze": "22"
@@ -12556,7 +13772,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Elysium",
 		"artist": "nc ft. NRG Factory",
@@ -12591,7 +13808,7 @@ var songs = [
 		"bpm": "145",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "403",
 				"shock": "0",
 				"freeze": "30"
@@ -12622,7 +13839,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Empathetic",
 		"artist": "Sota÷Des",
@@ -12659,7 +13877,7 @@ var songs = [
 				"freeze": "11"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "487",
 				"shock": "0",
 				"freeze": "11"
@@ -12678,7 +13896,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "エンドルフィン",
 		"artist": "U1 overground",
@@ -12715,7 +13934,7 @@ var songs = [
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.7",
 				"step": "582",
 				"shock": "0",
 				"freeze": "9"
@@ -12734,7 +13953,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Endorphin"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Engraved Mark",
 		"artist": "Ryu☆ ∞ Des-ROW",
@@ -12771,7 +13991,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.0",
 				"step": "562",
 				"shock": "0",
 				"freeze": "4"
@@ -12790,7 +14010,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "era (nostalmix)",
 		"artist": "TaQ",
@@ -12846,7 +14067,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "escape",
 		"artist": "U1 & Krystal B",
@@ -12855,7 +14077,7 @@ var songs = [
 			"challenge": {
 				"difficulty": "14",
 				"step": "353",
-				"shock": "0",
+				"shock": "34",
 				"freeze": "43"
 			},
 			"difficult": {
@@ -12881,9 +14103,9 @@ var songs = [
 		"bpm": "140",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.05",
 				"step": "352",
-				"shock": "0",
+				"shock": "35",
 				"freeze": "45"
 			},
 			"difficult": {
@@ -12912,7 +14134,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "esrev:eR",
 		"artist": "TAG meets “eimy”",
@@ -12949,7 +14172,7 @@ var songs = [
 				"freeze": "23"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "408",
 				"shock": "0",
 				"freeze": "26"
@@ -12968,7 +14191,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ever snow",
 		"artist": "ＴЁЯＲＡ",
@@ -13024,7 +14248,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Every Day, Every Night(NM STYLE)",
 		"artist": "LEA DROP feat. Ant Johnston",
@@ -13080,7 +14305,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Everything I Need",
 		"artist": "Brooke",
@@ -13136,7 +14362,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "exotic ethnic",
 		"artist": "RevenG",
@@ -13173,7 +14400,7 @@ var songs = [
 				"freeze": "37"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "431",
 				"shock": "0",
 				"freeze": "21"
@@ -13192,7 +14419,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Fascination MAXX",
 		"artist": "100-200-400",
@@ -13227,19 +14455,19 @@ var songs = [
 		"bpm": "100-400",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.3",
 				"step": "670",
 				"shock": "0",
 				"freeze": "16"
 			},
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.75",
 				"step": "397",
 				"shock": "0",
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.7",
 				"step": "640",
 				"shock": "0",
 				"freeze": "4"
@@ -13258,7 +14486,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Fascination ～eternal love mix～",
 		"artist": "2MB",
@@ -13293,19 +14522,19 @@ var songs = [
 		"bpm": "100-400",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.1",
 				"step": "572",
 				"shock": "0",
 				"freeze": "14"
 			},
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "395",
 				"shock": "0",
 				"freeze": "1"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.5",
 				"step": "588",
 				"shock": "0",
 				"freeze": "6"
@@ -13324,7 +14553,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Feelings Won't Fade(Extend Trance Mix)",
 		"artist": "SySF.",
@@ -13380,7 +14610,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Fever",
 		"artist": "Sota F. feat. Carol Gadsden",
@@ -13436,7 +14667,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Find The Way",
 		"artist": "nc ft SAK.",
@@ -13492,7 +14724,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Find You Again",
 		"artist": "The W feat. Rita Boudreau",
@@ -13548,7 +14781,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "FIRE",
 		"artist": "泉 陸奥彦",
@@ -13604,7 +14838,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "FIRE FIRE",
 		"artist": "StripE",
@@ -13641,7 +14876,7 @@ var songs = [
 				"freeze": "11"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "571",
 				"shock": "0",
 				"freeze": "5"
@@ -13660,7 +14895,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Flight of the Phoenix",
 		"artist": "Jena Rose",
@@ -13726,7 +14962,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Flourish",
 		"artist": "sonic-coll. feat. frances maya",
@@ -13782,7 +15019,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Flow",
 		"artist": "Scotty D. revisits U1",
@@ -13838,7 +15076,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Flow (True Style)",
 		"artist": "Scotty D. revisits U1",
@@ -13873,7 +15112,7 @@ var songs = [
 		"bpm": "140-280",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.60",
 				"step": "364",
 				"shock": "0",
 				"freeze": "1"
@@ -13904,7 +15143,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Flow (Jammin' Ragga Mix)",
 		"artist": "Scotty D. revisits U1",
@@ -13941,7 +15181,7 @@ var songs = [
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "309",
 				"shock": "0",
 				"freeze": "25"
@@ -13960,7 +15200,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "FLOWER",
 		"artist": "DJ YOSHITAKA",
@@ -13995,7 +15236,7 @@ var songs = [
 		"bpm": "173",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "595",
 				"shock": "0",
 				"freeze": "20"
@@ -14007,7 +15248,7 @@ var songs = [
 				"freeze": "13"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.00",
 				"step": "442",
 				"shock": "0",
 				"freeze": "11"
@@ -14026,7 +15267,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Fly away",
 		"artist": "ChiyoTia",
@@ -14082,7 +15324,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Fly away -mix del matador-",
 		"artist": "Shawn the Horny Master feat. ChiyoTia",
@@ -14119,7 +15362,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "11",
+				"difficulty": "13.05",
 				"step": "372",
 				"shock": "0",
 				"freeze": "15"
@@ -14138,7 +15381,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Follow Tomorrow",
 		"artist": "HHH×MM×ST",
@@ -14194,7 +15438,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Forever Sunshine",
 		"artist": "Chel Y.",
@@ -14250,7 +15495,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Freedom",
 		"artist": "BeForU",
@@ -14306,7 +15552,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Freeway Shuffle",
 		"artist": "dj TAKA",
@@ -14372,7 +15619,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Freeze",
 		"artist": "nc ft. NRG Factory",
@@ -14407,7 +15655,7 @@ var songs = [
 		"bpm": "140",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "268",
 				"shock": "23",
 				"freeze": "77"
@@ -14438,7 +15686,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Frozen Ray ～for EXTREME～",
 		"artist": "dj TAKA",
@@ -14494,7 +15743,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "不沈艦CANDY",
 		"artist": "Risk Junk",
@@ -14531,7 +15781,7 @@ var songs = [
 				"freeze": "31"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "570",
 				"shock": "0",
 				"freeze": "14"
@@ -14550,7 +15800,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Fuchinkan CANDY"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "FUJIMORI -祭- FESTIVAL",
 		"artist": "VENUS",
@@ -14606,7 +15857,8 @@ var songs = [
 			}
 		},
 		"name_translation": "FUJIMORI -MATSURI- FESTIVAL"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Funk Boogie",
 		"artist": "Funk Kid feat. KOOL BOYS",
@@ -14662,7 +15914,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "FUNKY SUMMER BEACH",
 		"artist": "P*Light",
@@ -14699,7 +15952,7 @@ var songs = [
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "457",
 				"shock": "0",
 				"freeze": "7"
@@ -14718,7 +15971,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "ふりそでーしょん",
 		"artist": "きゃりーぱみゅぱみゅ",
@@ -14774,7 +16028,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Furisodeshon"
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "future gazer",
 		"artist": "fripSide",
@@ -14840,7 +16095,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "GAIA",
 		"artist": "猫叉L.E.D.Master+",
@@ -14871,13 +16127,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "482",
 				"shock": "0",
 				"freeze": "19"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.0",
 				"step": "670",
 				"shock": "0",
 				"freeze": "0"
@@ -14896,7 +16152,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Gamelan de Couple",
 		"artist": "TOMOSUKE",
@@ -14952,7 +16209,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "激アツ☆マジヤバ☆チアガール",
 		"artist": "日向美ビタースイーツ♪",
@@ -14989,7 +16247,7 @@ var songs = [
 				"freeze": "44"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "380",
 				"shock": "0",
 				"freeze": "13"
@@ -15008,7 +16266,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Gekiatsu majiyaba cheer girl"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "月光蝶",
 		"artist": "あさき",
@@ -15064,7 +16323,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Gekkou chou"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "創世ノート",
 		"artist": "PON+wac",
@@ -15101,7 +16361,7 @@ var songs = [
 				"freeze": "34"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.80",
 				"step": "490",
 				"shock": "0",
 				"freeze": "35"
@@ -15119,8 +16379,9 @@ var songs = [
 				"freeze": "20"
 			}
 		},
-		"name_translation": "GENESIS NOTE"
-	}, {
+		"name_translation": "GENESIS NOTE (aka SOUSEI NOTE)"
+	},
+	{
 		"unlock": "",
 		"name": "GENOM SCREAMS",
 		"artist": "L.E.D.LIGHT",
@@ -15176,7 +16437,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "幻想系世界修復少女",
 		"artist": "Last Note.",
@@ -15232,7 +16494,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Gensoukei sekaishuufuku shoujo"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Get Back Up!",
 		"artist": "NMR runners",
@@ -15288,7 +16551,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "GIRIGILI門前雀羅",
 		"artist": "Cheki-ROWS",
@@ -15344,7 +16608,8 @@ var songs = [
 			}
 		},
 		"name_translation": "GIRIGILI Burning 24H!"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Go For The Top",
 		"artist": "U1 overground",
@@ -15379,7 +16644,7 @@ var songs = [
 		"bpm": "74-180",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.2",
 				"step": "622",
 				"shock": "0",
 				"freeze": "40"
@@ -15391,7 +16656,7 @@ var songs = [
 				"freeze": "16"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "493",
 				"shock": "0",
 				"freeze": "28"
@@ -15410,7 +16675,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Go↓Go↑Girls&Boys!",
 		"artist": "松下feat.Sota & wac",
@@ -15466,7 +16732,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "going up",
 		"artist": "colors",
@@ -15532,7 +16799,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "GOLD RUSH",
 		"artist": "DJ YOSHITAKA-G feat.Michael a la mode",
@@ -15588,7 +16856,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "GORGEOUS 2012",
 		"artist": "THE SURRENDERS",
@@ -15644,7 +16913,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Gotta Dance",
 		"artist": "NAOKI feat. Aleisha G",
@@ -15700,7 +16970,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "GRADIUSIC CYBER ～AMD G5 MIX～",
 		"artist": "BIG-O feat. TAKA",
@@ -15737,7 +17008,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "370",
 				"shock": "0",
 				"freeze": "0"
@@ -15756,7 +17027,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "GRADUATION ～それぞれの明日～",
 		"artist": "BeForU",
@@ -15812,7 +17084,8 @@ var songs = [
 			}
 		},
 		"name_translation": "GRADUATION"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Grip & Break down !!",
 		"artist": "SOUND HOLIC feat. Nana Takahashi",
@@ -15868,7 +17141,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Ha･lle･lu･jah",
 		"artist": "SOUND HOLIC feat. Nana Takahashi",
@@ -15924,7 +17198,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Habibe (Antuh muhleke)",
 		"artist": "Wendy Parr",
@@ -15961,7 +17236,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "389",
 				"shock": "0",
 				"freeze": "0"
@@ -15980,7 +17255,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "華爛漫 -Flowers-",
 		"artist": "ＴЁЯＲＡ",
@@ -16036,7 +17312,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Hana Ranman -Flowers-"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "はなまるぴっぴはよいこだけ",
 		"artist": "A応P",
@@ -16092,7 +17369,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Hanamaru pippi hayo iko dake"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HANDS UP IN THE AIR",
 		"artist": "U1",
@@ -16129,7 +17407,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "360",
 				"shock": "0",
 				"freeze": "2"
@@ -16148,7 +17426,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "Happy",
 		"artist": "Pharrell Williams",
 		"genre": "",
@@ -16203,7 +17482,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HAPPY☆ANGEL",
 		"artist": "jun with TAHIRIH",
@@ -16259,7 +17539,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "ハピ恋☆らぶりぃタイム!!",
 		"artist": "DJ TOTTO feat.anporin",
@@ -16315,7 +17596,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Happy koi lovely time!!"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HAPPY☆LUCKY☆YEAPPY",
 		"artist": "DJ ミラクル☆ストーン",
@@ -16346,13 +17628,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "376",
 				"shock": "0",
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.7",
 				"step": "526",
 				"shock": "0",
 				"freeze": "8"
@@ -16371,7 +17653,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "ハッピーシンセサイザ",
 		"artist": "EasyPop",
 		"genre": "",
@@ -16407,7 +17690,7 @@ var songs = [
 				"freeze": "6"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.05",
 				"step": "344",
 				"shock": "0",
 				"freeze": "4"
@@ -16426,7 +17709,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Happy Synthesizer"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Happy Wedding",
 		"artist": "ASKA",
@@ -16482,7 +17766,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Haunted Rhapsody",
 		"artist": "Architect ft. Jasmine Nii",
@@ -16519,7 +17804,7 @@ var songs = [
 				"freeze": "37"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "363",
 				"shock": "0",
 				"freeze": "16"
@@ -16538,7 +17823,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Healing Vision",
 		"artist": "DE-SIRE",
@@ -16594,7 +17880,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Healing Vision ～Angelic mix～",
 		"artist": "2MB",
@@ -16631,7 +17918,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "479",
 				"shock": "0",
 				"freeze": "0"
@@ -16650,7 +17937,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Healing Vision(X-Special)",
 		"artist": "DE-SIRE",
@@ -16670,7 +17958,7 @@ var songs = [
 		"bpm": "49-196",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "462",
 				"shock": "0",
 				"freeze": "40"
@@ -16681,7 +17969,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Healing-D-Vision",
 		"artist": "DE-STRAD",
@@ -16716,7 +18005,7 @@ var songs = [
 		"bpm": "180-360",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.1",
 				"step": "525",
 				"shock": "0",
 				"freeze": "2"
@@ -16728,7 +18017,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "421",
 				"shock": "0",
 				"freeze": "2"
@@ -16747,7 +18036,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HEART BEAT FORMULA",
 		"artist": "TAG",
@@ -16784,7 +18074,7 @@ var songs = [
 				"freeze": "23"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.60",
 				"step": "457",
 				"shock": "0",
 				"freeze": "10"
@@ -16803,7 +18093,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HEART BEAT FORMULA (Vinyl Mix)",
 		"artist": "TAG (Realtime Remix by U1)",
@@ -16840,7 +18131,7 @@ var songs = [
 				"freeze": "24"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "387",
 				"shock": "0",
 				"freeze": "8"
@@ -16859,7 +18150,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HEARTBREAK (Sound Selektaz remix)",
 		"artist": "NAOKI feat. Becca Hossany",
@@ -16915,7 +18207,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Heatstroke",
 		"artist": "TAG feat. Angie Lee",
@@ -16981,7 +18274,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Heaven is a '57 metallic gray ～gimmix～",
 		"artist": "Hiro feat. Sweet little 30's",
@@ -17037,7 +18331,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Help me, ERINNNNNN!!",
 		"artist": "ビートまりお（COOL&CREATE）",
@@ -17093,7 +18388,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "heron",
 		"artist": "S-C-U",
@@ -17128,7 +18424,7 @@ var songs = [
 		"bpm": "182",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "301",
 				"shock": "35",
 				"freeze": "49"
@@ -17159,7 +18455,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HIGHER",
 		"artist": "NM feat. SUNNY",
@@ -17215,7 +18512,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HIGHER(next morning mix)",
 		"artist": "NM feat. SUNNY",
@@ -17246,7 +18544,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "Hillbilly Shoes",
 		"artist": "Montgomery Gentry",
 		"genre": "",
@@ -17282,7 +18581,7 @@ var songs = [
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "376",
 				"shock": "0",
 				"freeze": "7"
@@ -17301,7 +18600,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ヒマワリ",
 		"artist": "RIYU from BeForU",
@@ -17357,7 +18657,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Himawari"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Holic",
 		"artist": "TaQ",
@@ -17413,7 +18714,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ホメ猫☆センセーション",
 		"artist": "P*Light feat. mow*2",
@@ -17450,7 +18752,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "536",
 				"shock": "0",
 				"freeze": "7"
@@ -17469,7 +18771,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Homeneko Sensation"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Hoping To Be Good",
 		"artist": "Bill Hamel & Derek James feat. James Rowand",
@@ -17525,7 +18828,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Horatio",
 		"artist": "OR-IF-IS",
@@ -17560,7 +18864,7 @@ var songs = [
 		"bpm": "165",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.7",
 				"step": "436",
 				"shock": "37",
 				"freeze": "49"
@@ -17572,7 +18876,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "503",
 				"shock": "0",
 				"freeze": "12"
@@ -17591,7 +18895,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "星屑のキロク",
 		"artist": "小野秀幸",
@@ -17647,7 +18952,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Hoshikuzu no kiroku"
-	}, {
+	},
+	{
 		"name": "放課後ストライド",
 		"artist": "Last Note.",
 		"genre": "",
@@ -17683,7 +18989,7 @@ var songs = [
 				"freeze": "19"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.5",
 				"step": "617",
 				"shock": "0",
 				"freeze": "9"
@@ -17702,7 +19008,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Houkago stride"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "お米の美味しい炊き方、そしてお米を食べることによるその効果。",
 		"artist": "大日本鉄倶楽部【あさき＆９６】",
@@ -17739,7 +19046,7 @@ var songs = [
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.3",
 				"step": "679",
 				"shock": "0",
 				"freeze": "6"
@@ -17757,8 +19064,9 @@ var songs = [
 				"freeze": "14"
 			}
 		},
-		"name_translation": "How to Cook Delicious Rice and the Effect of Eating Rice"
-	}, {
+		"name_translation": "How to Cook Delicious Rice and the Effect of Eating Rice (aka Okome no oishii takikata, soshite okome wo taberu koto ni yoru sono kouka.)"
+	},
+	{
 		"unlock": true,
 		"name": "HYENA",
 		"artist": "Hommarju",
@@ -17795,7 +19103,7 @@ var songs = [
 				"freeze": "22"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "482",
 				"shock": "0",
 				"freeze": "20"
@@ -17814,7 +19122,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HYPER EUROBEAT",
 		"artist": "NAOKI feat. DDR ALL STARS",
@@ -17870,7 +19179,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HYSTERIA",
 		"artist": "NAOKI 190",
@@ -17926,7 +19236,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "HYSTERIA 2001",
 		"artist": "NM",
@@ -17957,7 +19268,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "i feel ...",
 		"artist": "AKIRA YAMAOKA ",
@@ -18013,7 +19325,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "I Need You",
 		"artist": "Supa Fova feat. Jenny F.",
@@ -18069,7 +19382,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "I Want You To Know",
 		"artist": "Zedd feat. Selena Gomez",
 		"genre": "",
@@ -18124,7 +19438,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "I'm gonna get you!",
 		"artist": "Kelly Cosmo ",
@@ -18180,7 +19495,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "I'm so Happy",
 		"artist": "Ryu☆",
@@ -18215,7 +19531,7 @@ var songs = [
 		"bpm": "181",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.1",
 				"step": "535",
 				"shock": "0",
 				"freeze": "16"
@@ -18246,7 +19562,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "I/O",
 		"artist": "Ryu☆",
@@ -18302,7 +19619,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Idola",
 		"artist": "iconoclasm feat.GUMI",
@@ -18337,7 +19655,7 @@ var songs = [
 		"bpm": "201",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.8",
 				"step": "681",
 				"shock": "0",
 				"freeze": "55"
@@ -18349,7 +19667,7 @@ var songs = [
 				"freeze": "42"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.4",
 				"step": "653",
 				"shock": "0",
 				"freeze": "28"
@@ -18368,7 +19686,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "IF YOU WERE HERE (2010 X2-edit)",
 		"artist": "JENNIFER",
@@ -18434,7 +19753,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "IF YOU WERE HERE (L.E.D.-G STYLE REMIX)",
 		"artist": "JENNIFER",
@@ -18490,7 +19810,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "iFUTURELIST(DDR VERSION)",
 		"artist": "AKIRA YAMAOKA",
@@ -18525,7 +19846,7 @@ var songs = [
 		"bpm": "150",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "355",
 				"shock": "0",
 				"freeze": "6"
@@ -18556,7 +19877,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Illegal Function Call",
 		"artist": "U1-ASAMi",
@@ -18587,13 +19909,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.75",
 				"step": "477",
 				"shock": "0",
 				"freeze": "6"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.6",
 				"step": "699",
 				"shock": "0",
 				"freeze": "12"
@@ -18612,7 +19934,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "IMANOGUILTS",
 		"artist": "Mystic Moon",
@@ -18647,7 +19970,7 @@ var songs = [
 		"bpm": "184",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "606",
 				"shock": "0",
 				"freeze": "3"
@@ -18659,7 +19982,7 @@ var songs = [
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "570",
 				"shock": "0",
 				"freeze": "3"
@@ -18678,7 +20001,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "in love wit you",
 		"artist": "Kotaro feat. Aya",
@@ -18734,7 +20058,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "In The Air",
 		"artist": "Bill Hamel & James Rowand",
@@ -18790,7 +20115,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "In The Breeze",
 		"artist": "96 & Sota ft. Mayumi Morinaga",
@@ -18846,7 +20172,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "IN THE ZONE",
 		"artist": "U1 (NPD3 style) & KIDD KAZMEO",
@@ -18902,7 +20229,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "INNOCENCE OF SILENCE",
 		"artist": "nc ft NRG Factory",
@@ -18958,7 +20286,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "INSERTiON",
 		"artist": "NAOKI underground ",
@@ -18995,7 +20324,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.90",
 				"step": "374",
 				"shock": "0",
 				"freeze": "0"
@@ -19014,7 +20343,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "INSIDE YOUR HEART",
 		"artist": "AKIRA YAMAOKA",
@@ -19070,7 +20400,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Inspiration",
 		"artist": "DKC Crew",
@@ -19126,7 +20457,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "INTO YOUR HEART (Ruffage remix)",
 		"artist": "NAOKI feat.YASMINE",
@@ -19182,7 +20514,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "色は匂へど散りぬるを",
 		"artist": "幽閉サテライト feat. senya",
 		"genre": "",
@@ -19237,7 +20570,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Iro wa nioi e do chirinuruwo"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "IX",
 		"artist": "dj TAKA VS DJ TOTTO feat.藍",
@@ -19272,19 +20606,19 @@ var songs = [
 		"bpm": "99-396",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.8",
 				"step": "753",
 				"shock": "0",
 				"freeze": "49"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "521",
 				"shock": "0",
 				"freeze": "33"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.8",
 				"step": "753",
 				"shock": "0",
 				"freeze": "25"
@@ -19303,7 +20637,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Jam & Marmalade",
 		"artist": "FinalOffset",
@@ -19359,7 +20694,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "jane jana",
 		"artist": "T.E.M.P.O. feat.Mohammed & Emi",
@@ -19415,7 +20751,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "JET WORLD",
 		"artist": "Mutsuhiko Izumi ",
@@ -19471,7 +20808,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "ジョジョ〜その血の運命〜",
 		"artist": "♪♪♪♪♪",
@@ -19527,7 +20865,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Jojo ~Sono chi no unmei~"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "JOKER",
 		"artist": "Royz",
@@ -19562,7 +20901,7 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.5",
 				"step": "431",
 				"shock": "0",
 				"freeze": "22"
@@ -19593,7 +20932,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "JOMANDA",
 		"artist": "DJ YOSHITAKA",
@@ -19628,7 +20968,7 @@ var songs = [
 		"bpm": "90-600",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.6",
 				"step": "644",
 				"shock": "0",
 				"freeze": "24"
@@ -19640,7 +20980,7 @@ var songs = [
 				"freeze": "27"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "501",
 				"shock": "0",
 				"freeze": "22"
@@ -19659,7 +20999,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "十二星座の聖域",
 		"artist": "Zodiac Fall",
@@ -19696,7 +21037,7 @@ var songs = [
 				"freeze": "19"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "448",
 				"shock": "0",
 				"freeze": "21"
@@ -19715,7 +21056,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Juniseiza no seiiki"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "カゲロウ",
 		"artist": "Des-ROW・組スペシアルr",
@@ -19771,7 +21113,8 @@ var songs = [
 			}
 		},
 		"name_translation": "KAGEROW (Dragonfly)"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "革命",
 		"artist": "dj TAKA with NAOKI",
@@ -19837,7 +21180,8 @@ var songs = [
 			}
 		},
 		"name_translation": "KAKUMEI"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "革命(X-Special)",
 		"artist": "dj TAKA with NAOKI",
@@ -19857,7 +21201,7 @@ var songs = [
 		"bpm": "83-148",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "378",
 				"shock": "0",
 				"freeze": "21"
@@ -19868,7 +21212,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": "KAKUMEI (X-Special)"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "KEEP ON MOVIN'",
 		"artist": "N.M.R",
@@ -19924,7 +21269,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "KEEP ON MOVIN' (Y&Co. DJ BOSS remix)",
 		"artist": "N.M.R",
@@ -19961,7 +21307,7 @@ var songs = [
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.1",
 				"step": "443",
 				"shock": "0",
 				"freeze": "9"
@@ -19980,7 +21326,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "KEEP ON MOVIN' ～DMX MIX～",
 		"artist": "N.M.R-typeG",
@@ -20036,7 +21383,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "KHAMEN BREAK",
 		"artist": "くふおー",
@@ -20073,7 +21421,7 @@ var songs = [
 				"freeze": "17"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.1",
 				"step": "638",
 				"shock": "0",
 				"freeze": "15"
@@ -20092,7 +21440,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "キケンな果実",
 		"artist": "達見 恵 featured by 佐野宏晃",
@@ -20129,7 +21478,7 @@ var songs = [
 				"freeze": "25"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "424",
 				"shock": "0",
 				"freeze": "13"
@@ -20148,7 +21497,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Kiken na kajitsu"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "KIMONO♥PRINCESS",
 		"artist": "jun",
@@ -20185,7 +21535,7 @@ var songs = [
 				"freeze": "28"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "510",
 				"shock": "0",
 				"freeze": "35"
@@ -20204,7 +21554,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "KISS KISS KISS",
 		"artist": "NAOKI feat. SHANTI",
@@ -20260,7 +21611,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "KISS KISS KISS 秋葉工房 MIX",
 		"artist": "Remixed by DJ Command",
@@ -20316,7 +21668,8 @@ var songs = [
 			}
 		},
 		"name_translation": "KISS KISS KISS AKBK MIX"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Kiss me all night long",
 		"artist": "NAOKI J-STYLE feat.MIU",
@@ -20372,7 +21725,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "恋はどう？モロ◎波動OK☆方程式！！",
 		"artist": "あべにゅうぷろじぇくと feat.佐倉紗織 produced by ave;new",
@@ -20428,7 +21782,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Koihadou? Moro@Hadou OK☆Theory!!"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "この青空の下で",
 		"artist": "TAG meets “eimy”",
@@ -20484,7 +21839,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Kono aozora no shita de"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "この子の七つのお祝いに",
 		"artist": "あさき",
@@ -20521,7 +21877,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "458",
 				"shock": "0",
 				"freeze": "4"
@@ -20540,7 +21896,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Konoko no nanatsu no oiwaini"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "紅焔",
 		"artist": "PON",
@@ -20575,7 +21932,7 @@ var songs = [
 		"bpm": "175",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "604",
 				"shock": "0",
 				"freeze": "31"
@@ -20606,7 +21963,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Kouen"
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "KUNG FU FIGHTING",
 		"artist": "BUS STOP",
@@ -20672,7 +22030,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "倉野川音頭",
 		"artist": "日向美ビタースイーツ♪＆ひなちくん",
 		"genre": "",
@@ -20727,7 +22086,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Kuranogawa ondo"
-	}, {
+	},
+	{
 		"name": "黒髪乱れし修羅となりて～凛 edition～",
 		"artist": "日向美ビタースイーツ♪",
 		"genre": "",
@@ -20763,7 +22123,7 @@ var songs = [
 				"freeze": "13"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.1",
 				"step": "566",
 				"shock": "0",
 				"freeze": "5"
@@ -20782,7 +22142,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Kurokami midareshi shura to narite -Rin edition-"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "きゅん×きゅんばっきゅん☆LOVE",
 		"artist": "松下feat.Sota & wac",
@@ -20838,7 +22199,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Kyun x kyun bakkyun LOVE"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "L'amour et la liberté(Darwin & DJ Silver remix)",
 		"artist": "NAOKI in the MERCURE",
@@ -20894,7 +22256,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "L'amour et la liberté(DDR Ver.)",
 		"artist": "NAOKI underground",
@@ -20950,7 +22313,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "La Bamba",
 		"artist": "LH MUSIC CREATION",
@@ -21006,7 +22370,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LA BAMBA",
 		"artist": "メキシコ民謡",
@@ -21062,7 +22427,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "La libertad",
 		"artist": "Cheryl Horrocks",
@@ -21097,7 +22463,7 @@ var songs = [
 		"bpm": "170",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.3",
 				"step": "442",
 				"shock": "0",
 				"freeze": "1"
@@ -21128,7 +22494,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "La receta",
 		"artist": "Carlos Coco Garcia",
@@ -21163,7 +22530,7 @@ var songs = [
 		"bpm": "130",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "361",
 				"shock": "0",
 				"freeze": "19"
@@ -21194,7 +22561,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "La Señorita",
 		"artist": "CAPTAIN.T",
@@ -21250,7 +22618,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "La Señorita Virtual",
 		"artist": "2MB",
@@ -21306,7 +22675,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LEADING CYBER",
 		"artist": "dj TAKA",
@@ -21343,7 +22713,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "359",
 				"shock": "0",
 				"freeze": "0"
@@ -21362,7 +22732,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Leaving…",
 		"artist": "seiya-murai meets “eimy”",
@@ -21397,7 +22768,7 @@ var songs = [
 		"bpm": "145",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.05",
 				"step": "384",
 				"shock": "0",
 				"freeze": "16"
@@ -21428,7 +22799,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "Lesson by DJ",
 		"artist": "U.T.D. & Friends",
 		"genre": "",
@@ -21453,7 +22825,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Let the beat hit em!(CLASSIC R&B STYLE)",
 		"artist": "Stone Bros.",
@@ -21509,7 +22882,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Let's Get Away",
 		"artist": "NAOKI feat. Brenda Burch",
@@ -21565,7 +22939,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Lift You Up",
 		"artist": "wolli",
@@ -21621,7 +22996,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LOGICAL DASH",
 		"artist": "DJ TAKA",
@@ -21677,7 +23053,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "London EVOLVED ver.A",
 		"artist": "TAG underground",
@@ -21712,7 +23089,7 @@ var songs = [
 		"bpm": "170-340",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.6",
 				"step": "599",
 				"shock": "0",
 				"freeze": "2"
@@ -21724,7 +23101,7 @@ var songs = [
 				"freeze": "1"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "433",
 				"shock": "0",
 				"freeze": "4"
@@ -21743,7 +23120,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "London EVOLVED ver.B",
 		"artist": "TAG underground",
@@ -21778,7 +23156,7 @@ var songs = [
 		"bpm": "170-340",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.5",
 				"step": "652",
 				"shock": "0",
 				"freeze": "53"
@@ -21790,7 +23168,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.5",
 				"step": "479",
 				"shock": "0",
 				"freeze": "35"
@@ -21809,7 +23187,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "London EVOLVED ver.C",
 		"artist": "TAG underground",
@@ -21844,7 +23223,7 @@ var songs = [
 		"bpm": "170-340",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.6",
 				"step": "703",
 				"shock": "0",
 				"freeze": "2"
@@ -21856,7 +23235,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.3",
 				"step": "490",
 				"shock": "0",
 				"freeze": "3"
@@ -21875,7 +23254,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "ロストワンの号哭",
 		"artist": "Neru",
@@ -21931,7 +23311,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Lost one no goukoku"
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "LOVE & JOY",
 		"artist": "木村由姫",
@@ -21987,7 +23368,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "LOVE & JOY -Risk Junk MIX-",
 		"artist": "Risk Junk",
@@ -22043,7 +23425,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Love Again",
 		"artist": "NM feat. Mr. E.",
@@ -22099,7 +23482,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LOVE AGAIN TONIGHT～For Melissa MIX～",
 		"artist": "NAOKI feat. PAULA TERRY",
@@ -22155,7 +23539,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LOVE IS ORANGE",
 		"artist": "Orange Lounge",
@@ -22221,7 +23606,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LOVE IS THE POWER -Re:born-",
 		"artist": "NM",
@@ -22277,7 +23663,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LOVE♥SHINE",
 		"artist": "小坂りゆ",
@@ -22333,7 +23720,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "♥Love²シュガ→♥",
 		"artist": "dj TAKA feat.のりあ",
@@ -22389,7 +23777,8 @@ var songs = [
 			}
 		},
 		"name_translation": "LOVE LOVE SUGAR"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LOVE THIS FEELIN'",
 		"artist": "Chang ma",
@@ -22445,7 +23834,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LoveLove DokiDoki",
 		"artist": "水戸ご当地アイドル(仮)",
@@ -22501,7 +23891,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "LOVING YOU (Epidemik remix)",
 		"artist": "TONI LEO",
@@ -22557,7 +23948,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ラクガキスト",
 		"artist": "cosMo＠暴走P feat.GUMI",
@@ -22592,7 +23984,7 @@ var songs = [
 		"bpm": "199",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.3",
 				"step": "710",
 				"shock": "0",
 				"freeze": "2"
@@ -22604,7 +23996,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "562",
 				"shock": "0",
 				"freeze": "2"
@@ -22623,7 +24015,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Luckgakist"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "M.A.Y.U.",
 		"artist": "Ryu☆ feat.MAYU",
@@ -22660,7 +24053,7 @@ var songs = [
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.60",
 				"step": "420",
 				"shock": "0",
 				"freeze": "8"
@@ -22679,7 +24072,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAGIC PARADE",
 		"artist": "Lea Drop feat. Katie Dellenbach",
@@ -22735,7 +24129,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Magnetic",
 		"artist": "Sota Fujimori",
@@ -22770,7 +24165,7 @@ var songs = [
 		"bpm": "40-160",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.4",
 				"step": "645",
 				"shock": "0",
 				"freeze": "85"
@@ -22782,7 +24177,7 @@ var songs = [
 				"freeze": "49"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "563",
 				"shock": "0",
 				"freeze": "55"
@@ -22801,7 +24196,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "魔法のたまご ～心菜 ELECTRO POP edition～",
 		"artist": "東雲心菜(from ここなつ)",
@@ -22857,7 +24253,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Mahou no tamago ~Cocona ELECTRO POP edition~"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Make A Difference",
 		"artist": "Lala Moore with CoCoRo*Co",
@@ -22913,7 +24310,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "MAKE A JAM!",
 		"artist": "U1",
@@ -22969,7 +24367,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAKE IT BETTER",
 		"artist": "mitsu-O!",
@@ -23025,7 +24424,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAKE IT BETTER (So-REAL Mix)",
 		"artist": "mitsu-O!SUMMER",
@@ -23091,7 +24491,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Malacca",
 		"artist": "nc ft NRG factory",
@@ -23126,7 +24527,7 @@ var songs = [
 		"bpm": "140",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "385",
 				"shock": "0",
 				"freeze": "18"
@@ -23157,7 +24558,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MARIA(I believe...)",
 		"artist": "NAOKI feat. PAULA TERRY",
@@ -23213,7 +24615,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "魔理沙は大変なものを盗んでいきました",
 		"artist": "ARM(IOSYS)",
@@ -23269,7 +24672,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Marisa wa taihen na mono wo nusunde ikimashita"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MARS WAR 3",
 		"artist": "JET GIRL SPIN",
@@ -23325,7 +24729,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "回レ！雪月花",
 		"artist": "歌組雪月花",
@@ -23360,7 +24765,7 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "351",
 				"shock": "0",
 				"freeze": "20"
@@ -23391,7 +24796,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Maware! Setsugetsuka"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAX 300",
 		"artist": "Ω",
@@ -23428,7 +24834,7 @@ var songs = [
 				"freeze": "35"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "555",
 				"shock": "0",
 				"freeze": "2"
@@ -23447,7 +24853,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAX 300(X-Special)",
 		"artist": "Ω",
@@ -23467,7 +24874,7 @@ var songs = [
 		"bpm": "300",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.4",
 				"step": "523",
 				"shock": "0",
 				"freeze": "30"
@@ -23478,7 +24885,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAX 300 (Super-Max-Me Mix)",
 		"artist": "Jondi & Spesh",
@@ -23513,19 +24921,19 @@ var songs = [
 		"bpm": "140-320",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.3",
 				"step": "610",
 				"shock": "0",
 				"freeze": "62"
 			},
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "409",
 				"shock": "0",
 				"freeze": "34"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "586",
 				"shock": "0",
 				"freeze": "60"
@@ -23544,7 +24952,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAX LOVE",
 		"artist": "DJ YOSHITAKA feat. 星野奏子",
@@ -23579,7 +24988,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.00",
 				"step": "547",
 				"shock": "0",
 				"freeze": "3"
@@ -23610,7 +25019,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAX.(period)",
 		"artist": "2MB",
@@ -23645,19 +25055,19 @@ var songs = [
 		"bpm": "150-600",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.6",
 				"step": "601",
 				"shock": "0",
 				"freeze": "15"
 			},
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.85",
 				"step": "394",
 				"shock": "0",
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.8",
 				"step": "573",
 				"shock": "0",
 				"freeze": "3"
@@ -23676,7 +25086,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAXIMIZER",
 		"artist": "CLI-MAX S.",
@@ -23732,7 +25143,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAXX UNLIMITED",
 		"artist": "Z",
@@ -23763,13 +25175,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.85",
 				"step": "333",
 				"shock": "0",
 				"freeze": "62"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.5",
 				"step": "555",
 				"shock": "0",
 				"freeze": "56"
@@ -23788,7 +25200,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MAXX UNLIMITED(X-Special)",
 		"artist": "Z",
@@ -23808,7 +25221,7 @@ var songs = [
 		"bpm": "140-320",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.2",
 				"step": "640",
 				"shock": "0",
 				"freeze": "104"
@@ -23819,7 +25232,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "冥",
 		"artist": "Amuro vs Killer",
@@ -23854,7 +25268,7 @@ var songs = [
 		"bpm": "66-200",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.3",
 				"step": "730",
 				"shock": "0",
 				"freeze": "10"
@@ -23866,7 +25280,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.5",
 				"step": "616",
 				"shock": "0",
 				"freeze": "12"
@@ -23885,7 +25299,8 @@ var songs = [
 			}
 		},
 		"name_translation": "MEI"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Melody Life",
 		"artist": "Noria",
@@ -23951,7 +25366,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "女々しくて",
 		"artist": "ゴールデンボンバー",
@@ -24017,7 +25433,8 @@ var songs = [
 			}
 		},
 		"name_translation": "MEMESHIKUTE"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Mermaid girl",
 		"artist": "Cream puff",
@@ -24083,7 +25500,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "message",
 		"artist": "dj TAKA feat.flare",
@@ -24139,7 +25557,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "滅亡天使 † にこきゅっぴん",
 		"artist": "日向美ビタースイーツ♪",
@@ -24195,7 +25614,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Metsubou tenshi nikokyuppin"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "めうめうぺったんたん！！",
 		"artist": "日向美ビタースイーツ♪",
@@ -24230,7 +25650,7 @@ var songs = [
 		"bpm": "185",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.2",
 				"step": "676",
 				"shock": "0",
 				"freeze": "29"
@@ -24261,7 +25681,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Meu Meu Petantan!!"
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "Mickey Mouse March (Eurobeat Version)",
 		"artist": "Domino",
@@ -24317,7 +25738,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MIDNIGHT SPECIAL",
 		"artist": "Love machineguns",
@@ -24373,7 +25795,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "マインド・ゲーム",
 		"artist": "96 with メカショッチョー",
@@ -24410,7 +25833,7 @@ var songs = [
 				"freeze": "22"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.3",
 				"step": "509",
 				"shock": "0",
 				"freeze": "28"
@@ -24429,7 +25852,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Mind Game"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Mind Parasite",
 		"artist": "TOMOSUKE",
@@ -24466,7 +25890,7 @@ var songs = [
 				"freeze": "21"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "330",
 				"shock": "0",
 				"freeze": "26"
@@ -24485,7 +25909,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Miracle Moon ～L.E.D.LIGHT STYLE MIX～",
 		"artist": "Togo Project feat. Sana",
@@ -24541,7 +25966,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "ミライプリズム",
 		"artist": "ここなつ",
@@ -24597,7 +26023,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Mirai Prism"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MITOれて！いばらきっしゅだ～りん",
 		"artist": "水戸ご当地アイドル(仮)",
@@ -24634,7 +26061,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.00",
 				"step": "423",
 				"shock": "0",
 				"freeze": "13"
@@ -24653,7 +26080,8 @@ var songs = [
 			}
 		},
 		"name_translation": "MITO rete! Ibarakisshudarin"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Monkey Business",
 		"artist": "kors k",
@@ -24688,7 +26116,7 @@ var songs = [
 		"bpm": "80-160",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.3",
 				"step": "651",
 				"shock": "0",
 				"freeze": "52"
@@ -24700,7 +26128,7 @@ var songs = [
 				"freeze": "49"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "445",
 				"shock": "0",
 				"freeze": "17"
@@ -24719,7 +26147,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Monkey Punk",
 		"artist": "Big Idea",
@@ -24775,7 +26204,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MOON",
 		"artist": "dj TAKA feat.Erika",
@@ -24831,7 +26261,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MOONSTER",
 		"artist": "kobo uniting Marsha & D.",
@@ -24887,7 +26318,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "夢幻ノ光",
 		"artist": "ＴЁЯＲＡ",
@@ -24943,7 +26375,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Mugen"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "murmur twins",
 		"artist": "yu_tokiwa.djw",
@@ -24999,7 +26432,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Music In The Rhythm",
 		"artist": "nc ft. 触電",
@@ -25055,7 +26489,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "My Only Shining Star",
 		"artist": "NAOKI feat. Becky Lucinda",
@@ -25111,7 +26546,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MY SUMMER LOVE",
 		"artist": "MITSU-O! with GEILA",
@@ -25167,7 +26603,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "MY SUMMER LOVE(TOMMY'S SMILE MIX)",
 		"artist": "MITSU-O! with GEILA",
@@ -25198,7 +26635,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "嘆きの樹",
 		"artist": "金獅子",
@@ -25233,7 +26671,7 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.2",
 				"step": "763",
 				"shock": "0",
 				"freeze": "27"
@@ -25245,7 +26683,7 @@ var songs = [
 				"freeze": "24"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.1",
 				"step": "666",
 				"shock": "0",
 				"freeze": "16"
@@ -25264,7 +26702,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Nageki no Ki"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "†渚の小悪魔ラヴリィ～レイディオ†",
 		"artist": "夏色ビキニのPrim",
@@ -25311,7 +26750,7 @@ var songs = [
 				"freeze": "36"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.7",
 				"step": "573",
 				"shock": "0",
 				"freeze": "24"
@@ -25330,7 +26769,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Nagisa no koakuma Lovely Radio"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "夏色DIARY -DDR mix-",
 		"artist": "猫叉王子 feat. TAG",
@@ -25367,7 +26807,7 @@ var songs = [
 				"freeze": "9"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "563",
 				"shock": "0",
 				"freeze": "7"
@@ -25386,7 +26826,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Natsuiro DIARY -DDR mix-"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "neko＊neko",
 		"artist": "日向美ビタースイーツ♪",
@@ -25421,7 +26862,7 @@ var songs = [
 		"bpm": "123",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "450",
 				"shock": "0",
 				"freeze": "1"
@@ -25452,7 +26893,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "NEPHILIM DELTA",
 		"artist": "L.E.D.-G",
@@ -25489,7 +26931,7 @@ var songs = [
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "583",
 				"shock": "0",
 				"freeze": "3"
@@ -25508,7 +26950,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "New Beginning",
 		"artist": "Sota Fujimori",
@@ -25574,7 +27017,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "New Century",
 		"artist": "Sota F.",
@@ -25604,24 +27048,24 @@ var songs = [
 				"shock": "0",
 				"freeze": "27"
 			}
-		},
+                },
 		"artist_translation": "",
 		"bpm": "98-195",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.4",
 				"step": "669",
 				"shock": "19",
 				"freeze": "80"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.0",
 				"step": "442",
 				"shock": "0",
 				"freeze": "43"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.1",
 				"step": "626",
 				"shock": "0",
 				"freeze": "31"
@@ -25640,7 +27084,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "New Decade",
 		"artist": "Sota F.",
@@ -25675,19 +27120,19 @@ var songs = [
 		"bpm": "100-400",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.5",
 				"step": "543",
 				"shock": "0",
 				"freeze": "49"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "394",
 				"shock": "0",
 				"freeze": "45"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.5",
 				"step": "508",
 				"shock": "0",
 				"freeze": "40"
@@ -25706,7 +27151,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "New Generation",
 		"artist": "鍋嶋圭一",
@@ -25741,7 +27187,7 @@ var songs = [
 		"bpm": "190",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.0",
 				"step": "575",
 				"shock": "0",
 				"freeze": "11"
@@ -25753,7 +27199,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "453",
 				"shock": "0",
 				"freeze": "48"
@@ -25772,7 +27218,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "New Gravity",
 		"artist": "Starving Trancer",
@@ -25807,7 +27254,7 @@ var songs = [
 		"bpm": "154",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "471",
 				"shock": "0",
 				"freeze": "1"
@@ -25838,7 +27285,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "New York EVOLVED (Type A)",
 		"artist": "NC underground",
@@ -25869,13 +27317,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.75",
 				"step": "437",
 				"shock": "0",
 				"freeze": "44"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.7",
 				"step": "573",
 				"shock": "0",
 				"freeze": "85"
@@ -25894,7 +27342,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "New York EVOLVED (Type B)",
 		"artist": "NC underground",
@@ -25925,13 +27374,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.55",
 				"step": "430",
 				"shock": "0",
 				"freeze": "18"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.6",
 				"step": "561",
 				"shock": "0",
 				"freeze": "23"
@@ -25950,7 +27399,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "New York EVOLVED (Type C)",
 		"artist": "NC underground",
@@ -25981,13 +27431,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.55",
 				"step": "402",
 				"shock": "0",
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.6",
 				"step": "523",
 				"shock": "0",
 				"freeze": "16"
@@ -26006,7 +27456,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "NGO",
 		"artist": "鍋嶋圭一",
@@ -26041,7 +27492,7 @@ var songs = [
 		"bpm": "68-274",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.4",
 				"step": "418",
 				"shock": "0",
 				"freeze": "10"
@@ -26053,7 +27504,7 @@ var songs = [
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.8",
 				"step": "371",
 				"shock": "0",
 				"freeze": "10"
@@ -26072,7 +27523,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ナイト・オブ・ナイツ",
 		"artist": "ビートまりお（COOL&CREATE）",
@@ -26109,7 +27561,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.1",
 				"step": "603",
 				"shock": "0",
 				"freeze": "10"
@@ -26128,7 +27580,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Night of Knights"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "nightbird lost wing",
 		"artist": "猫叉Master+",
@@ -26165,7 +27618,7 @@ var songs = [
 				"freeze": "24"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "496",
 				"shock": "0",
 				"freeze": "17"
@@ -26184,7 +27637,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "虹色",
 		"artist": "DJ YOSHITAKA feat G.S.C license",
@@ -26219,7 +27673,7 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "427",
 				"shock": "0",
 				"freeze": "6"
@@ -26250,7 +27704,8 @@ var songs = [
 			}
 		},
 		"name_translation": "NIJIIRO"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "虹色の花",
 		"artist": "Akhuta y OJ",
@@ -26306,7 +27761,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Nijiiro no Hana"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "No.13",
 		"artist": "TAKA respect for J.S.B.",
@@ -26343,7 +27799,7 @@ var songs = [
 				"freeze": "6"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.30",
 				"step": "420",
 				"shock": "0",
 				"freeze": "9"
@@ -26362,7 +27818,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Nostalgia Is Lost",
 		"artist": "U1 overground",
@@ -26399,7 +27856,7 @@ var songs = [
 				"freeze": "20"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "599",
 				"shock": "0",
 				"freeze": "31"
@@ -26418,7 +27875,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "oarfish",
 		"artist": "kors k",
@@ -26474,7 +27932,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "朧",
 		"artist": "HHH×MM×ST",
@@ -26509,7 +27968,7 @@ var songs = [
 		"bpm": "149",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "450",
 				"shock": "0",
 				"freeze": "12"
@@ -26540,7 +27999,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Oboro"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "on the bounce",
 		"artist": "neuras",
@@ -26575,7 +28035,7 @@ var songs = [
 		"bpm": "150",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.0",
 				"step": "482",
 				"shock": "0",
 				"freeze": "20"
@@ -26587,7 +28047,7 @@ var songs = [
 				"freeze": "16"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.0",
 				"step": "423",
 				"shock": "0",
 				"freeze": "13"
@@ -26606,7 +28066,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "On The Break",
 		"artist": "Darwin",
@@ -26643,7 +28104,7 @@ var songs = [
 				"freeze": "29"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.30",
 				"step": "370",
 				"shock": "0",
 				"freeze": "18"
@@ -26662,7 +28123,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "One Sided Love",
 		"artist": "D-crew with Melissa Petty",
@@ -26728,7 +28190,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "only my railgun",
 		"artist": "fripSide",
@@ -26794,7 +28257,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "女言葉の消失",
 		"artist": "Sota Fujimori",
@@ -26831,7 +28295,7 @@ var songs = [
 				"freeze": "35"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.05",
 				"step": "418",
 				"shock": "0",
 				"freeze": "14"
@@ -26850,7 +28314,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Onnakotoba no shoushitsu"
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "折れないハート",
 		"artist": "高取ヒデアキ",
@@ -26906,7 +28371,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Orenai Heart"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ORION.78(AMeuro-MIX)",
 		"artist": "RE-VENGE",
@@ -26962,7 +28428,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ORION.78～civilization mix～",
 		"artist": "2MB",
@@ -26999,7 +28466,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.55",
 				"step": "398",
 				"shock": "0",
 				"freeze": "0"
@@ -27018,7 +28485,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "osaka EVOLVED -毎度、おおきに！- (TYPE1)",
 		"artist": "NAOKI underground",
@@ -27049,13 +28517,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.90",
 				"step": "359",
 				"shock": "0",
 				"freeze": "21"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.8",
 				"step": "446",
 				"shock": "0",
 				"freeze": "29"
@@ -27074,7 +28542,8 @@ var songs = [
 			}
 		},
 		"name_translation": "osaka EVOLVED -MAIDO,OHKINI- (TYPE1)"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "osaka EVOLVED -毎度、おおきに！- (TYPE2)",
 		"artist": "NAOKI underground",
@@ -27105,13 +28574,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.90",
 				"step": "359",
 				"shock": "0",
 				"freeze": "21"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.8",
 				"step": "420",
 				"shock": "0",
 				"freeze": "12"
@@ -27130,7 +28599,8 @@ var songs = [
 			}
 		},
 		"name_translation": "osaka EVOLVED -MAIDO,OHKINI- (TYPE2)"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "osaka EVOLVED -毎度、おおきに！- (TYPE3)",
 		"artist": "NAOKI underground",
@@ -27161,13 +28631,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.90",
 				"step": "375",
 				"shock": "0",
 				"freeze": "24"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.8",
 				"step": "460",
 				"shock": "0",
 				"freeze": "79"
@@ -27186,7 +28656,8 @@ var songs = [
 			}
 		},
 		"name_translation": "osaka EVOLVED -MAIDO,OHKINI- (TYPE3)"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "御千手メディテーション",
 		"artist": "昇天家族",
@@ -27223,7 +28694,7 @@ var songs = [
 				"freeze": "21"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "560",
 				"shock": "0",
 				"freeze": "20"
@@ -27242,7 +28713,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Osenju Meditation"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "乙女繚乱 舞い咲き誇れ",
 		"artist": "日向美ビタースイーツ♪",
@@ -27279,7 +28751,7 @@ var songs = [
 				"freeze": "21"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.55",
 				"step": "468",
 				"shock": "0",
 				"freeze": "25"
@@ -27298,7 +28770,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Otome ryouran mai sakihokore"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Over The “Period”",
 		"artist": "TAG underground overlay",
@@ -27339,13 +28812,13 @@ var songs = [
 				"freeze": "28"
 			},
 			"difficult": {
-				"difficulty": "15",
+				"difficulty": "15.9",
 				"step": "561",
 				"shock": "0",
 				"freeze": "45"
 			},
 			"expert": {
-				"difficulty": "18",
+				"difficulty": "18.6",
 				"step": "718",
 				"shock": "0",
 				"freeze": "41"
@@ -27364,7 +28837,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "パ→ピ→プ→Yeah!",
 		"artist": "ヒゲドライバー join. shully & Nimo",
@@ -27401,7 +28875,7 @@ var songs = [
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "358",
 				"shock": "0",
 				"freeze": "11"
@@ -27420,7 +28894,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Pa Pi Pu Yeah!"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA",
 		"artist": "180",
@@ -27476,7 +28951,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA ～HADES～",
 		"artist": "αTYPE-300",
@@ -27511,19 +28987,19 @@ var songs = [
 		"bpm": "75-300",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.6",
 				"step": "662",
 				"shock": "0",
 				"freeze": "1"
 			},
 			"difficult": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "457",
 				"shock": "0",
 				"freeze": "1"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.6",
 				"step": "522",
 				"shock": "0",
 				"freeze": "1"
@@ -27542,7 +29018,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "PARANOiA (kskst mix)",
 		"artist": "180",
@@ -27573,13 +29050,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "493",
 				"shock": "0",
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.0",
 				"step": "671",
 				"shock": "0",
 				"freeze": "57"
@@ -27598,7 +29075,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA-Respect-",
 		"artist": ".3k",
@@ -27635,7 +29113,7 @@ var songs = [
 				"freeze": "26"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.5",
 				"step": "555",
 				"shock": "0",
 				"freeze": "18"
@@ -27654,7 +29132,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA ETERNAL",
 		"artist": "STM 200",
@@ -27691,7 +29170,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.50",
 				"step": "381",
 				"shock": "0",
 				"freeze": "5"
@@ -27710,7 +29189,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA ETERNAL(X-Special)",
 		"artist": "STM 200",
@@ -27730,7 +29210,7 @@ var songs = [
 		"bpm": "200",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.50",
 				"step": "452",
 				"shock": "0",
 				"freeze": "30"
@@ -27741,7 +29221,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOIA EVOLUTION",
 		"artist": "200",
@@ -27797,7 +29278,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOIA EVOLUTION(X-Special)",
 		"artist": "200",
@@ -27828,7 +29310,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA KCET ～clean mix～",
 		"artist": "2MB",
@@ -27863,7 +29346,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.0",
 				"step": "499",
 				"shock": "0",
 				"freeze": "12"
@@ -27894,7 +29377,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA MAX～DIRTY MIX～",
 		"artist": "190",
@@ -27950,7 +29434,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA MAX～DIRTY MIX～(X-Special)",
 		"artist": "190",
@@ -27970,7 +29455,7 @@ var songs = [
 		"bpm": "190",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "420",
 				"shock": "0",
 				"freeze": "4"
@@ -27981,7 +29466,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA Rebirth",
 		"artist": "190'",
@@ -28018,7 +29504,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "433",
 				"shock": "0",
 				"freeze": "0"
@@ -28037,7 +29523,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA Rebirth(X-Special)",
 		"artist": "190'",
@@ -28057,7 +29544,7 @@ var songs = [
 		"bpm": "190",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.5",
 				"step": "463",
 				"shock": "0",
 				"freeze": "22"
@@ -28068,7 +29555,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA Revolution",
 		"artist": "CLIMAX of MAXX 360",
@@ -28109,13 +29597,13 @@ var songs = [
 				"freeze": "18"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "510",
 				"shock": "0",
 				"freeze": "11"
 			},
 			"expert": {
-				"difficulty": "18",
+				"difficulty": "18.1",
 				"step": "679",
 				"shock": "0",
 				"freeze": "20"
@@ -28134,7 +29622,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOIA survivor",
 		"artist": "270",
@@ -28171,7 +29660,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "509",
 				"shock": "0",
 				"freeze": "4"
@@ -28190,7 +29679,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOIA survivor MAX",
 		"artist": "290",
@@ -28225,7 +29715,7 @@ var songs = [
 		"bpm": "145-290",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.5",
 				"step": "613",
 				"shock": "0",
 				"freeze": "4"
@@ -28237,7 +29727,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "567",
 				"shock": "0",
 				"freeze": "5"
@@ -28256,7 +29746,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PARANOiA(X-Special)",
 		"artist": "180",
@@ -28276,7 +29767,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "371",
 				"shock": "0",
 				"freeze": "12"
@@ -28287,7 +29778,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Party Lights",
 		"artist": "Tommie Sunshine",
@@ -28343,7 +29835,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Party Lights (Tommie Sunshine's Brooklyn Fire Remix)",
 		"artist": "Tommie Sunshine",
@@ -28399,7 +29892,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PASSION OF LOVE",
 		"artist": "NAOKI feat. PAULA TERRY",
@@ -28455,7 +29949,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Pierce The Sky",
 		"artist": "JAKAZiD feat. K.N.",
@@ -28492,7 +29987,7 @@ var songs = [
 				"freeze": "35"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "476",
 				"shock": "0",
 				"freeze": "24"
@@ -28511,7 +30006,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Pink Rose",
 		"artist": "Kiyommy+Seiya",
@@ -28567,7 +30063,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Plan 8",
 		"artist": "Ryu☆",
@@ -28604,7 +30101,7 @@ var songs = [
 				"freeze": "23"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.5",
 				"step": "533",
 				"shock": "0",
 				"freeze": "23"
@@ -28623,7 +30120,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Playa (Original Mix)",
 		"artist": "Hamel and St. Croix feat. Jules Mari",
@@ -28679,7 +30177,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Pluto",
 		"artist": "Black∞Hole",
@@ -28714,7 +30213,7 @@ var songs = [
 		"bpm": "50-220",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.9",
 				"step": "516",
 				"shock": "0",
 				"freeze": "10"
@@ -28726,7 +30225,7 @@ var songs = [
 				"freeze": "17"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.8",
 				"step": "370",
 				"shock": "0",
 				"freeze": "10"
@@ -28745,7 +30244,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Pluto Relinquish",
 		"artist": "2MB",
@@ -28780,19 +30280,19 @@ var songs = [
 		"bpm": "100-800",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.6",
 				"step": "557",
 				"shock": "0",
 				"freeze": "17"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.8",
 				"step": "397",
 				"shock": "0",
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.5",
 				"step": "546",
 				"shock": "0",
 				"freeze": "13"
@@ -28811,7 +30311,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Pluto The First",
 		"artist": "WHITE WALL",
@@ -28846,19 +30347,19 @@ var songs = [
 		"bpm": "50-440",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.9",
 				"step": "481",
 				"shock": "57",
 				"freeze": "59"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.9",
 				"step": "395",
 				"shock": "0",
 				"freeze": "11"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.9",
 				"step": "525",
 				"shock": "0",
 				"freeze": "2"
@@ -28877,7 +30378,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Polovtsian Dances And Chorus",
 		"artist": "Naoto Suzuki feat. Martha",
@@ -28933,7 +30435,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Poochie",
 		"artist": "kors k",
@@ -28970,7 +30473,7 @@ var songs = [
 				"freeze": "22"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.9",
 				"step": "627",
 				"shock": "0",
 				"freeze": "32"
@@ -28989,7 +30492,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "ポリリズム",
 		"artist": "Pink Lemonade",
@@ -29045,7 +30549,8 @@ var songs = [
 			}
 		},
 		"name_translation": "poririzumu"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Poseidon",
 		"artist": "NAOKI underground",
@@ -29101,7 +30606,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Poseidon(kors k mix)",
 		"artist": "NAOKI underground",
@@ -29138,7 +30644,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.1",
 				"step": "393",
 				"shock": "0",
 				"freeze": "19"
@@ -29157,7 +30663,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "POSSESSION",
 		"artist": "TAG underground",
@@ -29192,19 +30699,19 @@ var songs = [
 		"bpm": "185-370",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.4",
 				"step": "643",
 				"shock": "0",
 				"freeze": "37"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.5",
 				"step": "489",
 				"shock": "0",
 				"freeze": "21"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.0",
 				"step": "612",
 				"shock": "0",
 				"freeze": "13"
@@ -29223,7 +30730,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "POSSESSION(EDP Live Mix)",
 		"artist": "TAG underground",
@@ -29260,7 +30768,7 @@ var songs = [
 				"freeze": "61"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.0",
 				"step": "604",
 				"shock": "0",
 				"freeze": "21"
@@ -29279,7 +30787,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PRANA",
 		"artist": "TAG",
@@ -29314,7 +30823,7 @@ var songs = [
 		"bpm": "188",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.3",
 				"step": "582",
 				"shock": "0",
 				"freeze": "7"
@@ -29326,7 +30835,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.1",
 				"step": "481",
 				"shock": "0",
 				"freeze": "4"
@@ -29345,7 +30854,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PRANA＋REVOLUTIONARY ADDICT (U1 DJ Mix)",
 		"artist": "underground & overground",
@@ -29376,13 +30886,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.30",
 				"step": "489",
 				"shock": "0",
 				"freeze": "5"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.2",
 				"step": "743",
 				"shock": "0",
 				"freeze": "8"
@@ -29401,7 +30911,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "printemps",
 		"artist": "Qrispy Joybox",
@@ -29438,7 +30949,7 @@ var songs = [
 				"freeze": "13"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "396",
 				"shock": "0",
 				"freeze": "6"
@@ -29457,7 +30968,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Private Eye",
 		"artist": "atomsoak ft. cerol",
@@ -29513,7 +31025,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Programmed Universe",
 		"artist": "kors k",
@@ -29569,7 +31082,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "PUNISHER",
 		"artist": "TAG×PON",
@@ -29606,7 +31120,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "514",
 				"shock": "0",
 				"freeze": "13"
@@ -29625,7 +31139,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PUT YOUR FAITH IN ME",
 		"artist": "UZI-LAY",
@@ -29681,7 +31196,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "PUT YOUR FAITH IN ME (DA's Twinkly Disco Remix)",
 		"artist": "UZI-LAY",
@@ -29718,7 +31234,7 @@ var songs = [
 				"freeze": "11"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "372",
 				"shock": "0",
 				"freeze": "22"
@@ -29737,7 +31253,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PUT YOUR FAITH IN ME (Jazzy Groove)",
 		"artist": "UZI-LAY",
@@ -29803,7 +31320,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "PUT YOUR FAITH IN ME ～SATURDAY NIGHT MIX～",
 		"artist": "UZI-LAY",
@@ -29859,7 +31377,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "puzzle",
 		"artist": "日本少年",
@@ -29915,7 +31434,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Qipchāq",
 		"artist": "world sequence",
@@ -29971,7 +31491,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Quick Master",
 		"artist": "act deft",
@@ -30027,7 +31548,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Quickening",
 		"artist": "dj TAKA",
@@ -30083,7 +31605,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "rain of sorrow",
 		"artist": "NM feat. EBONY FAY",
@@ -30139,7 +31662,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "rainbow flyer",
 		"artist": "dj TAKA",
@@ -30195,7 +31719,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "rainbow rainbow",
 		"artist": "Ryu☆",
@@ -30251,7 +31776,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ラキラキ",
 		"artist": "Mutsuhiko Izumi & S-C-U",
@@ -30288,7 +31814,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "422",
 				"shock": "0",
 				"freeze": "26"
@@ -30306,8 +31832,9 @@ var songs = [
 				"freeze": "12"
 			}
 		},
-		"name_translation": "RAKIRAKI"
-	}, {
+		"name_translation": "RAKIRAKI (aka Lucky lucky)"
+	},
+	{
 		"unlock": "",
 		"name": "Raspberry♡Heart(English version)",
 		"artist": "jun feat. PAULA TERRY",
@@ -30373,7 +31900,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "real-high-SPEED",
 		"artist": "Makoto feat. SK",
@@ -30429,7 +31957,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "REBORN MAGIC",
 		"artist": "seiya-murai meets “eimy”",
@@ -30485,7 +32014,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "RED ZONE",
 		"artist": "Tatsh＆NAOKI",
@@ -30541,7 +32071,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Remain",
 		"artist": "ZERO+ZIBA",
@@ -30578,7 +32109,7 @@ var songs = [
 				"freeze": "5"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.8",
 				"step": "480",
 				"shock": "0",
 				"freeze": "4"
@@ -30597,7 +32128,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "恋閃繚乱",
 		"artist": "2B-Waves",
@@ -30632,7 +32164,7 @@ var songs = [
 		"bpm": "142",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "483",
 				"shock": "0",
 				"freeze": "24"
@@ -30663,7 +32195,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Rensen Ryouran"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Rescue Me",
 		"artist": "NAOKI feat. Fracus",
@@ -30719,7 +32252,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "resonance",
 		"artist": "NAOKI-EX",
@@ -30775,7 +32309,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Resurrection",
 		"artist": "Dormir",
@@ -30831,7 +32366,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "RЁVOLUTIФN",
 		"artist": "TЁЯRA",
@@ -30866,7 +32402,7 @@ var songs = [
 		"bpm": "202",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.3",
 				"step": "777",
 				"shock": "0",
 				"freeze": "16"
@@ -30878,7 +32414,7 @@ var songs = [
 				"freeze": "43"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "573",
 				"shock": "0",
 				"freeze": "16"
@@ -30897,7 +32433,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "REVOLUTIONARY ADDICT",
 		"artist": "TAG underground",
@@ -30932,7 +32469,7 @@ var songs = [
 		"bpm": "174",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.5",
 				"step": "591",
 				"shock": "0",
 				"freeze": "18"
@@ -30944,7 +32481,7 @@ var songs = [
 				"freeze": "16"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "449",
 				"shock": "0",
 				"freeze": "25"
@@ -30963,7 +32500,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Rhythms Inside",
 		"artist": "DKC Crew",
@@ -31019,7 +32557,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Right on time (Ryu☆Remix)",
 		"artist": "Ryu☆",
@@ -31054,7 +32593,7 @@ var songs = [
 		"bpm": "149",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.50",
 				"step": "217",
 				"shock": "63",
 				"freeze": "69"
@@ -31066,7 +32605,7 @@ var songs = [
 				"freeze": "6"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "387",
 				"shock": "0",
 				"freeze": "7"
@@ -31085,7 +32624,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "凛として咲く花の如く",
 		"artist": "紅色リトマス",
@@ -31141,7 +32681,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Rin To Shite Saku Hana No Gotoku "
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "凛として咲く花の如く ～ひなビタ♪ edition～",
 		"artist": "日向美ビタースイーツ♪",
@@ -31197,7 +32738,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Rinto shite saku hana no gotoku ~Hinabita edition~"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "RISING FIRE HAWK",
 		"artist": "L.E.D.-G",
@@ -31232,7 +32774,7 @@ var songs = [
 		"bpm": "157",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.1",
 				"step": "664",
 				"shock": "0",
 				"freeze": "11"
@@ -31244,7 +32786,7 @@ var songs = [
 				"freeze": "5"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "577",
 				"shock": "0",
 				"freeze": "8"
@@ -31263,7 +32805,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "六兆年と一夜物語",
 		"artist": "kemu feat. IA",
@@ -31319,7 +32862,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Rokuchounen to ichiya monogatari"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Romancing Layer",
 		"artist": "TAG",
@@ -31356,7 +32900,7 @@ var songs = [
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.0",
 				"step": "437",
 				"shock": "0",
 				"freeze": "18"
@@ -31375,7 +32919,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "roppongi EVOLVED ver.A",
 		"artist": "TAG underground",
@@ -31412,7 +32957,7 @@ var songs = [
 				"freeze": "29"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "495",
 				"shock": "0",
 				"freeze": "28"
@@ -31431,7 +32976,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "roppongi EVOLVED ver.B",
 		"artist": "TAG underground",
@@ -31468,7 +33014,7 @@ var songs = [
 				"freeze": "17"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "476",
 				"shock": "0",
 				"freeze": "24"
@@ -31487,7 +33033,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "roppongi EVOLVED ver.C",
 		"artist": "TAG underground",
@@ -31524,7 +33071,7 @@ var songs = [
 				"freeze": "14"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "490",
 				"shock": "0",
 				"freeze": "21"
@@ -31543,7 +33090,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "roppongi EVOLVED ver.D",
 		"artist": "TAG underground",
@@ -31580,7 +33128,7 @@ var songs = [
 				"freeze": "17"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.7",
 				"step": "540",
 				"shock": "0",
 				"freeze": "18"
@@ -31599,7 +33147,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "繚乱ヒットチャート",
 		"artist": "ギラギラメガネ団",
@@ -31636,7 +33185,7 @@ var songs = [
 				"freeze": "24"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "444",
 				"shock": "0",
 				"freeze": "19"
@@ -31655,7 +33204,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Ryouran Hit Chart"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "S!ck",
 		"artist": "Eagle",
@@ -31686,13 +33236,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "372",
 				"shock": "0",
 				"freeze": "33"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.5",
 				"step": "648",
 				"shock": "0",
 				"freeze": "58"
@@ -31711,7 +33261,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SABER WING",
 		"artist": "TAG",
@@ -31746,7 +33297,7 @@ var songs = [
 		"bpm": "74-222",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.85",
 				"step": "389",
 				"shock": "59",
 				"freeze": "77"
@@ -31758,7 +33309,7 @@ var songs = [
 				"freeze": "33"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.80",
 				"step": "442",
 				"shock": "0",
 				"freeze": "24"
@@ -31777,7 +33328,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SABER WING (Akira Ishihara Headshot mix)",
 		"artist": "TAG",
@@ -31812,7 +33364,7 @@ var songs = [
 		"bpm": "79-316",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.4",
 				"step": "492",
 				"shock": "0",
 				"freeze": "31"
@@ -31824,7 +33376,7 @@ var songs = [
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "439",
 				"shock": "0",
 				"freeze": "29"
@@ -31843,7 +33395,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SABER WING (satellite silhouette remix)",
 		"artist": "TAG",
@@ -31878,7 +33431,7 @@ var songs = [
 		"bpm": "138",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "508",
 				"shock": "0",
 				"freeze": "6"
@@ -31909,7 +33462,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Sacred Oath",
 		"artist": "ＴЁЯＲＡ",
@@ -31975,7 +33529,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "S・A・G・A",
 		"artist": "Veeton",
@@ -32012,7 +33567,7 @@ var songs = [
 				"freeze": "12"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.25",
 				"step": "317",
 				"shock": "0",
 				"freeze": "17"
@@ -32031,7 +33586,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "桜",
 		"artist": "Reven-G",
@@ -32078,7 +33634,7 @@ var songs = [
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.95",
 				"step": "446",
 				"shock": "0",
 				"freeze": "1"
@@ -32097,7 +33653,8 @@ var songs = [
 			}
 		},
 		"name_translation": "SAKURA"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Sakura Mirage",
 		"artist": "Ryu☆",
@@ -32134,7 +33691,7 @@ var songs = [
 				"freeze": "20"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.0",
 				"step": "438",
 				"shock": "0",
 				"freeze": "10"
@@ -32153,7 +33710,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "sakura storm",
 		"artist": "Ryu☆",
@@ -32188,7 +33746,7 @@ var songs = [
 		"bpm": "184",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.00",
 				"step": "388",
 				"shock": "0",
 				"freeze": "8"
@@ -32219,7 +33777,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Sakura Sunrise",
 		"artist": "Ryu☆",
@@ -32256,7 +33815,7 @@ var songs = [
 				"freeze": "20"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.3",
 				"step": "403",
 				"shock": "0",
 				"freeze": "27"
@@ -32275,7 +33834,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Samurai Shogun vs. Master Ninja",
 		"artist": "96",
@@ -32312,7 +33872,7 @@ var songs = [
 				"freeze": "6"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.4",
 				"step": "572",
 				"shock": "0",
 				"freeze": "22"
@@ -32331,7 +33891,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "サナ・モレッテ・ネ・エンテ",
 		"artist": "Togo Project feat. Sana",
@@ -32387,7 +33948,8 @@ var songs = [
 			}
 		},
 		"name_translation": "SANA MOLLETE NE ENTE"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Sand Blow",
 		"artist": "肥塚良彦",
@@ -32424,7 +33986,7 @@ var songs = [
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "527",
 				"shock": "0",
 				"freeze": "29"
@@ -32443,7 +34005,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Saturday Night Love",
 		"artist": "Sota feat. Brenda V.",
@@ -32499,7 +34062,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Saturn",
 		"artist": "Mr.Saturn",
@@ -32536,7 +34100,7 @@ var songs = [
 				"freeze": "16"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "337",
 				"shock": "0",
 				"freeze": "27"
@@ -32555,7 +34119,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "さよならトリップ ～夏陽 EDM edition～",
 		"artist": "東雲夏陽(from ここなつ)",
@@ -32611,7 +34176,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Sayonara Trip ~Cocona EDM edition~"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Scarlet Moon",
 		"artist": "REDALiCE feat. Ayumi Nomiya",
@@ -32667,7 +34233,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Scorching Moon",
 		"artist": "Shawn the Horny Master",
@@ -32723,7 +34290,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Seasons",
 		"artist": "TOMOSUKE feat. Crystal Paloa",
@@ -32779,7 +34347,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Second Heaven",
 		"artist": "Ryu☆",
@@ -32814,7 +34383,7 @@ var songs = [
 		"bpm": "149",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "470",
 				"shock": "0",
 				"freeze": "12"
@@ -32845,7 +34414,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "second spring storm",
 		"artist": "Spacelectro",
@@ -32882,7 +34452,7 @@ var songs = [
 				"freeze": "21"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "444",
 				"shock": "0",
 				"freeze": "5"
@@ -32901,7 +34471,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Secret Rendez-vous",
 		"artist": "DIVAS",
@@ -32957,7 +34528,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SEDUCTION",
 		"artist": "nc ft. FINALFORCE",
@@ -33013,7 +34585,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SEDUCTION(Vocal Remix)",
 		"artist": "NC feat. NRG Factory",
@@ -33069,7 +34642,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "晴天Bon Voyage",
 		"artist": "TOMOSUKE × seiya-murai feat. ALT",
@@ -33125,7 +34699,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Seiten Bon Voyage"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "セツナトリップ",
 		"artist": "Last Note. feat. GUMI",
@@ -33162,7 +34737,7 @@ var songs = [
 				"freeze": "9"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.5",
 				"step": "519",
 				"shock": "0",
 				"freeze": "11"
@@ -33181,7 +34756,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Setsuna Trip"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Seule",
 		"artist": "Preston Powis",
@@ -33237,7 +34813,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SEXY PLANET",
 		"artist": "Crystal Aliens",
@@ -33293,7 +34870,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SEXY PLANET(FROM NONSTOP MEGAMIX)",
 		"artist": "Crystal Aliens",
@@ -33324,7 +34902,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Shades of Grey",
 		"artist": "Fracus",
@@ -33380,7 +34959,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "灼熱Beach Side Bunny",
 		"artist": "DJ Mass MAD Izm*",
@@ -33417,7 +34997,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "586",
 				"shock": "0",
 				"freeze": "27"
@@ -33436,7 +35016,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Shakunetsu Beach Side Bunny"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Share The Love",
 		"artist": "Brenda Burch",
@@ -33492,7 +35073,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "She is my wife",
 		"artist": "SUPER STAR 満-MITSURU-",
@@ -33548,7 +35130,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "漆黒のスペシャルプリンセスサンデー",
 		"artist": "日向美ビタースイーツ♪",
@@ -33585,7 +35168,7 @@ var songs = [
 				"freeze": "20"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "462",
 				"shock": "0",
 				"freeze": "21"
@@ -33604,7 +35187,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Shikkoku no Special Princess Sundae"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Shine",
 		"artist": "TOMOSUKE feat. Adreana",
@@ -33670,7 +35254,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "☆shining☆",
 		"artist": "ピンクターボ",
@@ -33726,7 +35311,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Shiny World",
 		"artist": "CAPACITY GATE",
@@ -33763,7 +35349,7 @@ var songs = [
 				"freeze": "6"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.1",
 				"step": "371",
 				"shock": "0",
 				"freeze": "1"
@@ -33782,7 +35368,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SHION",
 		"artist": "DJ YOSHITAKA",
@@ -33819,7 +35406,7 @@ var songs = [
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.50",
 				"step": "507",
 				"shock": "0",
 				"freeze": "8"
@@ -33838,7 +35425,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "雫",
 		"artist": "あさき",
@@ -33894,7 +35482,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Shizuku"
-	}, {
+	},
+	{
 		"name": "Shut Up and Dance",
 		"artist": "Walk The Moon",
 		"genre": "",
@@ -33949,7 +35538,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "siberite",
 		"artist": "Captain KING",
@@ -33986,7 +35576,7 @@ var songs = [
 				"freeze": "3"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "463",
 				"shock": "0",
 				"freeze": "4"
@@ -34005,7 +35595,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SigSig",
 		"artist": "kors k",
@@ -34071,7 +35662,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Silent Hill",
 		"artist": "THOMAS HOWARD",
@@ -34127,7 +35719,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Silent Hill (3rd christmas mix)",
 		"artist": "THOMAS HOWARD",
@@ -34158,7 +35751,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SILVER☆DREAM",
 		"artist": "jun",
@@ -34195,7 +35789,7 @@ var songs = [
 				"freeze": "18"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.7",
 				"step": "503",
 				"shock": "0",
 				"freeze": "53"
@@ -34214,7 +35808,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Silver Platform - I wanna get your heart -",
 		"artist": "U1 Reincarnates w/ Leah",
@@ -34270,7 +35865,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Ska Ska No.3",
 		"artist": "亜熱帯マジ-SKA爆弾",
@@ -34326,7 +35922,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Sky Is The Limit",
 		"artist": "Sota F. feat.Anna",
@@ -34382,7 +35979,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Slip Out",
 		"artist": "Harmony Machine",
@@ -34438,7 +36036,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Slip Out (bounce in beat mix)",
 		"artist": "Harmony Machine",
@@ -34494,7 +36093,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "smooooch･∀･",
 		"artist": "kors k",
@@ -34560,7 +36160,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "snow prism",
 		"artist": "Qrispy Joybox",
@@ -34595,7 +36196,7 @@ var songs = [
 		"bpm": "196",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.3",
 				"step": "547",
 				"shock": "0",
 				"freeze": "13"
@@ -34626,7 +36227,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SO IN LOVE",
 		"artist": "Caramel.S",
@@ -34682,7 +36284,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "sola",
 		"artist": "小野秀幸",
@@ -34738,7 +36341,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "someday...",
 		"artist": "杏野はるな",
@@ -34794,7 +36398,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Somehow You Found Me",
 		"artist": "DIGI-SEQ-BAND2000",
@@ -34829,7 +36434,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.2",
 				"step": "606",
 				"shock": "0",
 				"freeze": "19"
@@ -34841,7 +36446,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.30",
 				"step": "406",
 				"shock": "0",
 				"freeze": "0"
@@ -34860,7 +36465,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Something Special",
 		"artist": "nc ft. Jasmine Nii",
@@ -34916,7 +36522,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "宇宙(ソラ)への片道切符",
 		"artist": "Musical Cosmology",
@@ -34953,7 +36560,7 @@ var songs = [
 				"freeze": "19"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.00",
 				"step": "317",
 				"shock": "0",
 				"freeze": "21"
@@ -34972,7 +36579,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Sora he no katamichi kippu"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SOUL CRASH",
 		"artist": "nc ft HARDCORE NATION",
@@ -35009,7 +36617,7 @@ var songs = [
 				"freeze": "5"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "390",
 				"shock": "0",
 				"freeze": "9"
@@ -35028,7 +36636,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "south",
 		"artist": "Wall5",
@@ -35094,7 +36703,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SP-TRIP MACHINE～JUNGLE MIX～",
 		"artist": "DE-SIRE",
@@ -35150,7 +36760,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SP-TRIP MACHINE～JUNGLE MIX～(X-Special)",
 		"artist": "DE-SIRE",
@@ -35181,7 +36792,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Spanish Snowy Dance",
 		"artist": "Mutsuhiko Izumi",
@@ -35216,7 +36828,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.7",
 				"step": "726",
 				"shock": "0",
 				"freeze": "32"
@@ -35228,7 +36840,7 @@ var songs = [
 				"freeze": "12"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.7",
 				"step": "596",
 				"shock": "0",
 				"freeze": "46"
@@ -35247,7 +36859,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Special One",
 		"artist": "kors k feat. Suzuyo Miyamoto",
@@ -35303,7 +36916,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SPECIAL SUMMER CAMPAIGN!",
 		"artist": "Lucky Vacuum",
@@ -35340,7 +36954,7 @@ var songs = [
 				"freeze": "17"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "513",
 				"shock": "0",
 				"freeze": "25"
@@ -35359,7 +36973,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Squeeze",
 		"artist": "VENUS feat. Mutsuhiko Izumi",
@@ -35396,7 +37011,7 @@ var songs = [
 				"freeze": "22"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "477",
 				"shock": "0",
 				"freeze": "11"
@@ -35415,7 +37030,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Star Gate Heaven",
 		"artist": "SySF. feat. Donna Burke",
@@ -35471,7 +37087,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Star Gate Heaven (FUTURE LOVE Mix)",
 		"artist": "SySF. feat. Donna Burke",
@@ -35527,7 +37144,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Star Trail",
 		"artist": "Nhato",
@@ -35564,7 +37182,7 @@ var songs = [
 				"freeze": "13"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.60",
 				"step": "462",
 				"shock": "0",
 				"freeze": "19"
@@ -35583,7 +37201,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Starlight Fantasia",
 		"artist": "TAG",
@@ -35620,7 +37239,7 @@ var songs = [
 				"freeze": "30"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "477",
 				"shock": "0",
 				"freeze": "33"
@@ -35639,7 +37258,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Starlight Fantasia (Endorphins Mix)",
 		"artist": "U1 overground feat.TAG",
@@ -35676,7 +37296,7 @@ var songs = [
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "618",
 				"shock": "0",
 				"freeze": "14"
@@ -35695,7 +37315,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "starmine",
 		"artist": "Ryu☆",
@@ -35732,7 +37353,7 @@ var songs = [
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.0",
 				"step": "495",
 				"shock": "0",
 				"freeze": "24"
@@ -35751,7 +37372,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Starry HEAVEN",
 		"artist": "Royz",
@@ -35786,7 +37408,7 @@ var songs = [
 		"bpm": "190",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.50",
 				"step": "336",
 				"shock": "0",
 				"freeze": "16"
@@ -35817,7 +37439,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "STARS☆☆☆（Re-tuned by HΛL） - DDR EDITION -",
 		"artist": "ＴЁЯＲＡ",
@@ -35873,7 +37496,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "STARS☆☆☆(2nd NAOKI's style)",
 		"artist": "ＴЁЯＲＡ",
@@ -35929,7 +37553,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "STAY (Organic house Version)",
 		"artist": "emi",
@@ -35985,7 +37610,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "stealth",
 		"artist": "DAISUKE ASAKURA",
@@ -36041,7 +37667,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Stella Sinistra",
 		"artist": "Akhuta Philharmonic Orchestra",
@@ -36078,7 +37705,7 @@ var songs = [
 				"freeze": "16"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "443",
 				"shock": "0",
 				"freeze": "20"
@@ -36097,7 +37724,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "STILL IN MY HEART",
 		"artist": "NAOKI",
@@ -36153,7 +37781,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "STILL IN MY HEART(MOMO MIX)",
 		"artist": "NAOKI",
@@ -36184,7 +37813,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "stoic (EXTREME version)",
 		"artist": "TaQ",
@@ -36221,7 +37851,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.15",
 				"step": "342",
 				"shock": "0",
 				"freeze": "3"
@@ -36240,7 +37870,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "Stomp to my beat",
 		"artist": "JS16",
@@ -36306,7 +37937,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "STRAIGHT JET",
 		"artist": "栗林みな実",
@@ -36362,7 +37994,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Straight Oath",
 		"artist": "矢鴇つかさ feat. 三澤秋",
@@ -36397,7 +38030,7 @@ var songs = [
 		"bpm": "182",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.7",
 				"step": "544",
 				"shock": "0",
 				"freeze": "47"
@@ -36409,7 +38042,7 @@ var songs = [
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "460",
 				"shock": "0",
 				"freeze": "10"
@@ -36428,8 +38061,10 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
+		"removed": true,
 		"name": "Strobe♡Girl",
 		"artist": "colate",
 		"genre": "",
@@ -36484,7 +38119,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Struggle",
 		"artist": "Masayoshi Minoshima(ALR)",
@@ -36521,7 +38157,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.00",
 				"step": "510",
 				"shock": "0",
 				"freeze": "4"
@@ -36540,7 +38176,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "STULTI",
 		"artist": "MAX MAXIMIZER VS DJ TOTTO",
@@ -36577,7 +38214,7 @@ var songs = [
 				"freeze": "30"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "525",
 				"shock": "0",
 				"freeze": "16"
@@ -36596,7 +38233,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Sucka Luva",
 		"artist": "Harmony Machine",
@@ -36652,7 +38290,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "隅田川夏恋歌",
 		"artist": "seiya-murai feat.ALT",
@@ -36687,7 +38326,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "16",
+				"difficulty": "16.2",
 				"step": "585",
 				"shock": "0",
 				"freeze": "24"
@@ -36718,7 +38357,8 @@ var songs = [
 			}
 		},
 		"name_translation": "SUMIDAGAWA KARENKA"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Summer Fairytale",
 		"artist": "Design-MAD crew",
@@ -36753,7 +38393,7 @@ var songs = [
 		"bpm": "141",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "420",
 				"shock": "0",
 				"freeze": "19"
@@ -36784,7 +38424,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Summer fantasy (Darwin remix)",
 		"artist": "Lazy U1 ft. Fraz & Chalk E",
@@ -36793,7 +38434,7 @@ var songs = [
 			"challenge": {
 				"difficulty": "13",
 				"step": "207",
-				"shock": "0",
+				"shock": "92",
 				"freeze": "113"
 			},
 			"difficult": {
@@ -36821,7 +38462,7 @@ var songs = [
 			"challenge": {
 				"difficulty": "11",
 				"step": "208",
-				"shock": "0",
+				"shock": "83",
 				"freeze": "99"
 			},
 			"difficult": {
@@ -36831,7 +38472,7 @@ var songs = [
 				"freeze": "20"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.00",
 				"step": "348",
 				"shock": "0",
 				"freeze": "21"
@@ -36850,7 +38491,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SUNKiSS♥DROP",
 		"artist": "jun with Alison",
@@ -36916,7 +38558,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SUPER HERO",
 		"artist": "DJ YOSHITAKA feat.Michaela Thurlow",
@@ -36972,7 +38615,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SUPER SAMURAI",
 		"artist": "jun",
@@ -37009,7 +38653,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "501",
 				"shock": "0",
 				"freeze": "27"
@@ -37028,7 +38672,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SUPER STAR",
 		"artist": "D.J.RICH feat. TAILBROS.",
@@ -37084,7 +38729,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "SUPER STAR(FROM NONSTOP MEGAMIX)",
 		"artist": "D.J.RICH feat. TAILBROS.",
@@ -37115,7 +38761,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Sweet Rain",
 		"artist": "Y&Co. feat. Karin",
@@ -37171,7 +38818,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Sweet Sweet ♥ Magic",
 		"artist": "jun",
@@ -37208,7 +38856,7 @@ var songs = [
 				"freeze": "19"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.30",
 				"step": "372",
 				"shock": "0",
 				"freeze": "33"
@@ -37227,7 +38875,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "switch",
 		"artist": "DAISUKE ASAKURA ex.TЁЯRA",
@@ -37283,7 +38932,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "sync (EXTREME version)",
 		"artist": "OutPhase",
@@ -37349,7 +38999,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Synergy For Angels",
 		"artist": "TAG×U1-ASAMi",
@@ -37386,7 +39037,7 @@ var songs = [
 				"freeze": "22"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.0",
 				"step": "535",
 				"shock": "0",
 				"freeze": "20"
@@ -37405,7 +39056,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Taj He Spitz",
 		"artist": "DKC Crew",
@@ -37461,7 +39113,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Taj He Spitz (Tommie Sunshine's Brooklyn Fire Re-Touch)",
 		"artist": "DKC Crew",
@@ -37517,7 +39170,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Take A Chance",
 		"artist": "neuras feat. GATZ",
@@ -37573,7 +39227,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Take A Step Forward",
 		"artist": "TAG feat. Sydney Powers",
@@ -37629,7 +39284,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Taking It To The Sky",
 		"artist": "U1 feat. Tammy S. Hansen",
@@ -37685,7 +39341,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TEARS",
 		"artist": "NAOKI underground feat.EK",
@@ -37741,7 +39398,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "TECH-NOID",
 		"artist": "Sota F.",
@@ -37797,7 +39455,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Tell me what to do",
 		"artist": "atomsoak ft. cerol",
@@ -37832,7 +39491,7 @@ var songs = [
 		"bpm": "145",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.1",
 				"step": "483",
 				"shock": "0",
 				"freeze": "28"
@@ -37863,7 +39522,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "天上の星～黎明記～",
 		"artist": "TЁЯRA",
@@ -37919,7 +39579,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Tenjou no hoshi ～Reimeiki～"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "天空の華",
 		"artist": "S-C-U × U1 overground",
@@ -37956,7 +39617,7 @@ var songs = [
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.6",
 				"step": "595",
 				"shock": "0",
 				"freeze": "5"
@@ -37975,7 +39636,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Tenkuu no hana"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The flower in your smile",
 		"artist": "TACOS NAOMI feat.小久保裕之",
@@ -38031,7 +39693,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The Heavens Above",
 		"artist": "U1 /F Anneliese",
@@ -38087,7 +39750,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The Island Song",
 		"artist": "TAG feat. Eric Anthony",
@@ -38122,7 +39786,7 @@ var songs = [
 		"bpm": "85",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "350",
 				"shock": "0",
 				"freeze": "19"
@@ -38153,7 +39817,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The Least 100sec",
 		"artist": "Hirofumi Sasaki",
@@ -38209,7 +39874,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The legend of MAX",
 		"artist": "ZZ",
@@ -38240,13 +39906,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "357",
 				"shock": "0",
 				"freeze": "29"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "500",
 				"shock": "0",
 				"freeze": "3"
@@ -38265,7 +39931,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The legend of MAX(X-Special)",
 		"artist": "ZZ",
@@ -38285,7 +39952,7 @@ var songs = [
 		"bpm": "83-333",
 		"single": {
 			"challenge": {
-				"difficulty": "17",
+				"difficulty": "17.1",
 				"step": "527",
 				"shock": "0",
 				"freeze": "17"
@@ -38296,7 +39963,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The Lonely Streets",
 		"artist": "DJ Yoshitaka feat.Robert \"RAab\" Stevenson",
@@ -38362,7 +40030,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The Night Away (MK Remix)",
 		"artist": "Starving Trancer feat. Mayumi Morinaga",
@@ -38418,7 +40087,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "THE REASON",
 		"artist": "Black Rose Garden",
@@ -38453,7 +40123,7 @@ var songs = [
 		"bpm": "85-98",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.8",
 				"step": "387",
 				"shock": "0",
 				"freeze": "12"
@@ -38484,7 +40154,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "THE SHINING POLARIS",
 		"artist": "L.E.D. feat. Sana",
@@ -38540,7 +40211,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "The Wind of Gold",
 		"artist": "kors k",
@@ -38577,7 +40249,7 @@ var songs = [
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.3",
 				"step": "458",
 				"shock": "0",
 				"freeze": "61"
@@ -38596,7 +40268,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Theory of Eternity",
 		"artist": "TAG",
@@ -38662,7 +40335,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "think ya better D",
 		"artist": "sAmi",
@@ -38718,7 +40392,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "THIS NIGHT",
 		"artist": "jun feat. Sonnet",
@@ -38774,7 +40449,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Ticket to Bombay",
 		"artist": "Jena Rose",
@@ -38830,7 +40506,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TIERRA BUENA",
 		"artist": "WILMA DE OLIVEIRA",
@@ -38886,7 +40563,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Till the lonely's gone",
 		"artist": "Z-licious",
@@ -38942,7 +40620,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TIME",
 		"artist": "NM feat. Aleisha G",
@@ -38998,7 +40677,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "Time Of Our Lives",
 		"artist": "Pitbull",
 		"genre": "",
@@ -39053,7 +40733,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TimeHollow",
 		"artist": "Masanori Akita",
@@ -39109,7 +40790,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "怒れる大きな白い馬",
 		"artist": "Morning Blue Dragon",
@@ -39165,7 +40847,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Tino's White Horse"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "轟け！恋のビーンボール！！",
 		"artist": "ダイナミック野球兄弟 v.s. クロスファイヤーPrim",
@@ -39202,7 +40885,7 @@ var songs = [
 				"freeze": "8"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "164",
 				"step": "573",
 				"shock": "0",
 				"freeze": "1"
@@ -39221,7 +40904,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Todoroke! Koi no beanball!!"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Tohoku EVOLVED",
 		"artist": "2.1MB underground",
@@ -39256,19 +40940,19 @@ var songs = [
 		"bpm": "340",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.7",
 				"step": "690",
 				"shock": "0",
 				"freeze": "46"
 			},
 			"difficult": {
-				"difficulty": "14",
+				"difficulty": "14.8",
 				"step": "495",
 				"shock": "0",
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "17",
+				"difficulty": "17.6",
 				"step": "656",
 				"shock": "0",
 				"freeze": "17"
@@ -39287,7 +40971,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "tokyoEVOLVED (TYPE1)",
 		"artist": "NAOKI underground",
@@ -39318,13 +41003,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.75",
 				"step": "361",
 				"shock": "0",
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.4",
 				"step": "523",
 				"shock": "0",
 				"freeze": "6"
@@ -39343,7 +41028,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "tokyoEVOLVED (TYPE2)",
 		"artist": "NAOKI underground",
@@ -39374,13 +41060,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.75",
 				"step": "355",
 				"shock": "0",
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.4",
 				"step": "522",
 				"shock": "0",
 				"freeze": "6"
@@ -39399,7 +41085,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "tokyoEVOLVED (TYPE3)",
 		"artist": "NAOKI underground",
@@ -39430,13 +41117,13 @@ var songs = [
 		"single": {
 			"challenge": null,
 			"difficult": {
-				"difficulty": "13",
+				"difficulty": "13.75",
 				"step": "334",
 				"shock": "0",
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.4",
 				"step": "492",
 				"shock": "0",
 				"freeze": "6"
@@ -39455,7 +41142,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TOMORROW",
 		"artist": "nc ft. Dreamscanner",
@@ -39511,7 +41199,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Tomorrow Perfume",
 		"artist": "dj TAKA",
@@ -39567,7 +41256,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Top The Charts",
 		"artist": "J-Mi & Midi-D feat. Hanna Stockzell",
@@ -39576,7 +41266,7 @@ var songs = [
 			"challenge": {
 				"difficulty": "14",
 				"step": "401",
-				"shock": "0",
+				"shock": "22",
 				"freeze": "43"
 			},
 			"difficult": {
@@ -39602,9 +41292,9 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "404",
-				"shock": "0",
+				"shock": "22",
 				"freeze": "41"
 			},
 			"difficult": {
@@ -39633,7 +41323,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "突撃！ガラスのニーソ姫！",
 		"artist": "山本椛 (monotone)",
@@ -39670,7 +41361,7 @@ var songs = [
 				"freeze": "32"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.7",
 				"step": "477",
 				"shock": "0",
 				"freeze": "18"
@@ -39689,7 +41380,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Totsugeki! Glass no Nisohime!"
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "Towards the TOWER",
 		"artist": "SHAMDEL",
@@ -39745,7 +41437,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Tracers (4Beat Remix)",
 		"artist": "Ruffage & Size ",
@@ -39801,7 +41494,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Tribe",
 		"artist": "猫叉Master",
@@ -39836,7 +41530,7 @@ var songs = [
 		"bpm": "139",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.85",
 				"step": "441",
 				"shock": "0",
 				"freeze": "46"
@@ -39867,7 +41561,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"removed": true,
 		"name": "Trickster",
 		"artist": "水樹奈々",
@@ -39923,7 +41618,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Trigger",
 		"artist": "sonic-coll.",
@@ -39958,7 +41654,7 @@ var songs = [
 		"bpm": "100-400",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.5",
 				"step": "579",
 				"shock": "0",
 				"freeze": "46"
@@ -39970,7 +41666,7 @@ var songs = [
 				"freeze": "11"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.7",
 				"step": "490",
 				"shock": "0",
 				"freeze": "28"
@@ -39989,7 +41685,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Trim",
 		"artist": "kobo",
@@ -40026,7 +41723,7 @@ var songs = [
 				"freeze": "13"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.7",
 				"step": "467",
 				"shock": "0",
 				"freeze": "27"
@@ -40045,7 +41742,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRIP MACHINE",
 		"artist": "DE-SIRE",
@@ -40101,7 +41799,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRIP MACHINE～luv mix～",
 		"artist": "2MB",
@@ -40157,7 +41856,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "TRIP MACHINE (xac nanoglide mix)",
 		"artist": "DE-SIRE",
@@ -40194,7 +41894,7 @@ var songs = [
 				"freeze": "29"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.7",
 				"step": "590",
 				"shock": "0",
 				"freeze": "64"
@@ -40213,7 +41913,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRIP MACHINE CLIMAX",
 		"artist": "DE-SIRE",
@@ -40269,7 +41970,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRIP MACHINE CLIMAX(X-Special)",
 		"artist": "DE-SIRE",
@@ -40289,7 +41991,7 @@ var songs = [
 		"bpm": "180",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.2",
 				"step": "361",
 				"shock": "0",
 				"freeze": "17"
@@ -40300,7 +42002,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRIP MACHINE EVOLUTION",
 		"artist": "DE-JAVU",
@@ -40335,7 +42038,7 @@ var songs = [
 		"bpm": "190",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.7",
 				"step": "668",
 				"shock": "0",
 				"freeze": "32"
@@ -40347,7 +42050,7 @@ var songs = [
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.8",
 				"step": "584",
 				"shock": "0",
 				"freeze": "0"
@@ -40366,7 +42069,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRIP MACHINE PhoeniX",
 		"artist": "DE-SIRE改",
@@ -40401,7 +42105,7 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.4",
 				"step": "475",
 				"shock": "0",
 				"freeze": "1"
@@ -40413,7 +42117,7 @@ var songs = [
 				"freeze": "1"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.5",
 				"step": "403",
 				"shock": "0",
 				"freeze": "1"
@@ -40432,7 +42136,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRIP MACHINE survivor",
 		"artist": "DE-SIRE",
@@ -40469,7 +42174,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "347",
 				"shock": "0",
 				"freeze": "2"
@@ -40488,7 +42193,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRIP MACHINE(X-Special)",
 		"artist": "DE-SIRE",
@@ -40519,7 +42225,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Triple Journey -TAG EDITION-",
 		"artist": "Triumvirate",
@@ -40554,7 +42261,7 @@ var songs = [
 		"bpm": "96-192",
 		"single": {
 			"challenge": {
-				"difficulty": "18",
+				"difficulty": "18.3",
 				"step": "720",
 				"shock": "0",
 				"freeze": "12"
@@ -40566,7 +42273,7 @@ var songs = [
 				"freeze": "13"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.6",
 				"step": "611",
 				"shock": "0",
 				"freeze": "11"
@@ -40585,7 +42292,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Truare!",
 		"artist": "Akhuta",
@@ -40622,7 +42330,7 @@ var songs = [
 				"freeze": "5"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.5",
 				"step": "549",
 				"shock": "0",
 				"freeze": "5"
@@ -40641,7 +42349,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "True Blue",
 		"artist": "dj TAKA feat.AiMEE",
@@ -40678,7 +42387,7 @@ var songs = [
 				"freeze": "9"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.1",
 				"step": "604",
 				"shock": "0",
 				"freeze": "10"
@@ -40697,7 +42406,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TRUE♥LOVE",
 		"artist": "jun feat. Schanita",
@@ -40753,7 +42463,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Trust -DanceDanceRevolution mix-",
 		"artist": "Tatsh feat. ヨーコ",
@@ -40809,7 +42520,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Try 2 Luv. U",
 		"artist": "S.F.M.P.",
@@ -40865,7 +42577,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TSUBASA",
 		"artist": "柊木りお featured by TAG",
@@ -40902,7 +42615,7 @@ var songs = [
 				"freeze": "11"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.05",
 				"step": "454",
 				"shock": "0",
 				"freeze": "10"
@@ -40921,7 +42634,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TSUGARU",
 		"artist": "RevenG vs DE-SIRE",
@@ -40977,7 +42691,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TSUGARU (APPLE MIX)",
 		"artist": "RevenG vs DE-SIRE",
@@ -41008,7 +42723,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Twin Bee -Generation X-",
 		"artist": "FinalOffset",
@@ -41064,7 +42780,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "TWINKLE♡HEART",
 		"artist": "jun",
@@ -41130,7 +42847,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Übertreffen",
 		"artist": "TAKA respect for J.S.B.",
@@ -41167,7 +42885,7 @@ var songs = [
 				"freeze": "7"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "405",
 				"shock": "0",
 				"freeze": "9"
@@ -41186,7 +42904,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "un deux trois",
 		"artist": "SDMS",
@@ -41242,7 +42961,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "UNBELIEVABLE (Sparky remix)",
 		"artist": "jun feat. Sarah-Jane",
@@ -41279,7 +42999,7 @@ var songs = [
 				"freeze": "34"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "488",
 				"shock": "0",
 				"freeze": "57"
@@ -41298,7 +43018,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Under the Sky",
 		"artist": "南さやか（BeForU）with platoniX",
@@ -41354,7 +43075,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Unreal",
 		"artist": "Black Rose Garden",
@@ -41391,7 +43113,7 @@ var songs = [
 				"freeze": "0"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.1",
 				"step": "398",
 				"shock": "0",
 				"freeze": "0"
@@ -41410,7 +43132,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Until the End",
 		"artist": "Philip Webb",
@@ -41466,7 +43189,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Uranus",
 		"artist": "Tatsh SN 2 Style",
@@ -41501,7 +43225,7 @@ var songs = [
 		"bpm": "81-162",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.50",
 				"step": "402",
 				"shock": "0",
 				"freeze": "0"
@@ -41532,7 +43256,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "V ～for EXTREME～",
 		"artist": "TAKA",
@@ -41567,7 +43292,7 @@ var songs = [
 		"bpm": "150",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "448",
 				"shock": "0",
 				"freeze": "4"
@@ -41598,7 +43323,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Valkyrie dimension",
 		"artist": "Spriggan",
@@ -41639,13 +43365,13 @@ var songs = [
 				"freeze": "44"
 			},
 			"difficult": {
-				"difficulty": "15",
+				"difficulty": "15.3",
 				"step": "444",
 				"shock": "0",
 				"freeze": "32"
 			},
 			"expert": {
-				"difficulty": "18",
+				"difficulty": "18.4",
 				"step": "632",
 				"shock": "0",
 				"freeze": "39"
@@ -41657,14 +43383,15 @@ var songs = [
 				"freeze": "14"
 			},
 			"basic": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "349",
 				"shock": "0",
 				"freeze": "9"
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "VANESSA",
 		"artist": "朱雀",
@@ -41701,7 +43428,7 @@ var songs = [
 				"freeze": "17"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.4",
 				"step": "532",
 				"shock": "0",
 				"freeze": "9"
@@ -41720,7 +43447,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "VANITY ANGEL",
 		"artist": "FIXX",
@@ -41776,7 +43504,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "VEGA",
 		"artist": "REDALiCE",
@@ -41813,7 +43542,7 @@ var songs = [
 				"freeze": "22"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.6",
 				"step": "605",
 				"shock": "0",
 				"freeze": "28"
@@ -41832,7 +43561,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Vem brincar",
 		"artist": "Caldeira feat.Téka Penteriche",
@@ -41888,7 +43618,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Venus",
 		"artist": "Tatsh+RayZY",
@@ -41923,7 +43654,7 @@ var songs = [
 		"bpm": "195",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.20",
 				"step": "436",
 				"shock": "0",
 				"freeze": "20"
@@ -41954,7 +43685,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "volcano",
 		"artist": "Yasuhiro Abe",
@@ -41991,7 +43723,7 @@ var songs = [
 				"freeze": "15"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.60",
 				"step": "436",
 				"shock": "0",
 				"freeze": "18"
@@ -42010,7 +43742,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Votum stellarum -forest #25 DDR RMX-",
 		"artist": "iconoclasm",
@@ -42066,7 +43799,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "海神",
 		"artist": "兎々",
@@ -42103,7 +43837,7 @@ var songs = [
 				"freeze": "18"
 			},
 			"expert": {
-				"difficulty": "16",
+				"difficulty": "16.1",
 				"step": "596",
 				"shock": "0",
 				"freeze": "29"
@@ -42122,7 +43856,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Wadatsumi"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Waiting 4 u",
 		"artist": "DDT",
@@ -42131,7 +43866,7 @@ var songs = [
 			"challenge": {
 				"difficulty": "12",
 				"step": "328",
-				"shock": "23",
+				"shock": "28",
 				"freeze": "27"
 			},
 			"difficult": {
@@ -42188,7 +43923,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"name": "Wake Me Up",
 		"artist": "Avicii",
 		"genre": "",
@@ -42224,7 +43960,7 @@ var songs = [
 				"freeze": "2"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "356",
 				"shock": "0",
 				"freeze": "32"
@@ -42243,7 +43979,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "WH1TE RO5E",
 		"artist": "Y&Co.",
@@ -42280,7 +44017,7 @@ var songs = [
 				"freeze": "19"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.65",
 				"step": "368",
 				"shock": "0",
 				"freeze": "9"
@@ -42299,7 +44036,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "What Will Come of Me",
 		"artist": "Black Rose Garden",
@@ -42336,7 +44074,7 @@ var songs = [
 				"freeze": "4"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.40",
 				"step": "371",
 				"shock": "0",
 				"freeze": "9"
@@ -42355,7 +44093,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "フー・フローツ",
 		"artist": "Nanako",
@@ -42411,7 +44150,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Who Floats"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Why not",
 		"artist": "Darwin",
@@ -42467,7 +44207,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Wicked Plastik",
 		"artist": "nc ft. Electric Touch",
@@ -42504,7 +44245,7 @@ var songs = [
 				"freeze": "10"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.35",
 				"step": "373",
 				"shock": "0",
 				"freeze": "8"
@@ -42523,7 +44264,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "WILD RUSH",
 		"artist": "FACTOR-X",
@@ -42579,7 +44321,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "WILD RUSH(FROM NONSTOP MEGAMIX)",
 		"artist": "FACTOR-X",
@@ -42610,7 +44353,8 @@ var songs = [
 			"basic": null
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "WILD SIDE",
 		"artist": "Tatsh",
@@ -42645,7 +44389,7 @@ var songs = [
 		"bpm": "165",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "420",
 				"shock": "0",
 				"freeze": "39"
@@ -42676,7 +44420,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "will",
 		"artist": "NAOKI",
@@ -42732,7 +44477,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Windy Fairy",
 		"artist": "DJ TOTTO",
@@ -42769,7 +44515,7 @@ var songs = [
 				"freeze": "26"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "555",
 				"shock": "0",
 				"freeze": "53"
@@ -42788,7 +44534,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Wings of an Angel (Fly With Me)",
 		"artist": "J-Mi & Midi-D",
@@ -42844,7 +44591,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Wow Wow VENUS",
 		"artist": "VENUS",
@@ -42900,7 +44648,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "xenon",
 		"artist": "Mr.T",
@@ -42937,7 +44686,7 @@ var songs = [
 				"freeze": "12"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.45",
 				"step": "375",
 				"shock": "0",
 				"freeze": "11"
@@ -42956,7 +44705,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Xepher",
 		"artist": "Tatsh",
@@ -42991,7 +44741,7 @@ var songs = [
 		"bpm": "170",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "530",
 				"shock": "0",
 				"freeze": "14"
@@ -43003,7 +44753,7 @@ var songs = [
 				"freeze": "9"
 			},
 			"expert": {
-				"difficulty": "13",
+				"difficulty": "13.70",
 				"step": "442",
 				"shock": "0",
 				"freeze": "14"
@@ -43022,7 +44772,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": true,
 		"name": "野球の遊び方　そしてその歴史　～決定版～",
 		"artist": "あさき大監督",
@@ -43059,7 +44810,7 @@ var songs = [
 				"freeze": "17"
 			},
 			"expert": {
-				"difficulty": "14",
+				"difficulty": "14.1",
 				"step": "432",
 				"shock": "0",
 				"freeze": "16"
@@ -43078,7 +44829,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Yakyu no asobikata soshite sono rekishi ~ketteihan~"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ヤマトなでなで♡かぐや姫",
 		"artist": "ロマンチック♡Prim姫",
@@ -43113,7 +44865,7 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "14",
+				"difficulty": "14.0",
 				"step": "427",
 				"shock": "0",
 				"freeze": "51"
@@ -43144,7 +44896,8 @@ var songs = [
 			}
 		},
 		"name_translation": "Yamato nade nade kaguya hime"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Yeah! Yeah!",
 		"artist": "CLUB SPICE",
@@ -43200,7 +44953,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "You",
 		"artist": "NM feat. Anjanette Mickelsen",
@@ -43256,7 +45010,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "You are a Star",
 		"artist": "NAOKI feat. Anna Kaelin",
@@ -43291,7 +45046,7 @@ var songs = [
 		"bpm": "155",
 		"single": {
 			"challenge": {
-				"difficulty": "13",
+				"difficulty": "13.10",
 				"step": "391",
 				"shock": "0",
 				"freeze": "32"
@@ -43322,7 +45077,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "You gotta move it (feat. Julie Rugaard)",
 		"artist": "Yuzo Koshiro",
@@ -43378,7 +45134,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "Your Angel",
 		"artist": "DM Ashura feat. kors k",
@@ -43434,7 +45191,8 @@ var songs = [
 			}
 		},
 		"name_translation": ""
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "零 - ZERO -",
 		"artist": "ＴЁЯＲＡ",
@@ -43490,7 +45248,8 @@ var songs = [
 			}
 		},
 		"name_translation": "ZERO"
-	}, {
+	},
+	{
 		"unlock": "",
 		"name": "ZETA～素数の世界と超越者～",
 		"artist": "Zektbach",
@@ -43527,7 +45286,7 @@ var songs = [
 				"freeze": "47"
 			},
 			"expert": {
-				"difficulty": "15",
+				"difficulty": "15.2",
 				"step": "613",
 				"shock": "0",
 				"freeze": "37"
@@ -43546,7 +45305,8 @@ var songs = [
 			}
 		},
 		"name_translation": "ZETA～The World of Prime Numbers and the Transcendental Being～"
-	}, {
+	},
+	{
 		"us_locked": true,
 		"name": "ずっとみつめていて (Ryu☆Remix)",
 		"artist": "DJ UTO vs. Starving Trancer feat. Mayumi Morinaga",
@@ -43581,7 +45341,7 @@ var songs = [
 		"bpm": "160",
 		"single": {
 			"challenge": {
-				"difficulty": "15",
+				"difficulty": "15.1",
 				"step": "463",
 				"shock": "0",
 				"freeze": "23"
